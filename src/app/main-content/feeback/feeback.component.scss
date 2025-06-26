@@ -1,0 +1,52 @@
+@import './../../../styles.scss';
+
+.feedback-content{
+    @include dFlex();
+    width: 100%;
+}
+
+h3{
+    font-size: 32px;
+    color: $brigth_green;
+    margin: 0px 0px 48px 0px;
+}
+
+.quote{
+    @include dFlex();
+    background: none;
+    background-color: $soft_green;
+    width: 488px;
+    border: solid 1px $brigth_green;
+    border-radius: 30px;
+    padding: 48px;
+
+    p{
+        background: none;
+        color: white;
+        font-size: 18px;
+        margin: 0px 0px 48px 0px;
+    }
+
+    .quote-footer{
+        @include dFlex($fd: row);
+        width: 100%;
+        background: none;
+
+        .score{
+            width: 100%;
+            border: solid 1px white;
+            margin: 0px 12px 0px 12px;
+        }
+
+        h5{
+            background: none;
+            color: white;
+            font-size: 18px;
+        }
+    }
+}
+
+    .btn-area{
+        @include dFlex($fd: row);
+    }
+

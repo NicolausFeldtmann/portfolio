@@ -1,0 +1,59 @@
+@import './../../../styles.scss';
+
+.projects-content{
+    @include dFlex($ai: normal);
+    width: 880px;
+    height: 565px;
+}
+
+h4{
+    font-size: 24px;
+    color: $brigth_green;
+    margin: 0px 0px 5px 0px;
+}
+
+h2{
+    font-size: 64px;
+    color: $brigth_green;
+    margin: 5px 0px 5px 0px;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+    margin: 5px 0px 5px 0px;
+}
+
+.seperator{
+    width: 100%;
+    border: solid 1px $light_green;
+}
+
+.project{
+    @include dFlex($fd: row, $jc: space-between);
+    width: 100%;
+
+    h3{
+        font-size: 24px;
+        color: white;
+    }
+
+    .skills{
+        @include dFlex($fd: row);
+
+        .skill{
+            @include dFlex($fd: row);
+
+            p{
+                font-size: 18px;
+                color: white;
+            }
+
+            .skill-seperator{
+                height: 24px;
+                border: solid 1px $light_green;
+                margin: 0px 2px 0px 2px;
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+@import './../../../styles.scss';
+
+.skill-content{
+    @include dFlex();
+    height: 100vh;
+    width: 100%;
+    background-image: url('./../../../assets/img/SVG/backgroundSkills.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.center-section{
+    @include dFlex($fd: row);
+    background: none;
+}
+
+.info-box{
+    background: none;
+
+    h4{
+        color: $brigth_green;
+        font-size: 24px;
+        margin: 0px 0px 10px 0px;
+        background: none;
+    }
+
+    h2{
+        background: none;
+        font-size: 64px;
+        color: $brigth_green;
+        margin: 0px 0px 16px 40px;
+    }
+
+    .box{
+        @include dFlex($ai: normal);
+        background: none;
+        width: 520px;
+        height: 503px;
+        border: solid 1px  $brigth_green;
+        border-radius: 30px;
+        background-color: $soft_green;
+    }
+
+    p{
+        background: none;
+        color: white;
+        font-size: 18px;
+        margin: 16px 40px 16px 40px;
+    }
+
+    .sub-line{
+        @include dFlex($fd: row, $jc: normal);
+        background: none;
+        color: white;
+        font-size: 24px;
+        margin: 16px 0px 16px 40px;
+
+        .color-sub{
+            background: none;
+            color: $brigth_green;
+            font-size: 24px;
+            margin: 0px 0px 0px 8px;
+        }
+    }
+
+    .btn-area{
+        @include dFlex();
+        background: none;
+        width: 122px;
+        height: 48px;
+        border: solid 1px white;
+        border-radius: 30px;
+        margin: 16px 0px 16px 40px;
+
+        .skill-btn{
+            background: none;
+            color: white;
+            font-size: 18px;
+        }
+    }
+}
+
+.skill-box{
+    @include dFlex();
+    width: 632px;
+    height: 428px;
+}
+
+.skill-row{
+    @include dFlex($fd: row, $jc: space-around);
+    width: 100%;
+
+    .skill-entry{
+        @include dFlex();
+
+        .skill-name{
+            color: white;
+            margin: 8px 0px 8px 0px;
+        }
+    }
+}
