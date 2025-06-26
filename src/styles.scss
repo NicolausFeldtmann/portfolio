@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+$dark_green: rgba(28, 28, 28, 1);
+$light_green: rgb(0, 129, 113);
+$brigth_green: rgb(0, 219, 186);
+
+
+@mixin dFlex($dp: flex, $fd: column, $jc: center, $ai: center) {
+    display: $dp;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+*{
+    margin: 0;
+    background-color: $dark_green;
+}

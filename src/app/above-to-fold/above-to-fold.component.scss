@@ -1,0 +1,143 @@
+@import './../../styles.scss';
+
+.above-content{
+    @include dFlex();
+    height: 100vh;
+    width: 100%;
+    background-image: url('./../../assets/img/SVG/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+}
+
+nav{
+    @include dFlex($fd: row);
+    width: 85%;
+    max-width: 1440px;
+    height: 98px;
+    position: absolute;
+    top: 0;
+    background: none;
+
+    .link-area{
+        @include dFlex($fd: row, $jc: normal);
+        width: 100%;
+        background: none;
+
+        .links{
+            @include dFlex($fd: row);
+            background: none;
+
+            .nav-link{
+                background: none;
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                margin: 0px 12px 0px 12px;
+            }
+        }
+    }
+
+    .logo-area{
+        background: none;
+
+        .logo-nav{
+            background: none;
+            width: 132px;
+            height: 48px;
+        }
+    }
+}
+
+label{
+    background: none;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 34px;
+    }
+
+    .slider.round {
+        border-radius: 34px;
+        background: none;
+        border: solid 1px $brigth_green;
+    }
+
+    .slider.round:before {
+        border-radius: 50%;
+        background-color: $brigth_green;
+    }
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.center-section{
+    @include dFlex();
+    background: none;
+    
+    h1{
+        background: none;
+        color: white;
+        font-size: 128px;
+    }
+
+    h3{
+        background: none;
+        color: white;
+        font-size: 40px;
+    }
+
+    .btn-area{
+        @include dFlex($fd: row);
+        background: none;
+
+        .center-btn{
+            @include dFlex();
+            height: 48px;
+            width: 172px;
+            background: none;
+            color: white;
+            font-size: 18px;
+            border: solid 1px white;
+            margin: 0px 24px 0px 24px;
+            border-radius: 34px;
+        }
+    }
+}
