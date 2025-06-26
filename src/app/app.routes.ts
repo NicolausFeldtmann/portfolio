@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
-import { AboveToFoldComponent } from './above-to-fold/above-to-fold.component';
+
+import { MainContentComponent } from './main-content/main-content.component';
 
 export const routes: Routes = [
-    { path: "", component: AboveToFoldComponent}
+    { path: "", component: MainContentComponent}
 ];

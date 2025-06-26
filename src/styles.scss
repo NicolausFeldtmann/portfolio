@@ -1,7 +1,7 @@
 $dark_green: rgba(28, 28, 28, 1);
+$soft_green: rgb(26, 48, 44);
 $light_green: rgb(0, 129, 113);
 $brigth_green: rgb(0, 219, 186);
-
 
 @mixin dFlex($dp: flex, $fd: column, $jc: center, $ai: center) {
     display: $dp;

@@ -1,0 +1,80 @@
+@import './../../../styles.scss';
+
+.about-me{
+    @include dFlex();
+    height: 100vh;
+    width: 100%;
+}
+
+.center-section{
+    @include dFlex($fd: row, $ai: normal);
+    height: 708px;
+    width: 1232px;
+}
+
+.me-box{
+    width: 568px;
+    height: 568px;
+}
+
+.left{
+    @include dFlex();
+
+    .me-img{
+        width: 568px;
+        height: 568px;
+        border-radius: 30px;
+    }
+}
+
+.right{
+    @include dFlex($ai: normal);
+    width: 568px;
+    height: 540px;
+
+    h2{
+        font-size: 64px;
+        color: $brigth_green;
+        background: none;
+    }
+
+    h4{
+        color: $brigth_green;
+        font-size: 24px;
+        margin: 0px 0px 10px 0px;
+        background: none;
+    }
+
+    .box-content{
+        @include dFlex($ai: normal, $jc: space-between);
+        border: solid 1px $brigth_green;
+        border-radius: 30px;
+        background-color: $soft_green;
+        color: white;
+        width: 568px;
+        height: 568px;
+        padding: 48px 48px 48px 48px;
+    }
+
+    .me-para{
+        @include dFlex($fd: row);
+        background: none;
+        .me-icon{
+            width: 32px;
+            height: 32px;
+            background: none;
+        }
+
+        p{
+            background: none;
+            font-size: 18px;
+            margin: 16px 0px 16px 0px;
+        }
+    }
+
+    p{
+        background: none;
+        font-size: 18px;
+        margin: 16px 0px 16px 0px;
+    }
+}
