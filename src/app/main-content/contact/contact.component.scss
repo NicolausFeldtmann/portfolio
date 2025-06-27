@@ -1,0 +1,68 @@
+@import './../../../styles.scss';
+
+.contact-content{
+    @include dFlex($fd: row);
+    width: 100%;
+}
+
+h2{
+    font-size: 64px;
+    color: $brigth_green;
+    background: none;
+    margin: 10px 0px 10px 0px;
+}
+
+h4{
+    color: $brigth_green;
+    font-size: 24px;
+    margin: 10px 0px 10px 0px;
+    background: none;
+}
+
+.contact-me{
+    @include dFlex($ai: normal);
+    background: none;
+    width: 568px;
+    height: 337px;
+
+    p{
+        font-size: 16px;
+        color: white;
+    }
+
+    .sub-line{
+        @include dFlex($jc: normal, $fd: row);
+
+        .para-color{
+            color: $brigth_green;
+        }
+    }
+}
+
+.contact-info{
+    @include dFlex();
+    width: 616px;
+    height: 550px;
+
+    .contact-row{
+        @include dFlex($ai: normal);
+        width: 100%;
+
+        .seperator{
+            width: 100%;
+            border: solid 1px $light_green;
+            margin: 21px 0px 21px 0px;
+        }
+
+        input{
+            color: white;
+            border: none;
+            margin: 5px 0px 5px 0px;
+        }
+
+        ::placeholder{
+                color: white;
+                font-size: 18px;
+        }
+    }
+}

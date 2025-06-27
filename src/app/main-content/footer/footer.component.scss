@@ -1,0 +1,35 @@
+@import './../../../styles.scss';
+
+.footer-content{
+    @include dFlex($fd: row, $jc: space-between);
+    width: 100%;
+}
+
+.logo-area{
+    @include dFlex($ai: normal);
+
+    .logo{
+        width: 132px;
+        height: 48px;
+    }
+
+    p{
+        color: white;
+        font-size: 16px;
+    }
+}
+
+.footer-center{
+    color: $brigth_green;
+    font-size: 18px;
+}
+
+.footer-links{
+    @include dFlex($ai: normal);
+
+    .footer-link{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+}
