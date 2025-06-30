@@ -85,14 +85,18 @@
     @include dFlex();
     width: 632px;
     height: 428px;
+    margin: 0px 0px 0px 72px;
 }
 
 .skill-row{
-    @include dFlex($fd: row, $jc: space-around);
+    @include dFlex($fd: row, $jc: normal);
     width: 100%;
 
     .skill-entry{
         @include dFlex();
+        width: 104px;
+        height: 116px;
+        margin: 0px 36px 0px 36px;
 
         .skill-name{
             color: white;

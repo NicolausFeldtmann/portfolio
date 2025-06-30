@@ -1,8 +1,9 @@
 @import './../../../styles.scss';
 
 .contact-content{
-    @include dFlex($fd: row);
+    @include dFlex($fd: row, $jc: space-between);
     width: 100%;
+    margin: 0px 72px 0px 72px;
 }
 
 h2{

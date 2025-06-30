@@ -3,6 +3,7 @@
 .footer-content{
     @include dFlex($fd: row, $jc: space-between);
     width: 100%;
+    margin: 72px 72px 72px 72px;
 }
 
 .logo-area{

@@ -7,30 +7,32 @@
 }
 
 .center-section{
-    @include dFlex($fd: row, $ai: normal);
+    @include dFlex($fd: row, $ai: normal, $jc: space-around);
     height: 708px;
     width: 1232px;
 }
 
 .me-box{
-    width: 568px;
-    height: 568px;
+    width: 480px;
+    height: 480px;
 }
 
 .left{
-    @include dFlex();
+    @include dFlex($jc: end);
 
     .me-img{
+        position: relative;
+        top: 480px;
+        left: 48px;
         width: 568px;
         height: 568px;
         border-radius: 30px;
+        z-index: 5;
     }
 }
 
 .right{
-    @include dFlex($ai: normal);
-    width: 568px;
-    height: 540px;
+    @include dFlex($ai: normal, $jc: flex-start);
 
     h2{
         font-size: 64px;
@@ -51,14 +53,15 @@
         border-radius: 30px;
         background-color: $soft_green;
         color: white;
-        width: 568px;
-        height: 568px;
+        width: 480px;
+        height: 480px;
         padding: 48px 48px 48px 48px;
     }
 
     .me-para{
         @include dFlex($fd: row);
         background: none;
+
         .me-icon{
             width: 32px;
             height: 32px;
