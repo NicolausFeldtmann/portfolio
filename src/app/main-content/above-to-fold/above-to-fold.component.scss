@@ -51,8 +51,6 @@ nav{
     }
 }
 
-
-
 .switch {
     background: none;
     position: relative;
@@ -108,6 +106,21 @@ nav{
             border: solid 1px white;
             margin: 0px 24px 0px 24px;
             border-radius: 34px;
+
+            .btn-para{
+                background: none;
+            }
+
+            &:hover{
+                cursor: pointer;
+                color: $brigth_green;
+                border: solid 1px $brigth_green;
+                
+                .btn-para{
+                    background: none;
+                    animation: slide-left 2s linear infinite;
+                }
+            }
         }
     }
 }
@@ -117,19 +130,44 @@ nav{
     background: none;
     width: 100%;
 
+    .banner-content{
+        @include dFlex($fd: row);
+        background: none;
+        width: 100%;
+        animation: slide-left 40s linear infinite;
+    }
+
     .center-banner{
         @include dFlex($fd: row);
+        overflow: hidden;
         width: 100%;
         height: 62px;
-        color: $brigth_green;
-        font-size: 32px;
-        font-weight: 400;
         background: none;
         background: rgba(192, 191, 191, 0.5);
         rotate: -5deg;
-
         position: relative;
-        top: 312px
+        top: 240px;
+        white-space: nowrap; 
+    
+
+        .banner-para{
+            @include dFlex($fd: row);
+            color: $brigth_green;
+            font-size: 32px;
+            font-weight: 400;
+            background: none;
+            margin: 0px 56px 0px 56px;
+        }
+
+        .dot{
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+            background: none;
+            background-color: $brigth_green;
+            
+        }
     }
 }
 
@@ -202,3 +240,14 @@ nav{
         width: 0px;
     }
 }
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
