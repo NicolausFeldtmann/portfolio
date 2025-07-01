@@ -21,12 +21,15 @@
     h4{
         color: $brigth_green;
         font-size: 24px;
+        font-weight: 400;
         margin: 0px 0px 10px 0px;
         background: none;
     }
 
     h2{
         background: none;
+        font-family: 'Fira Code';
+        font-weight: 700;
         font-size: 64px;
         color: $brigth_green;
         margin: 0px 0px 16px 40px;
@@ -46,6 +49,7 @@
         background: none;
         color: white;
         font-size: 18px;
+        font-weight: 400;
         margin: 16px 40px 16px 40px;
     }
 
@@ -53,7 +57,9 @@
         @include dFlex($fd: row, $jc: normal);
         background: none;
         color: white;
+        font-family: 'Fira Code';
         font-size: 24px;
+        font-weight: 700;
         margin: 16px 0px 16px 40px;
 
         .color-sub{

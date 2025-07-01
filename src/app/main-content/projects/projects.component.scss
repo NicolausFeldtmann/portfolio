@@ -9,12 +9,15 @@
 
 h4{
     font-size: 24px;
+    font-weight: 700;
     color: $brigth_green;
     margin: 0px 0px 5px 0px;
 }
 
 h2{
+    font-family: 'Fira Code';
     font-size: 64px;
+    font-weight: 700;
     color: $brigth_green;
     margin: 5px 0px 5px 0px;
 }
@@ -22,6 +25,7 @@ h2{
 p{
     color: white;
     font-size: 18px;
+    font-weight: 400;
     margin: 5px 0px 5px 0px;
 }
 
@@ -35,7 +39,9 @@ p{
     width: 100%;
 
     h3{
+        font-family: 'Fira Code';
         font-size: 24px;
+        font-weight: 700;
         color: white;
     }
 

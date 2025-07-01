@@ -2,7 +2,6 @@
 
 .footer-content{
     @include dFlex($fd: row, $jc: space-between);
-    width: 100%;
     margin: 72px 72px 72px 72px;
 }
 
@@ -17,12 +16,15 @@
     p{
         color: white;
         font-size: 16px;
+        font-weight: 400;
     }
 }
 
 .footer-center{
     color: $brigth_green;
+    font-family: 'Fira Code';
     font-size: 18px;
+    font-weight: 400;
 }
 
 .footer-links{
@@ -32,5 +34,6 @@
         text-decoration: none;
         color: white;
         font-size: 16px;
+        font-weight: 400;
     }
 }
