@@ -25,3 +25,13 @@ $brigth_green: rgb(0, 219, 186);
     font-family: 'Fira Code';
     src: url('./assets/fonts/Fira_Code/FiraCode-VariableFont_wght.ttf');
 }
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

@@ -106,6 +106,7 @@ nav{
             border: solid 1px white;
             margin: 0px 24px 0px 24px;
             border-radius: 34px;
+            overflow: hidden;
 
             .btn-para{
                 background: none;
@@ -134,7 +135,7 @@ nav{
         @include dFlex($fd: row);
         background: none;
         width: 100%;
-        animation: slide-left 40s linear infinite;
+        animation: slide-left 120s linear infinite;
     }
 
     .center-banner{
@@ -156,7 +157,7 @@ nav{
             font-size: 32px;
             font-weight: 400;
             background: none;
-            margin: 0px 56px 0px 56px;
+            margin: 0px 56px 0px 0px;
         }
 
         .dot{
@@ -166,7 +167,7 @@ nav{
             display: inline-block;
             background: none;
             background-color: $brigth_green;
-            
+            margin: 0px 56px 0px 0px
         }
     }
 }
@@ -241,13 +242,5 @@ nav{
     }
 }
 
-@keyframes slide-left {
-    0% {
-        transform: translateX(100%);
-    }
 
-    100% {
-        transform: translateX(-100%);
-    }
-}
 

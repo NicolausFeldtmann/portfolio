@@ -71,18 +71,38 @@
     }
 
     .btn-area{
-        @include dFlex();
+        @include dFlex($ai: normal);
         background: none;
-        width: 122px;
-        height: 48px;
-        border: solid 1px white;
-        border-radius: 30px;
-        margin: 16px 0px 16px 40px;
 
         .skill-btn{
+            @include dFlex();
+            height: 48px;
+            width: 172px;
             background: none;
             color: white;
             font-size: 18px;
+            font-weight: 400;
+            border: solid 1px white;
+            margin: 0px 24px 0px 24px;
+            border-radius: 34px;
+            overflow: hidden;
+
+            .btn-para{
+                background: none;
+            }
+
+            &:hover{
+                cursor: pointer;
+                color: $brigth_green;
+                border: solid 1px $brigth_green;
+                
+
+                .btn-para{
+                    background: none;
+                    animation: slide-left 2s linear infinite;
+                    color: $brigth_green;
+                }
+            }
         }
     }
 }
