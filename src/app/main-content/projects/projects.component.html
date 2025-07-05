@@ -2,16 +2,11 @@
     <h4>Portfolio</h4>
     <h2>Featured Projects</h2>
     <p>Explore a selection of my work here - interact with<br>projects to see my skills in action.</p>
-    <div class="projects-selection">
-        <div class="seperator"></div>
-        <div class="project">
-            <h3>Name</h3>
-            <div class="skills">
-                <div class="skill">
-                    <p>skill</p>
-                    <div class="skill-seperator"></div>  
-                </div>
-            </div>
-        </div>
+    <div class="projectlist-content">
+        @for(singleproject of projectlistdata.projectList; track singleproject.name){
+
+            <app-single-project></app-single-project>
+
+        }
     </div>
 </div>
