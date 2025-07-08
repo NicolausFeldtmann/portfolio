@@ -1,7 +1,7 @@
 <div class="projects-selection">
     <div class="seperator"></div>
     <div class="project">
-        <div class="project-content">
+        <div class="project-content" (click)="show()">
             <h3>{{ project.name }}</h3>
             <div class="skills">
                 <div class="skill">
@@ -21,45 +21,45 @@
                 <img class="hidden-pic" src="./assets/img/PNG/screens/{{ project.img1 }}" alt="">
                 <img class="pic-shadow" src="./../../../assets/img/PNG/img-raster.png" alt="">
             </div>
-            <div class="info-content">
-                <div class="pro-info">
-                    <div class="info-left">
-                        <div class="info-header">
-                            <h2>{{ project.proNr }}</h2>
-                            <h3>{{ project.name }}</h3>
-                        </div>
-                        <div class="desc">
-                            <h5>What is this project about?</h5>
-                            <p>
-                                {{ project.description }}
-                            </p>
-                            <div class="icon-bar">
-                                <div class="icon">
-                                    <img class="info-icon" src="./assets/img/PNG/icons-green/{{ project.skillIcon1 }}" alt="">
-                                    <p class="skill-name">{{ project.skill1 }}</p>
-                                </div>
-                                <div class="icon">
-                                    <img class="info-icon" src="./assets/img/PNG/icons-green/{{ project.skillIcon2 }}" alt="">
-                                    <p class="skill-name">{{ project.skill2 }}</p>
-                                </div>
-                                <div class="icon">
-                                    <img class="info-icon" src="./assets/img/PNG/icons-green/{{ project.skillIcon3 }}" alt="">
-                                    <p class="skill-name">{{ project.skill3 }}</p>
-                                </div>
+        </div>
+         <div class="info-content" [class.show]="isShow">
+            <div class="pro-info">
+                <div class="info-left">
+                    <div class="info-header">
+                        <h2>{{ project.proNr }}</h2>
+                        <h3>{{ project.name }}</h3>
+                    </div>
+                    <div class="desc">
+                        <h5>What is this project about?</h5>
+                        <p>
+                            {{ project.description }}
+                        </p>
+                        <div class="icon-bar">
+                            <div class="icon">
+                                <img class="info-icon" src="./assets/img/PNG/icons-green/{{ project.skillIcon1 }}" alt="">
+                                <p class="skill-name">{{ project.skill1 }}</p>
                             </div>
+                            <div class="icon">
+                                <img class="info-icon" src="./assets/img/PNG/icons-green/{{ project.skillIcon2 }}" alt="">
+                                <p class="skill-name">{{ project.skill2 }}</p>
+                            </div>
+                            <div class="icon">
+                                <img class="info-icon" src="./assets/img/PNG/icons-green/{{ project.skillIcon3 }}" alt="">
+                                <p class="skill-name">{{ project.skill3 }}</p>
+                            </div>
+                        </div>
                         </div>
                             <div class="info-link-area">
                                 <a class="info-link" href="{{ project.gitLink }}">GitHub</a>
                                 <a class="info-link" href="{{ project.projectLink }}">Live Test</a>
                             </div>
                     </div>
-                    <div class="info-right">
-                        <img class="info-close" src="./../../../../assets/img/PNG/close_small.png" alt="">
-                        <div class="info-img-area">
-                            <img class="info-img" src="./assets/img/PNG/screens/{{ project.img2 }}" alt="">
-                        </div>
-                        <a class="next" href="">Next project <img class="next-icon" src="./../../../../assets/img/PNG/icons-green/arrow_forward.png" alt=""></a>
+                <div class="info-right">
+                    <img class="info-close" src="./../../../../assets/img/PNG/close_small.png" alt="" (click)="show()">
+                    <div class="info-img-area">
+                        <img class="info-img" src="./assets/img/PNG/screens/{{ project.img2 }}" alt="">
                     </div>
+                    <a class="next" href="">Next project <img class="next-icon" src="./../../../../assets/img/PNG/icons-green/arrow_forward.png" alt=""></a>
                 </div>
             </div>
         </div>

@@ -12,6 +12,8 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './single-project.component.scss'
 })
 export class SingleProjectComponent {
+  isShow = false;
+
   @Input()project = {
       name: "Frost Grave",
       skill1: "HTML",
@@ -36,4 +38,13 @@ export class SingleProjectComponent {
     this.projectname.emit(this.inputData);
     this.inputData = "";
   }
+
+  show() {
+    if (!this.isShow) {
+      this.isShow = true;
+    } else {
+      this.isShow = false;
+    }
+  }
+
 }
