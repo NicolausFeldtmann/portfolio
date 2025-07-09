@@ -3,10 +3,6 @@
     <h2>Featured Projects</h2>
     <p>Explore a selection of my work here - interact with<br>projects to see my skills in action.</p>
     <div class="projectlist-content">
-        @for(singleproject of projectlistdata.projectList; track singleproject.name){
-
-            <app-single-project></app-single-project>
-
-        }
+        <app-single-project *ngFor="let item of projectlistdata.projectList" [project]="item"></app-single-project>
     </div>
 </div>

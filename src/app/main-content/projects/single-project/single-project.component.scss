@@ -180,6 +180,7 @@ p{
         h2{
             background: none;
             font-size: 128px;
+            font-family: 'Karla';
             color: $brigth_green;
             font-weight: 700;
             margin: 0;
@@ -260,6 +261,11 @@ p{
             border-radius: 34px;
             text-decoration: none;
             margin: 0px 32px 0px 0px;
+
+            &:hover{
+                color: $brigth_green;
+                border: solid 1px $brigth_green;
+            }
         }
     }
 }
@@ -271,12 +277,20 @@ p{
     height: 75%;
 
     .info-close{
+        @include dFlex();
         width: 20px;
         height: 20px;
         background: none;
+        background-image: url(./../../../../assets/img/PNG/close_small.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: background-image 0.3s ease-in-out;
 
         &:hover{
             cursor: pointer;
+            background: none;
+            background-image: url(./../../../../assets/img/PNG/icons-green/close-hover.png);
+            background-repeat: no-repeat;
         }
     }
 
