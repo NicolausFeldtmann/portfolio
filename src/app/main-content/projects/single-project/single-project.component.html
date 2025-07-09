@@ -4,17 +4,11 @@
         <div class="project-content" (click)="show()">
             <h3>{{ project.name }}</h3>
             <div class="skills">
-                <div class="skill">
-                    <p>{{ project.skill1 }}</p>
-                    <div class="skill-seperator"></div>  
-                </div>
-                <div class="skill">
-                    <p>{{ project.skill2 }}</p>
-                    <div class="skill-seperator"></div>  
-                </div>
-                <div class="skill">
-                    <p>{{ project.skill3 }}</p>
-                    <div class="skill-seperator"></div>  
+                <div *ngFor="let skill of project.skills; let track = index">
+                    <div class="skill">
+                        <p class="skill-name">{{ skill.skillName }}</p>
+                        <div class="skill-seperator"></div>
+                    </div>
                 </div>
             </div>
             <div class="hidden-pic-area">
@@ -35,17 +29,10 @@
                             {{ project.description }}
                         </p>
                         <div class="icon-bar">
-                            <div class="icon">
-                                <img class="info-icon" src="./assets/img/PNG/icons-green/{{ project.skillIcon1 }}" alt="">
-                                <p class="skill-name">{{ project.skill1 }}</p>
-                            </div>
-                            <div class="icon">
-                                <img class="info-icon" src="./assets/img/PNG/icons-green/{{ project.skillIcon2 }}" alt="">
-                                <p class="skill-name">{{ project.skill2 }}</p>
-                            </div>
-                            <div class="icon">
-                                <img class="info-icon" src="./assets/img/PNG/icons-green/{{ project.skillIcon3 }}" alt="">
-                                <p class="skill-name">{{ project.skill3 }}</p>
+                            <div *ngFor="let skill of project.skills; let track = index">
+                                <div class="icon">
+                                    <img class="info-icon" src="./assets/img/PNG/icons-green/{{ skill.skillIcon }}" alt="">
+                                    <p class="skill-name">{{ skill.skillName }}</p>
                             </div>
                         </div>
                         </div>
@@ -54,6 +41,7 @@
                                 <a class="info-link" href="{{ project.projectLink }}">Live Test</a>
                             </div>
                     </div>
+                </div>
                 <div class="info-right">
                     <div class="info-close" (click)="show()"></div>
                     <div class="info-img-area">

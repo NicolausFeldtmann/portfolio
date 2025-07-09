@@ -1,5 +1,13 @@
 @import './../../../../styles.scss';
 
+p{
+    background: none;
+}
+
+div{
+    background: none;
+}
+
 .projects-content{
     @include dFlex($ai: normal);
     width: 90vw;
@@ -84,6 +92,7 @@ p{
                 }
 
                 .skill-seperator{
+                    background: none;
                     height: 24px;
                     border: solid 1px $light_green;
                     margin: 0px 4px 0px 4px;
@@ -288,6 +297,8 @@ p{
 
         &:hover{
             cursor: pointer;
+            width: 28px;
+            height: 28px;
             background: none;
             background-image: url(./../../../../assets/img/PNG/icons-green/close-hover.png);
             background-repeat: no-repeat;

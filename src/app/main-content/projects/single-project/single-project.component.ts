@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { ThisReceiver } from '@angular/compiler';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -7,6 +8,7 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   imports: [
     FormsModule,
+    CommonModule
   ],
   templateUrl: './single-project.component.html',
   styleUrl: './single-project.component.scss'
