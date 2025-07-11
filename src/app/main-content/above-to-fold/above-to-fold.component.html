@@ -1,13 +1,22 @@
 <div class="above-content">
         <nav>
             <div class="link-area">
-                <div class="switch">
+                <div class="switch" (click)="translate()" [class.switched]="isSwitched">
                     <div class="toggle-switch"></div>
                 </div>
                 <div class="links">
-                    <a class="nav-link" href="#">About me</a>
-                    <a class="nav-link" href="#">Skills</a>
-                    <a class="nav-link" href="#">Projects</a>
+                    <div class="link">
+                        <a class="nav-link" href="#">About me</a>
+                        <img class="cuteDot" src="./../../../assets/img/PNG/cuteDot.png" alt="cutDot">
+                    </div>
+                    <div class="link">
+                        <a class="nav-link" href="#">Skills</a>
+                        <img class="cuteDot" src="./../../../assets/img/PNG/cuteDot.png" alt="cuteDot">
+                    </div>
+                    <div class="link">
+                        <a class="nav-link" href="#">Projects</a>
+                        <img class="cuteDot" src="./../../../assets/img/PNG/cuteDot.png" alt="cuteDot">
+                    </div>
                 </div>
             </div>
             <div class="logo-area">
@@ -57,8 +66,14 @@
             <div class="right-side">
                 <a class="mail" href="#">captain&#64;cool.com</a>
                 <div class="link-icons">
-                    <img class="icon" src="./../../../assets/img/PNG/gitr.png" alt="git">
-                    <img class="icon" src="./../../../assets/img/PNG/linkedin.png" alt="linkedIn">
+                    <div class="side-link">
+                        <div class="icon-git" alt="git"></div>
+                        <img class="cuteDot" src="./../../../assets/img/PNG/cuteDot.png" alt="cuteDot">
+                    </div>
+                    <div class="side-link">
+                        <div class="icon-linked" alt="linkedIn"></div>
+                        <img class="cuteDot" src="./../../../assets/img/PNG/cuteDot.png" alt="cuteDot">
+                    </div>
                 </div>
                 <div class="vert-line"></div>
             </div>

@@ -1,5 +1,12 @@
 @import './../../../styles.scss';
 
+.cuteDot{
+    visibility: hidden;
+    background: none;
+    width: 8px;
+    height: 8px
+}
+
 .above-content{
     @include dFlex();
     height: 100vh;
@@ -28,14 +35,27 @@ nav{
             @include dFlex($fd: row);
             background: none;
 
-            .nav-link{
-                font-family: 'Fira Code';
-                font-weight: 400;
+            .link{
+                @include dFlex();
                 background: none;
-                text-decoration: none;
-                color: white;
-                font-size: 20px;
-                margin: 0px 12px 0px 12px;
+
+                .nav-link{
+                    font-family: 'Fira Code';
+                    font-weight: 400;
+                    background: none;
+                    text-decoration: none;
+                    color: white;
+                    font-size: 20px;
+                    margin: 0px 12px 0px 12px;
+                }
+
+                &:hover{
+                    cursor: pointer;
+
+                    .cuteDot{
+                        visibility: visible;
+                    }
+                }
             }
         }
     }
@@ -59,7 +79,7 @@ nav{
     display: inline-block;
     height: 34px;
     margin: 0px 28px 0px 0px;
-    background-image: url(./../../../assets/img/PNG/toggleEmglish.png);
+    background-image: url('./../../../assets/img/PNG/switch/toggleEnglish.png');
     background-repeat: no-repeat;
     width: 88px;
     height: 34px;
@@ -68,11 +88,18 @@ nav{
     &:hover{
         cursor: pointer;
         background: none;
-        background-image: url(./../../../assets/img/PNG/toggleEnglishHover.png);
+        background-image: url('./../../../assets/img/PNG/switch/toggleEnglishHover.png');
         background-repeat: no-repeat;
         width: 88px;
         height: 34px;
-        
+    }
+
+    &.switched{
+        background-image: url('./../../../assets/img/PNG/switch/toggleGerman.png');
+
+        &:hover{
+            background-image: url('./../../../assets/img/PNG/switch/toggleGermanHover.png');
+        }
     }
 }
 
@@ -232,11 +259,42 @@ nav{
         background: none;
         margin: 0px 0px 24px 0px;
 
-        .icon{
-            width: 32px;
-            height: 32px;
+        .side-link{
+            @include dFlex($fd: row);
             background: none;
-            margin: 6px 0px 6px 0px;
+
+            .icon-linked{
+                background: none;
+                background-image: url('./../../../assets/img/PNG/linkedin.png');
+                width: 32px;
+                height: 32px;
+                margin: 6px 6px 6px 16px;
+
+                &:hover{
+                    background-image: url('./../../../assets/img/PNG/linked-hover.png');
+                }
+            }
+
+            .icon-git{
+                background: none;
+                background-image: url('./../../../assets/img/PNG/git-icon.png');
+                background-repeat: no-repeat;
+                width: 32px;
+                height: 32px;
+                margin: 6px 6px 6px 16px;
+
+                &:hover{
+                    background-image: url('./../../../assets/img/PNG/git-icon-hover.png');
+                }
+            }
+
+            &:hover{
+                cursor: pointer;
+
+                .cuteDot{
+                    visibility: visible;
+                }
+            }
         }
     }
 
