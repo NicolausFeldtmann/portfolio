@@ -2,12 +2,14 @@
     <div class="seperator"></div>
     <div class="project">
         <div class="project-content" (click)="show()">
-            <h3>{{ project.name }}</h3>
-            <div class="skills">
-                <div *ngFor="let skill of project.skills; let track = index">
-                    <div class="skill">
-                        <p class="skill-name">{{ skill.skillName }}</p>
-                        <div class="skill-seperator"></div>
+            <div class="project-name-info">
+                <h3>{{ project.name }}</h3>
+                <div class="skills">
+                    <div *ngFor="let skill of project.skills; let track = index">
+                        <div class="skill">
+                            <p class="skill-name">{{ skill.skillName }}</p>
+                            <div class="skill-seperator"></div>
+                        </div>
                     </div>
                 </div>
             </div>

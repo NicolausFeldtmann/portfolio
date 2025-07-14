@@ -15,6 +15,13 @@ div{
     margin: 0px 0px 0px 72px;
 }
 
+.project-name-info{
+    @include dFlex($fd: row, $jc: space-between);
+    width: 910px;
+    height: 100%;
+    padding: 0px 24px 0px 24px;
+}
+
 h4{
     font-size: 24px;
     font-weight: 700;
@@ -43,28 +50,29 @@ p{
 }
 
 .project{
-    @include dFlex($fd: row, $jc: normal);
+    @include dFlex($fd: row, $jc: normal, $ai: normal);
     height: 109px;
 
     .project-content{
         @include dFlex($fd: row, $jc: space-between);
-        width: 834px;
-        height: 100%;
+        width: 57vw;
         background: none;
-        padding: 0px 24px 0px 24px;
 
         &:hover{
-            cursor: pointer;
-            background-color: $soft_green;
-            width: auto;
 
             .hidden-pic-area{
-                display: flex !important;
+                visibility: visible;
             }
+        }
 
-            .skills{
-                position: relative;
-                left: 483px;
+        .project-name-info{
+            &:hover{
+                cursor: pointer;
+                background-color: $soft_green;
+
+                .hidden-pic-area{
+                    display: flex !important;
+                }
             }
         }
 
@@ -102,11 +110,11 @@ p{
     }
 
     .hidden-pic-area{
-        @include dFlex($dp: none);
-        margin: 0px 0px 0px 80px;
+        @include dFlex();
+        visibility: hidden;
         position: relative;
         top: 72px;
-        left: 872px;
+        left: 280px;
         background: none;
 
         .hidden-pic{
@@ -123,15 +131,6 @@ p{
             bottom: 288px;
             left: 28px;
             border-radius: 45px;
-        }
-    }
-
-    .project-content:hover{
-        cursor: pointer;
-        background-color: $soft_green;
-
-        .hidden-pic-area{
-            display: flex;
         }
     }
 

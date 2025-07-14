@@ -1,5 +1,12 @@
 @import './../../../styles.scss';
 
+.cuteDot{
+    visibility: hidden;
+    background: none;
+    width: 8px;
+    height: 8px
+}
+
 .footer-content{
     @include dFlex($fd: row, $jc: space-between);
     margin: 72px 72px 72px 72px;
@@ -33,10 +40,59 @@
 .footer-links{
     @include dFlex($ai: normal);
 
-    .footer-link{
-        text-decoration: none;
-        color: white;
-        font-size: 16px;
-        font-weight: 400;
+    .link{
+        @include dFlex($fd: row, $jc: normal);
+        background: none;
+
+        &:hover{
+            .cuteDot{
+                visibility: visible;
+            }
+        }
+        
+        .git-link{
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+
+            &:hover{
+                color: $brigth_green;
+
+            }
+        }
+
+        .linked-link{
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+
+            &:hover{
+                color: $brigth_green;
+            }
+        }
+
+        .email-link{
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+
+            &:hover{
+                color: $brigth_green;
+            }
+        }
+
+        .legal-link{
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+
+            &:hover{
+                color: $brigth_green;
+            }
+        }
     }
 }
