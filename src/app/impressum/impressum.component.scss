@@ -1,0 +1,66 @@
+@import './../../styles.scss';
+
+.impressum-content{
+    @include dFlex();
+
+    .txt-area{
+        @include dFlex($ai: normal);
+        width: 75%;
+        background: none;
+        background-color: $soft_green;
+        border: solid 1px $brigth_green;
+        border-radius: 30px;
+        margin: 48px 0px 0px 0px;
+        padding: 12px 24px 12px 24px;
+
+        .impressum-header{
+            @include dFlex($fd: row, $jc: space-between);
+
+            h1{
+                background: none;
+                color: $brigth_green;
+            }
+
+            .btn-area{
+                @include dFlex();
+                width: 100px;
+                height: 100px;
+                background: none;
+                border: 1px solid $brigth_green;
+                border-radius: 30px;
+                text-decoration: none;
+                transition: 0.5s ease;
+
+                .back-para{
+                    font-size: 28px;
+                }
+
+                .back-icon{
+                    background: none;
+                    rotate: 180deg;
+                    width: 48px;
+                }
+
+                &:hover{
+                    cursor: pointer;
+                    transform: translate3d(0, 15px, 0);
+                }
+            }
+        }
+
+        h3{
+            background: none;
+            color: $brigth_green;
+        }
+
+        p{
+            background: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        div{
+            background: none;
+        }
+    }
+}
