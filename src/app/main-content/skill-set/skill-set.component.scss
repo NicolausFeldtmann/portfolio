@@ -125,6 +125,24 @@
         height: 116px;
         margin: 0px 36px 0px 36px;
 
+        .skill-icon-box{
+            @include dFlex();
+            width: 112px;
+            height: 126px;
+            
+            .skill-icon{
+                width: 60px;
+                height: 60px;
+                transition: background-image 0.3s ease-in-out;
+
+                &:hover{
+                    width: 64px;
+                    height: 64px;
+                    transition: background-image 0.3s ease-in-out;
+                }
+            }
+        }
+
         .skill-name{
             color: white;
             margin: 8px 0px 8px 0px;

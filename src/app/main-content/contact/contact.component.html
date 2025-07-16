@@ -13,35 +13,33 @@
             <p> Need a Frontend developer?</p> <p class="para-color">Lets's talk!</p>
         </div>
     </div>
-    <div class="contact-info">
-        <div class="contact-row">
+    <form class="contact-info" (submit)="sendMail($event)">
+        <label class="contact-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">What's your name?</h4>
             <input type="text" id="name" placeholder="Your name goes here">
-        </div>
-            <div class="contact-row">
+        </label>
+        <label class="contact-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">What's your email?</h4>
-            <input type="text" id="name" placeholder="youremail@email.com">
-        </div>
-            <div class="contact-row">
+            <input type="email" name="email" placeholder="youremail@email.com">
+        </label>
+        <label class="contact-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">How can I help you?</h4>
-            <input type="text" id="name" placeholder="Hallo Nicolaus, I am interested in...">
+            <input type="text" name="message" placeholder="Hallo Nicolaus, I am interested in...">
             <div class="seperator"></div>
-        </div>
+        </label>
         <div class="contact-interact">
             <div class="confirm">
                 <div class="check-box">
                     <img class="check" src="./../../../assets/img/PNG/check-mark.png" alt="">
                 </div>
-                <p class="confimr-para">I've read the <a class="confirm-link" href="">privacy policy</a> and agree to the processing of my data as outlined.</p>
+                <p class="confimr-para">I've read the <a class="confirm-link" href="legal">privacy policy</a> and agree to the processing of my data as outlined.</p>
             </div>
             <div class="btn-area">
-                <div class="btn">
-                    <p class="btn-para">Say Hello ;) </p>
-                </div>
+                <button class="btn" type="submit">Say Hello ;)</button>
             </div>
         </div>
-    </div>
+    </form>
 </div>

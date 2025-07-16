@@ -55,7 +55,7 @@ p{
 
     .project-content{
         @include dFlex($fd: row, $jc: space-between);
-        width: 57vw;
+        width: 76vw;
         background: none;
 
         &:hover{
@@ -284,23 +284,33 @@ p{
     width: 480px;
     height: 75%;
 
-    .info-close{
+    .info-icon{
         @include dFlex();
-        width: 20px;
-        height: 20px;
-        background: none;
-        background-image: url(./../../../../assets/img/PNG/close_small.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        transition: background-image 0.3s ease-in-out;
+        width: 48px;
+        height: 48px;
 
-        &:hover{
-            cursor: pointer;
-            width: 28px;
-            height: 28px;
+        .info-close{
+            @include dFlex();
+            width: 20px;
+            height: 20px;
             background: none;
-            background-image: url(./../../../../assets/img/PNG/icons-green/close-hover.png);
+            background-image: url(./../../../../assets/img/PNG/close_small.png);
+            background-size: cover;
             background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            transition: background-image 0.3s ease-in-out;
+
+            &:hover{
+                cursor: pointer;
+                width: 28px;
+                height: 28px;
+                background: none;
+                background-image: url(./../../../../assets/img/PNG/icons-green/close-hover.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
         }
     }
 
