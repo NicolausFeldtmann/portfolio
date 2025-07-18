@@ -72,6 +72,33 @@ nav{
     }
 }
 
+.mobile-nav{
+    @include dFlex($fd: row, $dp: none, $jc: space-between);
+    background: none;
+    position: absolute;
+    top: 12px;
+    width: 90%;
+
+    .mobile-logo-area{
+        background: none;
+
+        .mobile-logo{
+            background: none;
+            width: 80px;
+        }
+    }
+
+    .mobile-btn{
+        background: none;
+
+        .mobile-btn-img{
+            background: none;
+            width: 32px;
+            height: 24px;
+        }
+    }
+}
+
 .switch {
     background: none;
     position: relative;
@@ -320,6 +347,117 @@ nav{
     .center-section{
         h1{
             font-size: 88px;
+        }
+    }
+}
+
+@media screen and (max-width: 860px) {
+    
+    .center-section{
+        h1{
+            font-size: 56px;
+        }
+
+        h3{
+            font-size: 28px;
+        }
+
+        .btn-area{
+            .center-btn{
+                height: 34px;
+                width: 148px;
+            }
+        }
+    }
+
+    nav{
+        .logo-area{
+            .logo-nav{
+                width: 88px;
+                margin: 28px 0px 0px;
+            }
+        }
+
+        .link-area{
+            .links{
+                .link{
+                    .nav-link{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+    }
+
+    .center-section{
+
+        h1{
+            font-size: 48px;
+        }
+
+        h3{
+            font-size: 24px;
+        }
+    }
+
+    .apendix{
+
+        .center-banner{
+            height: 36px;
+
+            .banner-para{
+                font-size: 18px;
+            }
+        }
+
+        .right-side{
+            display: none;
+        }
+
+        .left-side{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .center-section{
+        
+        h1{
+            text-align: center;
+        }
+
+        h3{
+            font-size: 18px;
+        }
+
+        .btn-area{
+            flex-direction: column;
+
+            .center-btn{
+                margin: 6px 0px 6px 0px;
+
+                .center-banner{
+                    height: 24px;
+                    width: 136px;
+
+                    .btn-para{
+                        font-size: 16px;
+                    }
+                }
+            }
         }
     }
 }
