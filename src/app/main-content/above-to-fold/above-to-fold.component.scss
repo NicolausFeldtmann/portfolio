@@ -20,7 +20,6 @@
 nav{
     @include dFlex($fd: row);
     width: 85%;
-    max-width: 1440px;
     height: 98px;
     position: absolute;
     top: 0;
@@ -302,6 +301,26 @@ nav{
         height: 100%;
         border: solid 1px white;
         width: 0px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+
+    .right-side{
+        height: 300px;
+    }
+
+    .left-side{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .center-section{
+        h1{
+            font-size: 88px;
+        }
     }
 }
 
