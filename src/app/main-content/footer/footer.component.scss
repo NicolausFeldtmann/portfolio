@@ -7,9 +7,16 @@
     height: 8px
 }
 
+.footer-logos{
+    @include dFlex($fd: row, $jc: space-around);
+    width: 100%;
+    background: none;
+}
+
 .footer-content{
     @include dFlex($fd: row, $jc: space-between);
     margin: 72px 72px 72px 72px;
+    width: 90%;
 }
 
 .logo-area{
@@ -31,6 +38,15 @@
 }
 
 .footer-center{
+    @include dFlex($fd: row);
+    color: $brigth_green;
+    font-family: 'Fira Code';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-mobile-center{
+    @include dFlex($fd: row, $dp: none);
     color: $brigth_green;
     font-family: 'Fira Code';
     font-size: 18px;
@@ -94,5 +110,21 @@
                 color: $brigth_green;
             }
         }
+    }
+}
+
+@media screen and (max-width: 645px) {
+
+    .footer-content{
+        flex-direction: column !important;
+    }
+
+    .footer-center{
+        display: none;
+    }
+
+    .footer-mobile-center{
+        display: flex;
+        margin: 48px 0px 48px 0px;
     }
 }

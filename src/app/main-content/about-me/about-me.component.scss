@@ -2,7 +2,7 @@
 
 .about-me{
     @include dFlex();
-    height: 100vh;
+    height: 948px;
     position: relative;
     top: 80px;
     background: none;
@@ -10,7 +10,8 @@
 
 .center-section{
     @include dFlex($fd: row, $ai: normal, $jc: space-around);
-    height: 708px;
+    height: 100vh;
+    width: 100vw;
 }
 
 .me-box{
@@ -25,19 +26,20 @@
         position: relative;
         top: 524px;
         left: 48px;
-        width: 568px;
+        width: 480px;
         height: 568px;
         border-radius: 30px;
         z-index: 5;
     }
 
     .me-img-shadow{
-        width: 568px;
+        width: 480px;
     }
 }
 
 .right{
-    @include dFlex($ai: normal, $jc: flex-start);
+    @include dFlex($ai: normal, $jc: end);
+    height: 88%;
 
     h2{
         font-family: 'Fira Code';
@@ -45,6 +47,7 @@
         font-size: 64px;
         color: $brigth_green;
         background: none;
+        margin: 12px 48px 0px 48px;
     }
 
     h4{
@@ -63,12 +66,12 @@
         color: white;
         width: 480px;
         height: 480px;
-        padding: 48px 48px 48px 48px;
     }
 
     .me-para{
         @include dFlex($fd: row);
         background: none;
+        margin: 0px 48px 0px 48px;
 
         .me-icon{
             width: 32px;
@@ -79,7 +82,7 @@
 
         p{
             background: none;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 400;
             margin: 16px 0px 16px 0px;
         }
@@ -87,8 +90,109 @@
 
     p{
         background: none;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
-        margin: 16px 0px 16px 0px;
+        margin: 0px 48px 0px 48px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .left{
+        .me-img{
+            width: 400px;
+            top: 428px;
+            left: 28px;
+        }
+
+        .me-img-shadow{
+            width: 400px;
+        }
+    }
+
+    .right{
+        margin: 0px 0px 0px 24px;
+        .box-content{
+            height: auto;
+            width: 412px;
+
+            h2{
+                font-size: 48px;
+                margin: 12px 12px 12px 12px;
+            }
+
+            p{
+                margin: 0px 12px 12px 12px;
+            }
+
+            .me-para{
+                margin: 0px 12px 0px 12px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 870px) {
+
+    .about-me{
+        position: unset;
+        justify-content: normal;
+        margin: 48px 0px 0px 0px;
+    }
+
+    .center-section{
+        flex-direction: column;
+        align-items: center;
+
+        .left{
+            margin: 0px 0px 48px 0px;
+
+            .me-img{
+                position: unset;
+                height: 400px;
+            }
+
+            .me-img-shadow{
+                display: none;
+            }
+        }
+
+        .right{
+            margin: 0;
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .about-me{
+        height: 1100px;
+    }
+
+    .center-section{
+
+        .left{
+            
+            .me-img{
+                width: 300px;
+                height: 300px;
+            }
+        }
+
+        .right{
+
+            .box-content{
+                width: 300px;
+
+                p{
+                    margin: 0px 12px 24px 12px;
+                }
+
+                .me-para{
+                    margin: 0px 12px 12px 12px;
+                }
+            }
+        }
     }
 }

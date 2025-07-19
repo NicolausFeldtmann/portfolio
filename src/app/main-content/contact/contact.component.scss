@@ -3,6 +3,7 @@
 .contact-content{
     @include dFlex($fd: row, $jc: space-between);
     margin: 0px 72px 0px 72px;
+    width: 90%;
 }
 
 h2{
@@ -134,7 +135,7 @@ h4{
             background: none;
             border: solid 1px white;
             border-radius: 34px;
-            margin: 16px 0px 0px 0px;
+            margin: 16px 0px 12px 0px;
             overflow: hidden;
 
             &:hover{
@@ -149,5 +150,44 @@ h4{
                     }
             }
         }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .contact-me{
+        margin: 0px 24px 0px 24px;
+    }
+
+    .contact-info{
+        margin: 0px 24px 0px 24px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .contact-content{
+        flex-direction: column;
+    }
+
+    .contact-info{
+        width: 90%;
+        margin: 24px 0px 0px 0px;
+    }
+
+    .contact-me{
+        width: 90%;
+        height: 424px;
+
+        h2{
+            font-size: 56px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .contact-me{
+        height: 548px;
     }
 }

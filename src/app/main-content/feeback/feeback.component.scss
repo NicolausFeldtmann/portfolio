@@ -11,6 +11,7 @@ h3{
     font-weight: 700;
     color: $brigth_green;
     margin: 0px 0px 48px 0px;
+    text-align: center
 }
 
 .quote{
@@ -48,7 +49,21 @@ h3{
     }
 }
 
-    .btn-area{
-        @include dFlex($fd: row);
+.btn-area{
+    @include dFlex($fd: row);
+}
+
+@media screen and (max-width: 615px) {
+
+    .quote{
+        width: 80%;
     }
+}
+
+@media screen and (max-width: 400px) {
+
+    .quote{
+        width: 70%;
+    }
+}
 

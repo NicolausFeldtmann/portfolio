@@ -3,7 +3,7 @@
 .projects-content{
     @include dFlex($ai: normal);
     width: 90%;
-    height: 565px;
+    height: 100vh;
     margin: 0px 0px 0px 72px;
 }
 
@@ -32,5 +32,29 @@ p{
 .seperator{
     width: 955px;
     border: solid 1px $light_green;
+}
+
+@media screen and (max-width: 970px) {
+
+    .projects-content{
+        width: 90%;
+        margin: 0px 12px 0px 12px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+
+    .projects-content{
+        h2{
+            font-size: 56px;
+        }
+    }
+}
+
+@media screen and (max-height: 750px) {
+
+    .projects-content{
+        height: 800px;
+    }
 }
 

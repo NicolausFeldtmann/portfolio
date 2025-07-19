@@ -110,7 +110,7 @@
 
 .skill-box{
     @include dFlex();
-    width: 632px;
+    width: auto;
     height: 428px;
     margin: 0px 0px 0px 72px;
 }
@@ -146,6 +146,146 @@
         .skill-name{
             color: white;
             margin: 8px 0px 8px 0px;
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .center-section{
+        .skill-box{
+            margin: 0px 0px 0px 12px;
+            align-items: baseline;
+        }
+    }
+
+    .skill-row{
+
+        .skill-entry{
+            margin: 0px 12px 0px 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .info-box{
+        .box{
+            width: 360px;
+            height: 556px;
+
+            h2{
+                font-size: 56px;
+                margin: 0px 0px 0px 24px;
+            }
+
+            p{
+                margin: 6px 40px 6px 40px;
+            }
+
+            .sub-line{
+                margin: 6px 40px 6px 40px;
+            }
+        }
+    }
+
+    .btn-area{
+        .skill-btn{
+            margin: 24px 24px 24px 24px;
+        }
+    }
+
+    .skill-row{
+
+        .skill-entry{
+            width: 72px;
+        }
+    }
+}
+
+@media screen and (max-width: 870px) {
+
+    .skill-content{
+        height: auto;
+    }
+
+    .center-section{
+        flex-direction: column;
+
+        .skill-box{
+            margin: 24px 0px 0px 0px;
+        }
+    }
+
+    .info-box{
+        .box{
+            width: 412px;
+        }
+    }
+
+    .skill-row{
+        .skill-entry{
+            margin: 20px 20px 20px 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .info-box{
+        .box{
+            width: 300px;
+            height: auto;
+
+            .btn-area{
+                .skill-btn{
+                    margin: 16px 40px 16px 40px;
+                }                                      
+            }
+
+            h2{
+                font-size: 48px;
+                margin: 12px 12px 12px 12px;
+            }
+
+            .sub-line{
+                flex-direction: column;
+                align-items: normal;
+                font-size: 20px;
+                margin: 6px 40px 6px 40px;
+
+                .color-sub{
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .skill-row{
+        .skill-entry{
+            margin: 20px 12px 20px 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .skill-row{
+        .skill-entry{
+            width: 65px;
+            margin:  20px 6px 20px 6px;
+
+            .skill-icon-box{
+                .skill-icon{
+                    height: 48px;
+                    width: 48px;
+
+                    &:hover{
+                        width: 52px;
+                        height: 52px;
+                    }
+                }
+            }
         }
     }
 }

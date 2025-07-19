@@ -261,9 +261,10 @@ nav{
         background: rgba(192, 191, 191, 0.5);
         rotate: -5deg;
         position: relative;
-        top: 240px;
+        top: 188px;
         white-space: nowrap; 
-    
+        backdrop-filter: blur(2px);
+        z-index: 5;
 
         .banner-para{
             @include dFlex($fd: row);
@@ -401,18 +402,7 @@ nav{
     }
 }
 
-@media screen and (max-width: 1550px) {
-
-    .right-side{
-        height: 300px;
-    }
-
-    .left-side{
-        height: 300px;
-    }
-}
-
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
 
     .center-section{
         h1{
@@ -421,6 +411,19 @@ nav{
     }
 }
 
+@media screen and (max-width: 1100px) {
+
+    .center-section{
+        h1{
+            font-size: 64px;
+        }
+
+        h3{
+            font-size: 28px;
+        }
+    }
+}
+ 
 @media screen and (max-width: 860px) {
     
     .center-section{
@@ -457,6 +460,21 @@ nav{
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .mail{
+        display: none;
+    }
+
+    .icon-mail{
+        display: flex !important;
+    }
+
+    .right-side{
+        height: 336px;
     }
 }
 
@@ -542,6 +560,61 @@ nav{
                     }
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .right-side{
+        height: 300px;
+    }
+
+    .left-side{
+        height: 300px;
+    }
+}
+
+@media screen and (max-height:  770px) {
+
+    .above-content{
+        justify-content: normal;
+    }
+
+    .center-section{
+        margin: 148px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-height: 670px) {
+
+    .right-side{
+        height: 200px;
+    }
+
+    .left-side{
+        height: 200px;
+    }
+}
+
+@media screen and ( max-height: 500px) {
+
+    nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+    }
+
+    .center-section{
+        margin: 88px 0px 0px 0px;
+    }
+
+    .apendix{
+
+        .center-banner{
+            top: 105px;
         }
     }
 }
