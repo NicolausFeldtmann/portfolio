@@ -12,9 +12,18 @@ import { Component } from '@angular/core';
 })
 export class AboveToFoldComponent {
   isSwitched = false;
+  isShow = false;
 
   translate() {
     this.isSwitched = !this.isSwitched;
+  }
+
+  showMenu() {
+    if (!this.isShow) {
+      this.isShow = true;
+    } else {
+      this.isShow = false;
+    }
   }
 
 }
