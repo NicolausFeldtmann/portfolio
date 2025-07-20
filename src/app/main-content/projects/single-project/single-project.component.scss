@@ -532,28 +532,37 @@ p{
 }
 
 @media screen and (max-height: 700px) {
+    .pro-info{
 
-    .info-left{
+        .info-left{
 
-        .desc{
-            margin: 12px 0px 12px 0px;
+            .desc{
+                margin: 12px 0px 12px 0px;
 
-            h5{
-                margin: 0;
+                h5{
+                    margin: 0;
+                }
             }
-        }
 
-        .info-header{
-            margin: 0;
-            height: 56px;
+            .info-header{
+                margin: 0;
+                height: 56px;
 
-            h2{
-                font-size: 88px;
+                h2{
+                    font-size: 36px;
+                    margin: 24px 0px 0px 0px;
+                }
+
+                h3{
+                    font-size: 28px;
+                    margin: 0px 0px 24px 0px;
+                }
             }
         }
     }
 
     .info-right{
+        height: auto;
 
         .info-img-area{
 
@@ -570,9 +579,22 @@ p{
     .info-left{
 
         .desc{
+            margin: 0  ;
+
+            p{
+                margin: 0;
+            }
 
             h5{
+                font-size: 18px;
                 margin: 28px 0px 0px 0px;
+            }
+
+            .info-link-area{
+
+                .info-link{
+                    height: 24px;
+                }
             }
         }
     }

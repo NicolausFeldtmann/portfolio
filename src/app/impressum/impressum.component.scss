@@ -64,3 +64,50 @@
         }
     }
 }
+
+@media screen and (max-width: 400px) {
+
+    .impressum-content{
+
+        .txt-area{
+
+            .impressum-header{
+
+                h1{
+                    margin: 0px 24px 0px 0px;
+                }
+
+                .btn-area{
+                    width: 48px;
+                    height: 80px;
+
+                    .back-icon{
+                        width: 36px;
+                    }
+
+                    .back-para{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    .impressum-content{
+
+        .txt-area{
+
+            .impressum-header{
+                flex-direction: column;
+                align-items: end;
+
+                h1{
+                    margin: 0px 0px 12px 0px;
+                }
+            }
+        }
+    }
+}
