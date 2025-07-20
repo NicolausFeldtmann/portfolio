@@ -1,7 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { ThisReceiver } from '@angular/compiler';
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { TranslationsService } from '../../../translationService';
+import { LanguageService } from '../../../language.service';
 
 @Component({
   selector: 'app-single-project',
@@ -13,8 +15,24 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './single-project.component.html',
   styleUrl: './single-project.component.scss'
 })
-export class SingleProjectComponent {
+export class SingleProjectComponent implements OnInit {
   isShow = false;
+  currenLanguage: any;
+
+    constructor(
+      private translationService: TranslationsService,
+      private languageService: LanguageService
+    ) {}
+  
+    ngOnInit() {
+        this.languageService.currentLanguage$.subscribe(lang => {
+          this.currenLanguage = lang;
+        });
+    }
+  
+    translate(textKey: string): string {
+      return this.translationService.translate(textKey, this.currenLanguage);
+    }
 
   @Input()project!: any;
 

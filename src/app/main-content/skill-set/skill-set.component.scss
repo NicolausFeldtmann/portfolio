@@ -73,6 +73,7 @@
     .btn-area{
         @include dFlex($ai: normal);
         background: none;
+        margin: 0px 0px 0px 12px;
 
         .skill-btn{
             @include dFlex();

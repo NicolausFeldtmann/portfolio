@@ -58,5 +58,85 @@
     "TECHNOLOGY": {
         "en": "Technologies",
         "de": "Technologien"
+  },
+    "SET": {
+        "en": "",
+        "de": "Über mich"
+  },
+    "INTRO": {
+        "en": "tipaff qownfoqnfg qwoüfnqo fünqfqwfnqqwf qpipwnfoqwfnq qw+pfpnqwp+fnqwfq +qpiwnf ",
+        "de": "aqwjfb qoüubq qüouwbfqouwbfqobf3 qüowebfoqüewbfqoüäwbf qwpifq qpiwnfq nq"
+  },
+    "YOU": {
+        "en": "You need ",
+        "de": "Brauchst du "
+  },
+    "ANOTHER": {
+        "en": "another skill?",
+        "de": "andrre Kompetenzen?"
+  },
+    "FEEL": {
+        "en": "Feel free to contect me. I look forward to expanding on my previous knowledge.",
+        "de": "Fühl dich frei mich anzuschreiben. Ich freue mich immer mein bestehendes Können auszubauen."
+  },
+    "TALK": {
+        "en": "Let's talk",
+        "de": "Las uns reden "
+  },
+    "FEATURE": {
+        "en": "Featured Projects",
+        "de": "Ausgewählte Projecte"
+  },
+    "SELECTION": {
+        "en": "Explore a selection of my work here - interact with projects to see my skills in action.",
+        "de": "Hier kannst du dir eine Auswhal meiner Arbeiten ansehen und ausprobieren."
+  },
+    "FROSTE-GRAVE": {
+        "en": "Side-Scroller game basedon object-oriented approach. Collect falling stars the fight the undead Icegigant.",
+        "de": "Side-scroller Spiel mit Fokus auf Projeckt orintierter Arbeit. Sammle die Fallenden Sterne um am ende den untoten Eisriesen zu schlagen."
+  },
+    "CONTACT": {
+        "en": "Contact me",
+        "de": "Kontacktier mich"
+  },
+    "WORK": {
+        "en": "Let's work together",
+        "de": "Arbeiten wir zusammen"
+  },
+    "PROBLEM": {
+        "en": "Got a problem to solve?",
+        "de": "Hast du ein Problem zu lösen?"
+  },
+    "NEED": {
+        "en": "Need a Frontend developer?",
+        "de": "Brauchst du einen Frontend developer?" 
+  },
+    "LETS-TALK": {
+        "en": " Let's talk!",
+        "de": " Lass uns reden!"
+  },
+    "NAME": {
+        "en": "What's your name?",
+        "de": "Wie ist dein Name?" 
+  },
+    "E-MAIL": {
+        "en": "What's your email?",
+        "de": "Was ist deine E-mail adresse?" 
+  },
+    "CONCERN": {
+        "en": "How can I help you?",
+        "de": "Wie kann ich dir weiter Helfen?" 
+  },
+    "CHECK1": {
+        "en": "I've read the ",
+        "de": "Ich habde die " 
+  },
+    "CHECK2": {
+        "en": " and agree to the processing of my data as outlined.",
+        "de": " und stimme der Verarbeitung meiner Daten wie beschrieben zu." 
+  },
+    "PRIVICY": {
+        "en": "privacy policy  ",
+        "de": "Datenschutzrichtlinien " 
   }
 }

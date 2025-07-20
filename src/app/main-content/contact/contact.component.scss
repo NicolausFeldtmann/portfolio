@@ -36,7 +36,7 @@ h4{
     @include dFlex($ai: normal);
     background: none;
     width: 568px;
-    height: 337px;
+    height: 470px;
 
     p{
         font-size: 16px;
@@ -46,9 +46,11 @@ h4{
 
     .sub-line{
         @include dFlex($jc: normal, $fd: row);
+        margin: 12px 0px 12px 0px;
 
         .para-color{
             color: $brigth_green;
+            margin: 0px 0px 0px 8px 
         }
     }
 }
@@ -56,7 +58,6 @@ h4{
 .contact-info{
     @include dFlex();
     width: 616px;
-    height: 550px;
 
     .contact-row{
         @include dFlex($ai: normal);
@@ -177,7 +178,6 @@ h4{
 
     .contact-me{
         width: 90%;
-        height: 424px;
 
         h2{
             font-size: 56px;
@@ -189,5 +189,16 @@ h4{
 
     .contact-me{
         height: 548px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .contact-me{
+
+        .sub-line{
+            flex-direction: column;
+            align-items: normal;
+        }
     }
 }

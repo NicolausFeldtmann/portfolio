@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { TranslationsService } from '../../translationService';
 import { LanguageService } from '../../language.service';
+import { enableDebugTools } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-above-to-fold',
@@ -14,7 +15,7 @@ import { LanguageService } from '../../language.service';
 })
 
 export class AboveToFoldComponent {
-  isSwitched = false;
+  isSwitched = true;
   isShow = false;
   currentLanguage: string = 'en';
 
@@ -30,11 +31,22 @@ export class AboveToFoldComponent {
   }
 
   translate(text: string): string {
+    this.isSwitched = !this.isSwitched;
     return this.translationService.translate(text, this.currentLanguage);
   }
 
   switchLanguage(lang: string): void {
     this.languageService.setLanguage(lang);
+  }
+
+  toggleLanguage() {
+    if (this.currentLanguage === 'en') {
+      this.switchLanguage('de');
+      this.isSwitched = false;
+    } else {
+      this.switchLanguage('en')
+      this.isSwitched = true;
+    }
   }
 
   showMenu() {

@@ -1,8 +1,8 @@
 <div class="contact-content">
     <div class="contact-me">
-        <h4>Contact me</h4>
-        <h2>Let's work together</h2>
-        <h4 class="sub-h4">Got a problem to solve?</h4>
+        <h4>{{ translate('CONTACT') }}</h4>
+        <h2>{{ translate('WORK') }}</h2>
+        <h4 class="sub-h4">{{ translate('PROBLEM') }}</h4>
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
             Placeat dolorem provident sequi iure adipisci aliquid dolores mollitia nihil 
@@ -10,23 +10,23 @@
             ipsam voluptate laboriosam a tempore.
         </p>
         <div class="sub-line">
-            <p> Need a Frontend developer?</p> <p class="para-color">Lets's talk!</p>
+            <p> {{ translate('NEED') }}</p> <p class="para-color"> {{ translate('LETS-TALK') }}</p>
         </div>
     </div>
     <form class="contact-info" (submit)="sendMail($event)">
         <label class="contact-row">
             <div class="seperator"></div>
-            <h4 class="sub-h4">What's your name?</h4>
+            <h4 class="sub-h4">{{ translate('NAME') }}</h4>
             <input type="text" id="name" placeholder="Your name goes here">
         </label>
         <label class="contact-row">
             <div class="seperator"></div>
-            <h4 class="sub-h4">What's your email?</h4>
+            <h4 class="sub-h4">{{ translate('E-MAIL') }}</h4>
             <input type="email" name="email" placeholder="youremail@email.com">
         </label>
         <label class="contact-row">
             <div class="seperator"></div>
-            <h4 class="sub-h4">How can I help you?</h4>
+            <h4 class="sub-h4">{{ translate('CONCERN') }}</h4>
             <input type="text" name="message" placeholder="Hallo Nicolaus, I am interested in...">
             <div class="seperator"></div>
         </label>
@@ -35,7 +35,7 @@
                 <div class="check-box">
                     <img class="check" src="./../../../assets/img/PNG/check-mark.png" alt="">
                 </div>
-                <p class="confimr-para">I've read the <a class="confirm-link" href="legal">privacy policy</a> and agree to the processing of my data as outlined.</p>
+                <p class="confimr-para">{{ translate('CHECK1') }} <a class="confirm-link" href="legal">{{ translate('PRIVICY') }}</a>{{ translate('CHECK2') }}</p>
             </div>
             <div class="btn-area">
                 <button class="btn" type="submit">Say Hello ;)</button>
