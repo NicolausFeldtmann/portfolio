@@ -1,18 +1,62 @@
 {
-  "Hello": {
-    "en": "Hello",
-    "de": "Hallo"
+    "Hello": {
+        "en": "Hello",
+        "de": "Hallo"
   },
-  "ABOUT-ME": {
-    "en": "About Me",
-    "de": "Über mich"
+    "ABOUT-ME": {
+        "en": "About Me",
+        "de": "Über mich"
   },
-  "SKILLS": {
-    "en": "Skills",
-    "de": "Fähigkeiten"
+    "SKILLS": {
+        "en": "Skills",
+        "de": "Fähigkeiten"
   },
-  "PROJECTS": {
-    "en": "Projects",
-    "de": "Projekte"
+    "PROJECTS": {
+        "en": "Projects",
+        "de": "Projekte"
+  },
+    "CHECK": {
+        "en": "Check my work",
+        "de": "teste meine Arbeiten"
+  },
+    "CONTACT-ME": {
+        "en": "Contact me",
+        "de": "kontacktiere Mich"
+  },
+    "AVAILABLE": {
+        "en": "Available for remote work",
+        "de": "Auch für remote work zu haben"
+  },
+    "BASED": {
+        "en": "Based in Hamburg",
+        "de": "In Hamburg zuhause"
+  },
+    "WER-ICH-BIN": {
+        "en": "Who I Am",
+        "de": "Das bin Ich"
+  },
+    "ABOUT": {
+        "en": "About me",
+        "de": "Über mich"
+  },
+    "ME": {
+        "en": "Hey there, I'm Nicolaus! I'm an entusiastic an a bit nerdy career changer. I want to make coding my bew profession. The limetless posibilities to creat something new, inspire me again and again.",
+        "de": "Hallo, ich bin Nicolaus! Ich bin ein entusiastischer und ein bischen nerdiger Quereinsteiger. Ich würde gerne das Programieren zu meinem neuen Beruf machen. Dabei inspierieren mich die schier grenzenlosen Möglcihkeiten immer wieder aufs neue."
+  },
+    "LOCATION": {
+        "en": "I'm based in Hambrg. I'm open to work remotly and/or in the office on site.",
+        "de": "Ich komme aus Hamburg. Ich wäre offen remote und/oder vor Ort im Büro zu arbeiten"
+  },
+    "MIND": {
+        "en": "The more i know... I'm very interested in learning new technologies and improve my skills and becomming ervery day a better programmer than the day before.",
+        "de": "Je mehr ich weiß... Ich hab großes Intersse an neuen Technologien und natürlich mein Können zu verbessern und so a, ende des Tages ein besserer Progamierer zu sein, als am Tag zuvor."
+  },
+    "SOLVE": {
+        "en": "Solving problems is part of my daily routine, espaecially for me as a cereer changer. This is most satisfying when you find a solution that dosen't seem obvious at first. Somthing a little like Columbu's egg =)",
+        "de": "Das lösen von Problemem ist mein Täglich Brot, gerade al Quereinsteiger. Das ist vor allem ein großartiger Gefühl, wenn man eine Lösung findet, die vieleicht nicht von vor herein offensichtlich erscheint. Ein bischen so wie das Ei des Kolumbus =D"
+  },
+    "TECHNOLOGY": {
+        "en": "Technologies",
+        "de": "Technologien"
   }
 }
