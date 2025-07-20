@@ -3,11 +3,11 @@
         <div class="mobile-menu">
             <div class="mobile-menu-content">
                 <div class="mobile-links">
-                    <a class="mobile-link" href="">About me</a>
-                    <a class="mobile-link" href="">Skills</a>
-                    <a class="mobile-link" href="">Projects</a>
+                    <a class="mobile-link" href="#aboutMe">{{ translate('ABOUT-ME') }}</a>
+                    <a class="mobile-link" href="#skill-set">{{ translate('SKILLS') }}</a>
+                    <a class="mobile-link" href="#projects">{{ translate('PROJECTS') }}</a>
                 </div>
-                <div class="switch" (click)="translate()" [class.switched]="isSwitched">
+                <div class="switch" [class.switched]="isSwitched">
                     <div class="toggle-switch"></div>
                 </div>
             </div>
@@ -15,24 +15,31 @@
     </div>
         <nav>
             <div class="link-area">
-                <div class="switch" (click)="translate()" [class.switched]="isSwitched">
+                <div class="switch" [class.switched]="isSwitched">
                     <div class="toggle-switch"></div>
                 </div>
                 <div class="links">
                     <div class="link">
-                        <a class="nav-link" href="#aboutMe">About me</a>
+                        <a class="nav-link" href="#aboutMe">{{ translate('ABOUT-ME') }}</a>
                         <img class="cuteDot" src="./../../../assets/img/PNG/cuteDot.png" alt="cutDot">
                     </div>
                     <div class="link">
-                        <a class="nav-link" href="#skill-set">Skills</a>
+                        <a class="nav-link" href="#skill-set">{{ translate('SKILLS') }}</a>
                         <img class="cuteDot" src="./../../../assets/img/PNG/cuteDot.png" alt="cuteDot">
                     </div>
                     <div class="link">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#projects">{{ translate('PROJECTS') }}</a>
                         <img class="cuteDot" src="./../../../assets/img/PNG/cuteDot.png" alt="cuteDot">
                     </div>
                 </div>
             </div>
+
+            <div>
+                <h1>{{ translate('Hello') }}</h1>
+                <button (click)="switchLanguage('en')">English</button>
+                <button (click)="switchLanguage('de')">Deutsch</button>
+            </div>
+
             <div class="logo-area">
                 <img class="logo-nav" src="./../../../assets/img/PNG/logos/newLogo.png" alt="placeholder logo">
             </div>

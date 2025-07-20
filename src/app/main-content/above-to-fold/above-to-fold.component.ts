@@ -1,11 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { TranslationsService } from '../../translationService';
+import { retry } from 'rxjs';
 
 @Component({
   selector: 'app-above-to-fold',
   standalone: true,
   imports: [
-    CommonModule
+    CommonModule,
   ],
   templateUrl: './above-to-fold.component.html',
   styleUrl: './above-to-fold.component.scss'
@@ -13,9 +15,16 @@ import { Component } from '@angular/core';
 export class AboveToFoldComponent {
   isSwitched = false;
   isShow = false;
+  currentLanguage: string = 'en';
 
-  translate() {
-    this.isSwitched = !this.isSwitched;
+  constructor(private translationService: TranslationsService) {}
+  
+  translate(text: string): string {
+    return this.translationService.translate(text, this.currentLanguage);
+  }
+
+  switchLanguage(lang: string): void {
+    this.currentLanguage = lang;
   }
 
   showMenu() {

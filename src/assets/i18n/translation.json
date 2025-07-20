@@ -1,0 +1,18 @@
+{
+  "Hello": {
+    "en": "Hello",
+    "de": "Hallo"
+  },
+  "ABOUT-ME": {
+    "en": "About Me",
+    "de": "Über mich"
+  },
+  "SKILLS": {
+    "en": "Skills",
+    "de": "Fähigkeiten"
+  },
+  "PROJECTS": {
+    "en": "Projects",
+    "de": "Projekte"
+  }
+}
