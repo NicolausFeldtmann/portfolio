@@ -1,5 +1,6 @@
 import { Injectable } from "@angular/core";
 
+
 @Injectable({
     providedIn: 'root'
 })
@@ -11,7 +12,7 @@ export class ProjectdataService {
         {
             name: "Frost Grave",
             proNr: "01",
-            description: "Side-Scroller game basedon object-oriented approach. Collect falling stars the fight the undead Icegigant.",
+            descrKey: "PROJECT1_DESCRIPTION",
             gitLink: "https://github.com/NicolausFeldtmann/FrostGrave",
             projectLink: "https://nicolaus-feldtmann.developerakademie.net/FrostGrave/",
             img1: "frost-grave2.png",
@@ -34,7 +35,7 @@ export class ProjectdataService {
         {
             name: "Join",
             proNr: "02",
-            description: "Side-Scroller game basedon object-oriented approach. Collect falling stars the fight the undead Icegigant.",
+            descrKey: "PROJECT2_DESCRIPTION",
             gitLink: "https://github.com/NicolausFeldtmann/Join",
             projectLink: "https://nicolaus-feldtmann.developerakademie.net/Join/",
             img1: "join.png",
@@ -60,20 +61,10 @@ export class ProjectdataService {
         },
         {
             name: "DA-Notes",
-            skill1: "HTML",
-            skill2: "CSS",
-            skill3: "TypeScript",
-            skill4: "Firebase",
-            skill5: "Angular",
             proNr: "03",
-            description: "Side-Scroller game basedon object-oriented approach. Collect falling stars the fight the undead Icegigant.",
-            skillIcon1: "html-green.png",
-            skillIcon2: "css-green.png",
-            skillIcon3: "js-green.png",
-            skillIcon4: "fireBase-green.png",
-            skillIcon5: "angular-green.png",
-            gitLink: "https://github.com/NicolausFeldtmann/Join",
-            projectLink: "https://nicolaus-feldtmann.developerakademie.net/Join/",
+            descrKey: "PROJECT3_DESCRIPTION",
+            gitLink: "https://github.com/NicolausFeldtmann/",
+            projectLink: "https://nicolaus-feldtmann.developerakademie.net/angular-projects/da-notes/",
             img1: "da-notes.png",
             img2: "da-notes2.png",
             skills: [

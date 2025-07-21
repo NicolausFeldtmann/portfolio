@@ -28,7 +28,7 @@
                     <div class="desc">
                         <h5>What is this project about?</h5>
                         <p>
-                            {{ project.description }}
+                            {{ translate(project.descrKey) }}
                         </p>
                         <div class="icon-bar">
                             <div *ngFor="let skill of project.skills; let track = index">

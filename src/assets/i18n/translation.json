@@ -138,5 +138,18 @@
     "PRIVICY": {
         "en": "privacy policy  ",
         "de": "Datenschutzrichtlinien " 
+  },
+    "PROJECT1_DESCRIPTION": {
+        "en": "Side-Scroller game basedon object-oriented approach. Collect falling stars the fight the undead Icegigant.",
+        "de": "Side-scroller Spiel mit Fokus auf Projekt-orientierter Arbeit. Sammle die fallenden Sterne um den untoten Eisriesen zu schlagen." 
+  },
+    "PROJECT2_DESCRIPTION": {
+        "en": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories",
+        "de": "Task manager angelehnt an das Kanban System. Erstellen und organisieren von Tasks via 'drag and drop' Funktion, sowie das zuweisen von Nutzer und Kategorien." 
+  },
+    "PROJECT3_DESCRIPTION": {
+        "en": "Orgenizer app. Made with Angular. Global save function by using Firebase.",
+        "de": "Organizer-app. Erstellt mit Angular. Mit globaler Speicher-Funktion bei verwendung von Firebase." 
   }
+  
 }
