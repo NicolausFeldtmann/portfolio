@@ -39,7 +39,7 @@
 
 .right{
     @include dFlex($ai: normal, $jc: end);
-    height: 88%;
+    height: 100%;
 
     h2{
         font-family: 'Fira Code';
@@ -167,7 +167,7 @@
 @media screen and (max-width: 450px) {
 
     .about-me{
-        height: 1100px;
+        height: 1188px;
     }
 
     .center-section{

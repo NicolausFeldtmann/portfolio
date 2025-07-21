@@ -150,6 +150,17 @@
     "PROJECT3_DESCRIPTION": {
         "en": "Orgenizer app. Made with Angular. Global save function by using Firebase.",
         "de": "Organizer-app. Erstellt mit Angular. Mit globaler Speicher-Funktion bei verwendung von Firebase." 
+  },
+    "PLACEHOLDER1": {
+        "en": "Your name goes here",
+        "de": "Dein Name kommt hier hin" 
+  },
+    "PLACEHOLDER2": {
+        "en": "youreemail@mail.com",
+        "de": "deinemailadresse@mail.de" 
+  },
+    "PLACEHOLDER3": {
+        "en": "Hello Nicolaus, I am interested in...",
+        "de": "Hallo Nicolaus, mich würde interessieren was..." 
   }
-  
 }
