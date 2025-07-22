@@ -2,7 +2,7 @@
     <div class="seperator"></div>
     <div class="project">
         <div class="project-content" (click)="show()">
-            <div class="project-name-info">
+            <div class="project-name-info" (mouseenter)="hovered = true" (mouseleave)="hovered = false">
                 <h3>{{ project.name }}</h3>
                 <div class="skills">
                     <div *ngFor="let skill of project.skills; let track = index">
@@ -13,7 +13,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hidden-pic-area">
+            <div class="hidden-pic-area" [class.visible]="hovered">
                 <img class="hidden-pic" src="./assets/img/PNG/screens/{{ project.img1 }}" alt="">
                 <img class="pic-shadow" src="./../../../assets/img/PNG/img-raster.png" alt="">
             </div>

@@ -17,6 +17,8 @@ import { LanguageService } from '../../../language.service';
 })
 export class SingleProjectComponent implements OnInit {
   isShow = false;
+  hovered: boolean = false;
+
   currenLanguage: any;
 
     constructor(

@@ -1,5 +1,6 @@
 @import './../../../../styles.scss';
 
+
 p{
     background: none;
 }
@@ -17,7 +18,7 @@ div{
 
 .project-name-info{
     @include dFlex($fd: row, $jc: space-between);
-    width: 100%;
+    width: 59%;
     height: 100%;
     padding: 0px 24px 0px 24px;
 }
@@ -59,21 +60,17 @@ p{
         width: 80%;
         background: none;
 
-        &:hover{
+        //&:hover{
 
-            .hidden-pic-area{
-                visibility: visible;
-            }
-        }
+          //  .hidden-pic-area{
+            //    visibility: visible;
+            //}
+        //}
 
         .project-name-info{
             &:hover{
                 cursor: pointer;
                 background-color: $soft_green;
-
-                .hidden-pic-area{
-                    display: flex !important;
-                }
             }
         }
 
@@ -117,6 +114,10 @@ p{
         top: 72px;
         left: 208px;
         background: none;
+
+        &.visible{
+            visibility: visible !important;
+        }
 
         .hidden-pic{
             width: 480px;
