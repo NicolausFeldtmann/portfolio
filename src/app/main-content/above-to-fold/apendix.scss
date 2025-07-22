@@ -1,0 +1,176 @@
+@import './../../../styles.scss';
+
+.apendix{
+    @include dFlex($fd: row, $jc: space-between);
+    background: none;
+    width: 100%;
+
+    .banner-content{
+        @include dFlex($fd: row);
+        background: none;
+        width: 100%;
+        animation: slide-left 120s linear infinite;
+    }
+
+    .center-banner{
+        @include dFlex($fd: row);
+        overflow: hidden;
+        width: 100%;
+        height: 62px;
+        background: none;
+        background: rgba(192, 191, 191, 0.5);
+        rotate: -5deg;
+        position: relative;
+        top: 188px;
+        white-space: nowrap; 
+        backdrop-filter: blur(2px);
+        z-index: 5;
+
+        .banner-para{
+            @include dFlex($fd: row);
+            color: $brigth_green;
+            font-size: 32px;
+            font-weight: 400;
+            background: none;
+            margin: 0px 56px 0px 0px;
+        }
+
+        .dot{
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+            background: none;
+            background-color: $brigth_green;
+            margin: 0px 56px 0px 0px
+        }
+    }
+}
+
+.left-side{
+    @include dFlex();
+    position: absolute;
+    left: 96px;
+    bottom: 0;
+    background: none;
+    height: 312px;
+    width: 32px;
+
+    .arrow-box{
+        @include dFlex();
+        background: none;
+        border: 1px solid $brigth_green;
+        border-radius: 30px;
+        width: 30px;
+        height: 80px;
+        margin: 0px 0px 24px 0px;
+
+        .jumping-arrow{
+            background: none;
+            rotate: 90deg;
+            height: 36px;
+            -webkit-animation: mover 1s infinite alternate;
+            animation: mover 1s infinite alternate
+        }
+    }
+
+    .vert-line{
+        @include dFlex();
+        height: 100%;
+        border: 1px solid $brigth_green;
+    }
+}
+
+.right-side{
+    @include dFlex();
+    position: absolute;
+    right: 96px;
+    bottom: 0;
+    background: none;
+    height: 480px;
+    width: 32px;
+
+    .mail{
+        background: none;
+        rotate: 270deg;
+        text-decoration: none;
+        color: white;
+        margin: 0px 0px 112px 0px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .link-icons{
+        @include dFlex();
+        background: none;
+        margin: 0px 0px 24px 0px;
+
+        .side-link{
+            @include dFlex($fd: row);
+            background: none;
+
+            .icon-mail{
+                background: none;
+                display: none;
+                background-image: url('./../../../assets/img/PNG/icons-green/mail.png');
+                width: 32px;
+                height: 32px;
+                margin: 6px 6px 6px 16px;
+
+                &:hover{
+                    background-image: url('./../../../assets/img/PNG/mail-white.png');
+                    background-repeat: no-repeat;
+                }
+            }
+
+            .icon-linked{
+                background: none;
+                background-image: url('./../../../assets/img/PNG/linkedin.png');
+                width: 32px;
+                height: 32px;
+                margin: 6px 6px 6px 16px;
+
+                &:hover{
+                    background-image: url('./../../../assets/img/PNG/linked-hover.png');
+                }
+            }
+
+            .icon-git{
+                background: none;
+                background-image: url('./../../../assets/img/PNG/git-icon.png');
+                background-repeat: no-repeat;
+                width: 32px;
+                height: 32px;
+                margin: 6px 6px 6px 16px;
+
+                &:hover{
+                    background-image: url('./../../../assets/img/PNG/git-icon-hover.png');
+                }
+            }
+
+            &:hover{
+                cursor: pointer;
+
+                .cuteDot{
+                    visibility: visible;
+                }
+            }
+        }
+    }
+
+    .vert-line{
+        height: 100%;
+        border: solid 1px white;
+        width: 0px;
+    }
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-20px); }
+}
+
+@keyframes mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-15px); }
+}

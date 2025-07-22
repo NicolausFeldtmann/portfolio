@@ -11,7 +11,7 @@ import { enableDebugTools } from '@angular/platform-browser';
     CommonModule,
   ],
   templateUrl: './above-to-fold.component.html',
-  styleUrl: './above-to-fold.component.scss'
+  styleUrls: ['./above-to-fold.component.scss','./mobile.scss', './apendix.scss']
 })
 
 export class AboveToFoldComponent {

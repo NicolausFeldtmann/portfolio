@@ -7,7 +7,7 @@ import { LanguageService } from '../../language.service';
   standalone: true,
   imports: [],
   templateUrl: './about-me.component.html',
-  styleUrl: './about-me.component.scss'
+  styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent implements OnInit{
   currenLanguage: any;

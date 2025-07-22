@@ -17,6 +17,22 @@ $brigth_green: rgb(0, 219, 186);
     background-color: $dark_green;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: $brigth_green;
+    border-radius: 10px;
+    height: 64px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    background-color: $soft_green;
+}
+
 @font-face {
     font-family: 'Karla';
     src: url('./assets/fonts/Karla/Karla-VariableFont_wght.ttf');

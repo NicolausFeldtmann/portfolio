@@ -13,7 +13,7 @@ import { LanguageService } from '../../../language.service';
     CommonModule
   ],
   templateUrl: './single-project.component.html',
-  styleUrl: './single-project.component.scss'
+  styleUrls: ['./single-project.component.scss', './mobile.scss']
 })
 export class SingleProjectComponent implements OnInit {
   isShow = false;

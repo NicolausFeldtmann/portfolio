@@ -1,0 +1,215 @@
+@import './../../../styles.scss';
+
+@media screen and (max-width: 1500px) {
+
+    .center-section{
+        h1{
+            font-size: 88px;
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .center-section{
+        h1{
+            font-size: 64px;
+        }
+
+        h3{
+            font-size: 28px;
+        }
+    }
+}
+ 
+@media screen and (max-width: 860px) {
+    
+    .center-section{
+        h1{
+            font-size: 56px;
+        }
+
+        h3{
+            font-size: 28px;
+        }
+
+        .btn-area{
+            .center-btn{
+                height: 34px;
+                width: 188px;
+            }
+        }
+    }
+
+    nav{
+        .logo-area{
+            .logo-nav{
+                width: 88px;
+                margin: 28px 0px 0px;
+            }
+        }
+
+        .link-area{
+            .links{
+                .link{
+                    .nav-link{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .mail{
+        display: none;
+    }
+
+    .icon-mail{
+        display: flex !important;
+    }
+
+    .right-side{
+        height: 336px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .cuteDot{
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+    }
+
+    .center-btn{
+        border: 1px solid $brigth_green !important;
+    }
+
+    .btn-para{
+        background: none;
+        animation: slide-left 2s linear infinite;
+        color: $brigth_green;
+    }
+
+    .center-section{
+
+        h1{
+            font-size: 48px;
+        }
+
+        h3{
+            font-size: 24px;
+        }
+    }
+
+    .apendix{
+
+        .center-banner{
+            height: 36px;
+
+            .banner-para{
+                font-size: 18px;
+            }
+        }
+    }
+
+    .mail{
+        display: none;
+    }
+
+    .icon-mail{
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .center-section{
+        
+        h1{
+            text-align: center;
+        }
+
+        h3{
+            font-size: 18px;
+        }
+
+        .btn-area{
+            flex-direction: column;
+
+            .center-btn{
+                margin: 6px 0px 6px 0px;
+
+                .center-banner{
+                    height: 24px;
+                    width: 136px;
+
+                    .btn-para{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .right-side{
+        height: 300px;
+    }
+
+    .left-side{
+        height: 300px;
+    }
+}
+
+@media screen and (max-height:  770px) {
+
+    .above-content{
+        justify-content: normal;
+    }
+
+    .center-section{
+        margin: 148px 0px 0px 0px;
+    }
+
+    .right-side{
+        height: 200px;
+    }
+
+    .left-side{
+        height: 200px;
+    }
+}
+
+@media screen and ( max-height: 500px) {
+
+    nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+    }
+
+    .center-section{
+        margin: 88px 0px 0px 0px;
+    }
+
+    .apendix{
+
+        .center-banner{
+            top: 105px;
+        }
+    }
+}
