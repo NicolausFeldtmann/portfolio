@@ -151,6 +151,11 @@
         "en": "Orgenizer app. Made with Angular. Global save function by using Firebase.",
         "de": "Organizer-app. Erstellt mit Angular. Mit globaler Speicher-Funktion bei verwendung von Firebase." 
   },
+    "PROJECT4_DESCRIPTION": {
+        "en": "Fun little app, based on the Pokedex from the animated series Pokemon.",
+        "de": "Spaßige kleine App. Angelehnt an den Pokedex aus der Zeichentrick-Serie Pokemon." 
+  },
+  
     "PLACEHOLDER1": {
         "en": "Your name goes here",
         "de": "Dein Name kommt hier hin" 
@@ -162,5 +167,9 @@
     "PLACEHOLDER3": {
         "en": "Hello Nicolaus, I am interested in...",
         "de": "Hallo Nicolaus, mich würde interessieren was..." 
+  },
+    "PROBLEM-CONTACT": {
+        "en": "If you need reinforcement of your team, please feel free to contact me. I am a quick learner can fir in well. I'm sure that I add value to your projects and suport to your team.",
+        "de": "Wenn du Verstärkung für dein Team brauchst, bitte fühl dich frei und schreib mich an. Ich lerne neue Dinge schnell und kann mich gut einfügen. Ich bin mir sicher das ich einen Mehrwert zu deinen Projekten beitragen und dein Team tatkräftig unterstützen kann." 
   }
 }

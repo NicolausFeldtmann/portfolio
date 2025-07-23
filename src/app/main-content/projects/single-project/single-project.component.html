@@ -31,7 +31,7 @@
                             {{ translate(project.descrKey) }}
                         </p>
                         <div class="icon-bar">
-                            <div *ngFor="let skill of project.skills; let track = index">
+                            <div class="info-skill" *ngFor="let skill of project.skills; let track = index">
                                 <div class="icon">
                                     <img class="info-icon" src="./assets/img/PNG/icons-green/{{ skill.skillIcon }}" alt="">
                                     <p class="skill-name">{{ skill.skillName }}</p>

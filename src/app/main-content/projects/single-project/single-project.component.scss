@@ -9,6 +9,10 @@ div{
     background: none;
 }
 
+.info-skill{
+    margin: 12px 12px 12px 12px;
+}
+
 .projects-content{
     @include dFlex($ai: normal);
     width: 90vw;
@@ -59,13 +63,6 @@ p{
         @include dFlex($fd: row, $jc: space-between);
         width: 80%;
         background: none;
-
-        //&:hover{
-
-          //  .hidden-pic-area{
-            //    visibility: visible;
-            //}
-        //}
 
         .project-name-info{
             &:hover{
@@ -234,9 +231,7 @@ p{
             .icon{
                 @include dFlex($fd: row);
                 background: none;
-                width: 58px;
                 height: 24px;
-                margin: 0px 36px 0px 0px;
 
                 .info-icon{
                     background: none;

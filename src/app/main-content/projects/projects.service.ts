@@ -85,6 +85,29 @@ export class ProjectdataService {
                     skillIcon: "angular-green.png",
                 }
             ]
+        },
+                {
+            name: "Pokedex",
+            proNr: "04",
+            descrKey: "PROJECT4_DESCRIPTION",
+            gitLink: "https://github.com/NicolausFeldtmann/Pok-dex",
+            projectLink: "https://nicolaus-feldtmann.developerakademie.net/pokedex/",
+            img1: "pokedex.png",
+            img2: "pokedex2.png",
+            skills: [
+                {
+                    skillName: "HTML",
+                    skillIcon: "html-green.png",
+                },
+                {
+                    skillName: "CSS",
+                    skillIcon: "css-green.png",
+                },
+                {
+                    skillName: "JavaScript",
+                    skillIcon: "ts-green.png",
+                }
+            ]
         }
     ]
 }
