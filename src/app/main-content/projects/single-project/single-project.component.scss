@@ -22,7 +22,7 @@ div{
 
 .project-name-info{
     @include dFlex($fd: row, $jc: space-between);
-    width: 59%;
+    width: 100%;
     height: 100%;
     padding: 0px 24px 0px 24px;
 }
@@ -58,51 +58,8 @@ p{
 .project{
     @include dFlex($fd: row, $jc: normal, $ai: normal);
     height: 109px;
-
-    .project-content{
-        @include dFlex($fd: row, $jc: space-between);
-        width: 80%;
-        background: none;
-
-        .project-name-info{
-            &:hover{
-                cursor: pointer;
-                background-color: $soft_green;
-            }
-        }
-
-        h3{
-            font-family: 'Fira Code';
-            width: auto;
-            font-size: 24px;
-            font-weight: 700;
-            color: white;
-            background: none;
-        }
-
-        .skills{
-            @include dFlex($fd: row);
-            background: none;
-
-            .skill{
-                @include dFlex($fd: row);
-                background: none;
-
-                p{
-                    background: none;
-                    font-size: 18px;
-                    color: white;
-                }
-
-                .skill-seperator{
-                    background: none;
-                    height: 24px;
-                    border: solid 1px $light_green;
-                    margin: 0px 4px 0px 4px;
-                }
-            }
-        }
-    }
+    width: 100vw;
+    max-width: 75%;
 
     .hidden-pic-area{
         @include dFlex();
@@ -135,6 +92,51 @@ p{
 
     .show{
         display: flex;
+    }
+}
+
+.project-content{
+    @include dFlex($fd: row, $jc: space-between);
+    width: 100%;
+    background: none;
+
+    .project-name-info{
+        &:hover{
+            cursor: pointer;
+            background-color: $soft_green;
+        }
+    }
+
+    h3{
+        font-family: 'Fira Code';
+        width: auto;
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        background: none;
+    }
+
+    .skills{
+        @include dFlex($fd: row);
+        background: none;
+
+        .skill{
+            @include dFlex($fd: row);
+            background: none;
+
+            p{
+                background: none;
+                font-size: 18px;
+                color: white;
+            }
+
+            .skill-seperator{
+                background: none;
+                height: 24px;
+                border: solid 1px $light_green;
+                margin: 0px 4px 0px 4px;
+            }
+        }
     }
 }
 
@@ -202,57 +204,9 @@ p{
         }
     }
 
-    .desc{
-        @include dFlex($ai: normal);
-        margin: 20px 0px 20px 0px;
-        background: none;
-
-        h5{
-            background: none;
-            font-size: 24px;
-            color: $brigth_green;
-            font-weight: 700;
-            margin: 0px 0px 16px 0px;
-        }
-
-        p{
-            background: none;
-            font-size: 18px;
-            font-weight: 400;
-            margin: 16px 0px 16px 0px;
-        }
-
-        .icon-bar{
-            @include dFlex($fd: row, $jc: normal);
-            background: none;
-            margin: 16px 0px 0px 0px;
-            width: 100%;
-
-            .icon{
-                @include dFlex($fd: row);
-                background: none;
-                height: 24px;
-
-                .info-icon{
-                    background: none;
-                    width: 24px;
-                    height: 24px;
-                }
-
-                .skill-name{
-                    background: none;
-                    font-size: 16px;
-                    font-weight: 400;
-                    margin: 0px 0px 0px 4px;
-                }
-            }
-        }
-    }
-
     .info-link-area{
         @include dFlex($fd: row, $jc: normal);
         background: none;
-        margin:20px 0px 0px 0px;
 
         .info-link{
             @include dFlex();
@@ -299,43 +253,61 @@ p{
     }
 }
 
+.desc{
+    @include dFlex($ai: normal);
+    margin: 20px 0px 20px 0px;
+    background: none;
+
+    h5{
+        background: none;
+        font-size: 24px;
+        color: $brigth_green;
+        font-weight: 700;
+        margin: 0px 0px 16px 0px;
+    }
+
+    p{
+        background: none;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 16px 0px 16px 0px;
+    }
+}
+
+.icon-bar{
+    @include dFlex($fd: row, $jc: normal);
+    background: none;
+    margin: 16px 0px 0px 0px;
+    width: 100%;
+
+    .icon{
+        @include dFlex($fd: row);
+        background: none;
+        height: 24px;
+
+        .info-icon{
+            background: none;
+            width: 24px;
+            height: 24px;
+        }
+
+        .skill-name{
+            background: none;
+            font-size: 16px;
+            font-weight: 400;
+            margin: 0px 0px 0px 4px;
+        }
+    }
+}
+
 .info-right{
     @include dFlex($ai: end, $jc:space-between);
     background: none;
-    width: 480px;
+    width: auto;
     height: 90%;
 
-    .info-icon{
-        @include dFlex();
-        width: 48px;
-        height: 48px;
-
-        .info-close{
-            @include dFlex();
-            width: 20px;
-            height: 20px;
-            background: none;
-            background-image: url(./../../../../assets/img/PNG/close_small.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            transition: background-image 0.3s ease-in-out;
-
-            &:hover{
-                cursor: pointer;
-                width: 28px;
-                height: 28px;
-                background: none;
-                background-image: url(./../../../../assets/img/PNG/icons-green/close-hover.png);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: contain;
-            }
-        }
-    }
-
     .info-img-area{
+        @include dFlex();
         background: none;
 
         .info-img{
@@ -361,6 +333,36 @@ p{
             width: 40px;
             height: 40px;
             margin: 0px 0px 0px 8px;
+        }
+    }
+}
+
+.info-icon{
+    @include dFlex();
+    width: 48px;
+    height: 48px;
+
+    .info-close{
+        @include dFlex();
+        width: 20px;
+        height: 20px;
+        background: none;
+        background-image: url(./../../../../assets/img/PNG/close_small.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        transition: background-image 0.3s ease-in-out;
+
+        &:hover{
+            cursor: pointer;
+            width: 28px;
+            height: 28px;
+            background: none;
+            background-image: url(./../../../../assets/img/PNG/icons-green/close-hover.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
         }
     }
 }

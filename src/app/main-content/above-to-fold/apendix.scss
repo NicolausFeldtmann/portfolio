@@ -104,64 +104,64 @@
         @include dFlex();
         background: none;
         margin: 0px 0px 24px 0px;
-
-        .side-link{
-            @include dFlex($fd: row);
-            background: none;
-
-            .icon-mail{
-                background: none;
-                display: none;
-                background-image: url('./../../../assets/img/PNG/icons-green/mail.png');
-                width: 32px;
-                height: 32px;
-                margin: 6px 6px 6px 16px;
-
-                &:hover{
-                    background-image: url('./../../../assets/img/PNG/mail-white.png');
-                    background-repeat: no-repeat;
-                }
-            }
-
-            .icon-linked{
-                background: none;
-                background-image: url('./../../../assets/img/PNG/icons-green/linkedin.png');
-                width: 32px;
-                height: 32px;
-                margin: 6px 6px 6px 16px;
-
-                &:hover{
-                    background-image: url('./../../../assets/img/PNG/linked-hover.png');
-                }
-            }
-
-            .icon-git{
-                background: none;
-                background-image: url('./../../../assets/img/PNG/icons-green/git-icon.png');
-                background-repeat: no-repeat;
-                width: 32px;
-                height: 32px;
-                margin: 6px 6px 6px 16px;
-
-                &:hover{
-                    background-image: url('./../../../assets/img/PNG/git-icon-hover.png');
-                }
-            }
-
-            &:hover{
-                cursor: pointer;
-
-                .cuteDot{
-                    visibility: visible;
-                }
-            }
-        }
     }
 
     .vert-line{
         height: 100%;
         border: solid 1px white;
         width: 0px;
+    }
+}
+
+.side-link{
+    @include dFlex($fd: row);
+    background: none;
+
+    .icon-mail{
+        background: none;
+        display: none;
+        background-image: url('./../../../assets/img/PNG/icons-green/mail.png');
+        width: 32px;
+        height: 32px;
+        margin: 6px 6px 6px 16px;
+
+        &:hover{
+            background-image: url('./../../../assets/img/PNG/mail-white.png');
+            background-repeat: no-repeat;
+        }
+    }
+
+    .icon-linked{
+        background: none;
+        background-image: url('./../../../assets/img/PNG/icons-green/linkedin.png');
+        width: 32px;
+        height: 32px;
+        margin: 6px 6px 6px 16px;
+
+        &:hover{
+            background-image: url('./../../../assets/img/PNG/linked-hover.png');
+        }
+    }
+
+    .icon-git{
+        background: none;
+        background-image: url('./../../../assets/img/PNG/icons-green/git-icon.png');
+        background-repeat: no-repeat;
+        width: 32px;
+        height: 32px;
+        margin: 6px 6px 6px 16px;
+
+        &:hover{
+            background-image: url('./../../../assets/img/PNG/git-icon-hover.png');
+        }
+    }
+
+    &:hover{
+        cursor: pointer;
+
+        .cuteDot{
+            visibility: visible;
+        }
     }
 }
 

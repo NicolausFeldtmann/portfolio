@@ -1,0 +1,30 @@
+$breakpoints: ( 
+
+    small: 400px,
+    middle: 800px,
+    big: 1200px,
+);
+
+@mixin small-max {
+    $value: map-get($breakpoints, small);
+
+    @media only screen and (min-width: #{$value}) {
+        @content;
+    }
+}
+
+@mixin middle {
+    $vlaue: map-get($breakpoints, middle);
+
+    @media only screen and (min-width: #{$vlaue}) {
+        @content;
+    }
+}
+
+@mixin big {
+    $value: map-get($breakpoints, big);
+
+    @media only screen and (min-width: #{$value}) {
+        @content;
+    }
+}

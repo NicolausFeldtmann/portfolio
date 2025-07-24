@@ -2,7 +2,12 @@
 
 @media screen and (max-width: 1350px) {
 
+    .seperator{
+        max-width: 75%;
+    }
+
     .project{
+        max-width: 100%;
 
         .hidden-pic-area{
             top: 160px;
@@ -25,7 +30,7 @@
     }
 
     .info-right{
-        margin: 0px 24px 0px 24px;
+        margin: 24px 24px 0px 24px;
     }
 
     .pro-info{
@@ -47,39 +52,14 @@
             width: 100%;
 
             .info-img{
-                width: 428px;
-                height: 288px;
+                width: 95%;
+                height: 95%;
             }
         }
     }
 }
 
-@media screen and (max-width: 1075px) {
 
-    .info-right{
-        .info-img-area{
-            .info-img{
-                width: 315px;
-                height: 236px;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 970px) {
-
-    .project{
-
-        .hidden-pic-area{
-            display: none;
-        }
-    }
-
-    .seperator{
-        width: 100%;
-        max-width: none;
-    }
-}
 
 @media screen and (max-width: 950px) {
 
@@ -87,52 +67,61 @@
         flex-direction: column-reverse;
         height: auto;
         height: 95%;
+    }
 
-        .info-right{
-            width: 90%;
+    .info-left{
+        justify-content: unset;
+        width: 85%;
 
-            .info-img-area{
-                .info-img{
-                    width: 380px;
-                    height: 248px;
-                }
+        .info-header{
+            height: auto;
+            margin: 0;
+
+            h2{
+                font-size: 72px;
             }
+        }        
+    }
 
-            .next{
-                display: none;
+    .info-right{
+        height: 45%;
+
+        .info-img-area{
+
+            .info-img{
+                width: 60vh;
             }
         }
+        
+        .next{
+            display: none;
+        }
+    }
 
-        .info-left{
-            width: 90%;
+    .desc{
+        margin: 0;
 
-            .info-header{
-                height: auto;
-                margin: 12px 0px 20px 0px;
+        .icon-bar{
+            margin: 0px 0px 12px 0px;
+        }
 
-                h2{
-                    font-size: 72px;
-                }
-            }
+        h5{
+            margin: 0;
+        }
 
-            .desc{
-
-                h5{
-                    margin: 0;
-                }
-
-                .next-mobile{
-                    display: flex;
-                }
+        .next-mobile-row{
+            .next-mobile{
+                display: flex;
             }
         }
     }
 }
 
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 625px) {
 
     .project-content{
         flex-direction: column;
+        align-items: unset;
 
         .project-name-info{
             flex-direction: column;
@@ -143,36 +132,30 @@
             h3{
                 margin: 0px 0px 12px 0px;
             }
+
+            .skills{
+                justify-content: unset;
+            }
         }
     }
 
-    .pro-info{
+    .info-right{
+        width: auto;
 
-        .info-right{
-            margin: 0;
+        .info-img-area{
 
-            .info-img-area{
-
-                .info-img{
-                    width: 248px;
-                    height: 156px;
-                }
+            .info-img{
+                width: 95%;
             }
         }
+    }
 
-        .info-left{
-
-            .desc{
-
-                .icon-bar{
-                    flex-wrap: wrap;
-                }
-            }
-        }
+    .icon-bar{
+        flex-wrap: wrap;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
 
     .pro-info{
 
@@ -203,63 +186,52 @@
         margin: 4px 0px 4px 0px;
     }
 
-    .pro-info{
+    .info-left{
 
-        .info-left{
+        .info-header{
 
-            .info-header{
-
-                h2{
-                    font-size: 28px;
-                    margin: 0;
-                }
-
-                h3{
-                    font-size: 24px;
-                }
-            }
-
-            .desc{
-                margin: 12px 0px 12px 0px;
-
-                h5{
-                    margin: 0;
-                }
-
-                .info-link-area{
-                    margin: 8px 0px 0px 0px;
-
-                    .info-link{
-                        height: 28px;
-                    }
-                }
-            }
-
-            .info-header{
+            h2{
+                font-size: 28px;
                 margin: 0;
-                height: 56px;
+            }
 
-                h2{
-                    font-size: 36px;
-                    margin: 24px 0px 0px 0px;
-                }
+            h3{
+                font-size: 24px;
+            }
+        }
 
-                h3{
-                    font-size: 28px;
-                    margin: 0px 0px 24px 0px;
-                }
+        .info-header{
+            margin: 0;
+            height: 56px;
+
+            h2{
+                font-size: 36px;
+                margin: 24px 0px 0px 0px;
+            }
+
+            h3{
+                font-size: 28px;
+                margin: 0px 0px 24px 0px;
             }
         }
     }
 
     .info-right{
         height: auto;
+    }
 
-        .info-img-area{
+    .desc{
+        margin: 12px 0px 12px 0px;
 
-            .info-img{
-                width: 315px;
-                height: 236px;
+        h5{
+            margin: 0;
+        }
+
+        .info-link-area{
+            margin: 8px 0px 0px 0px;
+
+            .info-link{
+                height: 28px;
             }
         }
     }
@@ -267,25 +239,22 @@
 
 @media screen and (max-height: 575px) {
 
-    .info-left{
+    .desc{
+        margin: 0  ;
 
-        .desc{
-            margin: 0  ;
+        p{
+            margin: 0;
+        }
 
-            p{
-                margin: 0;
-            }
+        h5{
+            font-size: 18px;
+            margin: 28px 0px 0px 0px;
+        }
 
-            h5{
-                font-size: 18px;
-                margin: 28px 0px 0px 0px;
-            }
+        .info-link-area{
 
-            .info-link-area{
-
-                .info-link{
-                    height: 24px;
-                }
+            .info-link{
+                height: 24px;
             }
         }
     }
