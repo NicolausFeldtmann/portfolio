@@ -3,6 +3,6 @@
     <h2>{{ translate('FEATURE') }}</h2>
     <p>{{ translate('SELECTION') }}</p>
     <div class="projectlist-content">
-        <app-single-project *ngFor="let item of projectlistdata.projectList" [project]="item"></app-single-project>
+        <app-single-project *ngFor="let item of projectlistdata.projectList" [project]="item" [allProjects]="projectlistdata.projectList"></app-single-project>
     </div>
 </div>

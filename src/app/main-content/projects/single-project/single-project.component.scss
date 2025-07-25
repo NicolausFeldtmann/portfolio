@@ -98,6 +98,7 @@ p{
         max-width: 931px;
         height: 100%;
         padding: 0px 0px 0px 24px;
+        transition: 0.2s;
 
         &:hover{
             cursor: pointer;
@@ -165,7 +166,7 @@ p{
     width: 75%;
     height: 75%;
     position: absolute;
-    background-image: url(./../../../../assets/img/SVG/background.svg);
+    background-image: url(/assets/img/SVG/background.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -325,12 +326,18 @@ p{
         font-weight: 400;
         color: $brigth_green;
         text-decoration: none;
+        
+        &:hover{
+            cursor: pointer;
+            color: white;
+        }
 
         .next-icon{
             background: none;
             width: 40px;
             height: 40px;
             margin: 0px 0px 0px 8px;
+            transition: transform 0.2s;
         }
     }
 }
@@ -345,7 +352,7 @@ p{
         width: 20px;
         height: 20px;
         background: none;
-        background-image: url(./../../../../assets/img/PNG/close_small.png);
+        background-image: url(/assets/img/PNG/close_small.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -357,7 +364,7 @@ p{
             width: 28px;
             height: 28px;
             background: none;
-            background-image: url(./../../../../assets/img/PNG/icons-green/close-hover.png);
+            background-image: url(/assets/img/PNG/icons-green/close-hover.png);
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;

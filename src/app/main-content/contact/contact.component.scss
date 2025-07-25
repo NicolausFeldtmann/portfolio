@@ -58,35 +58,48 @@ h4{
 .contact-info{
     @include dFlex();
     width: 616px;
+}
 
-    .contact-row{
-        @include dFlex($ai: normal);
+.contact-row{
+    @include dFlex($ai: normal);
+    width: 100%;
+    transition: 0.2s;
+
+    .seperator{
         width: 100%;
+        border: solid 1px $light_green;
+        margin: 21px 0px 21px 0px;
+    }
+
+    input{
+        font-family: 'Karla';
+        font-weight: 400;
+        font-size: 18px;
+        color: white;
+        border: none;
+        margin: 5px 0px 5px 0px;
+    }
+
+    input:focus{
+        outline: none;
+        border: none;
+        background-color: $dark_green;
+    }
+
+    ::placeholder{
+            color: rgb(197, 197, 197);
+            font-size: 18px;
+    }
+
+    &:hover{
+        cursor: pointer;
 
         .seperator{
-            width: 100%;
-            border: solid 1px $light_green;
-            margin: 21px 0px 21px 0px;
-        }
-
-        input{
-            font-family: 'Karla';
-            font-weight: 400;
-            font-size: 18px;
-            color: white;
-            border: none;
-            margin: 5px 0px 5px 0px;
-        }
-
-        input:focus{
-            outline: none;
-            border: none;
-            background-color: $dark_green;
+            border: solid 1px $brigth_green;
         }
 
         ::placeholder{
-                color: white;
-                font-size: 18px;
+            color: white;
         }
     }
 }
@@ -97,34 +110,6 @@ h4{
     .confirm{
         @include dFlex($fd: row);
         background: none;
-
-        .check{
-            background: none;
-            background-image: url('./../../../assets/img/PNG/icons-green/check-mark.png');
-            background-size: cover;
-            width: 18px;
-            height: 18px;  
-            cursor: pointer;
-
-            &:hover{
-                background: none;
-                background-image: url('./../../../assets/img/PNG/icons-green/check-hover.png');
-                background-size: cover;
-            }
-
-            &.checked{
-                background-image: url('./../../../assets/img/PNG/icons-green/check-ckecked.png');
-                background-size: cover;
-                width: 18px;
-                height: 18px; 
-
-                &:hover{
-                    background: none;
-                    background-image: url('./../../../assets/img/PNG/icons-green/check-checked-hover.png');
-                    background-size: cover;
-                }
-            }
-        }
     }
 
     .confimr-para{
@@ -146,40 +131,68 @@ h4{
     .btn-area{
         @include dFlex();
         background: none;
+    }
+}
 
-        .btn{
-            @include dFlex();
-            color: rgb(148, 148, 148);
-            font-weight: 400;
-            font-size: 18px;
-            width: 139px;
-            height: 48px;
+.btn{
+    @include dFlex();
+    color: rgb(148, 148, 148);
+    font-weight: 400;
+    font-size: 18px;
+    width: 139px;
+    height: 48px;
+    background: none;
+    border: solid 1px rgb(148, 148, 148);
+    border-radius: 34px;
+    margin: 16px 0px 12px 0px;
+    overflow: hidden;
+
+    &.active{
+        color: white;
+        border: solid 1px white;
+
+        &:hover{
+            cursor: pointer;
+                color: $brigth_green;
+                border: solid 1px $brigth_green;
+
+            .btn-para{
+                background: none;
+                animation: slide-left 2s linear infinite;
+                color: $brigth_green;
+            }
+        }
+    }
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.check{
+    background: none;
+    background-image: url(/assets/img/PNG/icons-green/check-mark.png);
+    background-size: cover;
+    width: 18px;
+    height: 18px;  
+    cursor: pointer;
+
+    &:hover{
+        background: none;
+        background-image: url(/assets/img/PNG/icons-green/check-hover.png);
+        background-size: cover;
+    }
+
+    &.checked{
+        background-image: url(/assets/img/PNG/icons-green/check-ckecked.png);
+        background-size: cover;
+        width: 18px;
+        height: 18px; 
+
+        &:hover{
             background: none;
-            border: solid 1px rgb(148, 148, 148);
-            border-radius: 34px;
-            margin: 16px 0px 12px 0px;
-            overflow: hidden;
-
-            &.active{
-                color: white;
-                border: solid 1px white;
-
-                &:hover{
-                    cursor: pointer;
-                        color: $brigth_green;
-                        border: solid 1px $brigth_green;
-
-                    .btn-para{
-                        background: none;
-                        animation: slide-left 2s linear infinite;
-                        color: $brigth_green;
-                    }
-                }
-            }
-
-            &:hover{
-                cursor: pointer;
-            }
+            background-image: url(/assets/img/PNG/icons-green/check-checked-hover.png);
+            background-size: cover;
         }
     }
 }

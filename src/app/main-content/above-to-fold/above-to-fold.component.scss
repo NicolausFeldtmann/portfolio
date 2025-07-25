@@ -11,7 +11,7 @@
     @include dFlex();
     height: 100vh;
     width: 100%;
-    background-image: url('./../../../assets/img/SVG/background.svg');
+    background-image: url(/assets/img/SVG/background.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:50% 50%;
@@ -29,7 +29,7 @@
     .mobile-menu{
         @include dFlex();
         background: none;
-        background-image: url('./../../../assets/img/SVG/background.svg');
+        background-image: url(/assets/img/SVG/background.svg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position:50% 50%;
@@ -117,6 +117,7 @@ nav{
             color: white;
             font-size: 20px;
             margin: 0px 12px 0px 12px;
+            transition: 0.2s;
         }
 
         &:hover{
@@ -162,7 +163,7 @@ nav{
     display: inline-block;
     height: 34px;
     margin: 0px 28px 0px 0px;
-    background-image: url('./../../../assets/img/PNG/switch/toggleEnglish.png');
+    background-image: url(/assets/img/PNG/switch/toggleEnglish.png);
     background-repeat: no-repeat;
     width: 88px;
     height: 34px;
@@ -171,17 +172,17 @@ nav{
     &:hover{
         cursor: pointer;
         background: none;
-        background-image: url('./../../../assets/img/PNG/switch/toggleEnglishHover.png');
+        background-image: url(/assets/img/PNG/switch/toggleEnglishHover.png#);
         background-repeat: no-repeat;
         width: 88px;
         height: 34px;
     }
 
     &.switched{
-        background-image: url('./../../../assets/img/PNG/switch/toggleGerman.png');
+        background-image: url(/assets/img/PNG/switch/toggleGerman.png);
 
         &:hover{
-            background-image: url('./../../../assets/img/PNG/switch/toggleGermanHover.png');
+            background-image: url(/assets/img/PNG/switch/toggleGermanHover.png);
         }
     }
 }
@@ -224,7 +225,7 @@ nav{
     border-radius: 34px;
     overflow: hidden;
     text-decoration: none;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s;
 
     .btn-para{
         background: none;

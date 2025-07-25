@@ -18,8 +18,11 @@ import { LanguageService } from '../../../language.service';
 export class SingleProjectComponent implements OnInit {
   isShow = false;
   hovered: boolean = false;
-
   currenLanguage: any;
+
+  @Input()project!: any;
+  @Input() allProjects!: any[];
+  @Output()projectname = new EventEmitter<string>();
 
     constructor(
       private translationService: TranslationsService,
@@ -36,11 +39,7 @@ export class SingleProjectComponent implements OnInit {
       return this.translationService.translate(textKey, this.currenLanguage);
     }
 
-  @Input()project!: any;
-
   inputData = "";
-
-  @Output()projectname = new EventEmitter<string>();
 
   sendInputData() {
     this.projectname.emit(this.inputData);
@@ -48,11 +47,13 @@ export class SingleProjectComponent implements OnInit {
   }
 
   show() {
-    if (!this.isShow) {
-      this.isShow = true;
-    } else {
-      this.isShow = false;
-    }
+    this.isShow = !this.isShow;
+  }
+
+  showNext() {
+    let currentIdx = this.allProjects.indexOf(this.project);
+    let nextIdx = (currentIdx + 1) % this.allProjects.length;
+    this.project = this.allProjects[nextIdx];
   }
 
 }

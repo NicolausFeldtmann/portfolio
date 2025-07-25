@@ -43,7 +43,7 @@
                             <a class="info-link" href="{{ project.projectLink }}">Live Test</a>
                         </div>
                         <div class="next-mobile-row">
-                            <a class="next-mobile" href="">Next project <img class="next-icon" src="./../../../../assets/img/PNG/icons-green/arrow_forward.png" alt=""></a>
+                            <a class="next-mobile" (click)="showNext()">Next project <img class="next-icon" src="./assets/img/PNG/icons-green/arrow_forward.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                     <div class="info-img-area">
                         <img class="info-img" src="./assets/img/PNG/screens/{{ project.img2 }}" alt="">
                     </div>
-                    <a class="next" href="">Next project <img class="next-icon" src="./../../../../assets/img/PNG/icons-green/arrow_forward.png" alt=""></a>
+                    <a class="next" (click)="showNext()">Next project <img class="next-icon" src="./assets/img/PNG/icons-green/arrow_forward.png" alt=""></a>
                 </div>
             </div>
         </div>

@@ -55,6 +55,7 @@
 
 .footer-links{
     @include dFlex($ai: normal);
+    transition: 0.2s;
 
     .link{
         @include dFlex($fd: row, $jc: normal);
