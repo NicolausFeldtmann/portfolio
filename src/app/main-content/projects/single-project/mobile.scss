@@ -2,12 +2,8 @@
 
 @media screen and (max-width: 1350px) {
 
-    .seperator{
-        max-width: 75%;
-    }
-
     .project{
-        max-width: 100%;
+        
 
         .hidden-pic-area{
             top: 160px;
@@ -63,6 +59,11 @@
 
 @media screen and (max-width: 950px) {
 
+
+    .project-content{
+        width: 950px;
+    }
+
     .pro-info{
         flex-direction: column-reverse;
         height: auto;
@@ -85,6 +86,7 @@
 
     .info-right{
         height: 45%;
+        width: 90%;
 
         .info-img-area{
 
@@ -101,10 +103,6 @@
     .desc{
         margin: 0;
 
-        .icon-bar{
-            margin: 0px 0px 12px 0px;
-        }
-
         h5{
             margin: 0;
         }
@@ -117,26 +115,30 @@
     }
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 900px) {
 
     .project-content{
-        flex-direction: column;
-        align-items: unset;
 
         .project-name-info{
             flex-direction: column;
-            align-items: normal;
-            justify-content: center;
-            width: auto;
-
-            h3{
-                margin: 0px 0px 12px 0px;
-            }
-
-            .skills{
-                justify-content: unset;
-            }
+            align-items: unset;
+            height: 75%;
         }
+    }
+
+    .skills{
+        justify-content: unset;
+    }
+}
+
+@media screen and (max-width: 725px) {
+
+    .project{
+        max-width: 100%;
+    }
+
+    .seperator{
+        max-width: 100%;
     }
 
     .info-right{
@@ -157,30 +159,37 @@
 
 @media screen and (max-width: 430px) {
 
-    .pro-info{
+    .info-right{
+        height: auto;
+    }
 
-        .info-right{
-            height: auto;
-        }
+    .info-left{
+        height: auto;
 
-        .info-left{
-            height: auto;
+        .info-header{
 
-            .info-header{
-
-                h2{
-                    font-size: 28px;
-                }
-
-                h3{
-                    font-size: 24px;
-                }
+            h2{
+                font-size: 28px;
             }
+
+            h3{
+                font-size: 24px;
+            }
+        }
+    }
+
+    .icon-bar{
+        flex-direction: column;
+        align-items: unset;
+        margin: 0;
+
+        .icon{
+            justify-content: unset;
         }
     }
 }
 
-@media screen and (max-height: 775px) {
+@media screen and (max-height: 800px) {
 
     .info-skill{
         margin: 4px 0px 4px 0px;

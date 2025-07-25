@@ -20,13 +20,6 @@ div{
     margin: 0px 0px 0px 72px;
 }
 
-.project-name-info{
-    @include dFlex($fd: row, $jc: space-between);
-    width: 100%;
-    height: 100%;
-    padding: 0px 24px 0px 24px;
-}
-
 h4{
     font-size: 24px;
     font-weight: 700;
@@ -58,19 +51,18 @@ p{
 .project{
     @include dFlex($fd: row, $jc: normal, $ai: normal);
     height: 109px;
-    width: 100vw;
-    max-width: 75%;
+    width: 955px;
+    max-width: 50%;
 
     .hidden-pic-area{
-        @include dFlex();
-        visibility: hidden;
+        @include dFlex($dp: none);
         position: relative;
         top: 72px;
-        left: 208px;
+        left: 80px;
         background: none;
 
         &.visible{
-            visibility: visible !important;
+            display: flex !important;
         }
 
         .hidden-pic{
@@ -97,10 +89,16 @@ p{
 
 .project-content{
     @include dFlex($fd: row, $jc: space-between);
-    width: 100%;
+    width: 100vw;
     background: none;
 
     .project-name-info{
+        @include dFlex($fd: row, $jc: space-between);
+        width: 50vw;
+        max-width: 931px;
+        height: 100%;
+        padding: 0px 0px 0px 24px;
+
         &:hover{
             cursor: pointer;
             background-color: $soft_green;
@@ -115,27 +113,27 @@ p{
         color: white;
         background: none;
     }
+}
 
-    .skills{
+.skills{
+    @include dFlex($fd: row);
+    background: none;
+
+    .skill{
         @include dFlex($fd: row);
         background: none;
 
-        .skill{
-            @include dFlex($fd: row);
+        p{
             background: none;
+            font-size: 18px;
+            color: white;
+        }
 
-            p{
-                background: none;
-                font-size: 18px;
-                color: white;
-            }
-
-            .skill-seperator{
-                background: none;
-                height: 24px;
-                border: solid 1px $light_green;
-                margin: 0px 4px 0px 4px;
-            }
+        .skill-seperator{
+            background: none;
+            height: 24px;
+            border: solid 1px $light_green;
+            margin: 0px 4px 0px 4px;
         }
     }
 }
