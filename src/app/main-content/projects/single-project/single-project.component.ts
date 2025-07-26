@@ -48,6 +48,12 @@ export class SingleProjectComponent implements OnInit {
 
   show() {
     this.isShow = !this.isShow;
+
+    if (this.isShow) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
   }
 
   showNext() {

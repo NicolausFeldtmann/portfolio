@@ -51,14 +51,6 @@
     }
 }
 
-.links{
-    .link{
-        .nav-link{
-            font-size: 16px;
-        }
-    }
-}
-
 @media screen and (max-width: 800px) {
 
     .mail{
@@ -111,6 +103,10 @@
 
     .apendix{
 
+        .banner-content{
+            animation: slide-left 20s linear infinite !important;
+        }
+
         .center-banner{
             height: 36px;
 
@@ -130,6 +126,13 @@
 }
 
 @media screen and (max-width: 460px) {
+
+    .apendix{
+
+        .center-banner{
+            top: 200px !important;
+        }
+    }
 
     .center-section{
         

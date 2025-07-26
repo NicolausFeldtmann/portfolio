@@ -40,20 +40,20 @@
         "de": "Über mich"
   },
     "ME": {
-        "en": "Hey there, I'm Nicolaus! I'm an entusiastic an a bit nerdy career changer. I want to make coding my bew profession. The limetless posibilities to creat something new, inspire me again and again.",
-        "de": "Hallo, ich bin Nicolaus! Ich bin ein entusiastischer und ein bischen nerdiger Quereinsteiger. Ich würde gerne das Programieren zu meinem neuen Beruf machen. Dabei inspierieren mich die schier grenzenlosen Möglcihkeiten immer wieder aufs neue."
+        "en": "Hello, I'm Nicolaus! I'm an enthusiastic and somewhat nerdy career changer. I want to turn programming into my new profession. I'm continually fascinated by the seemingly boundless possibilities, which repeatedly inspire me.",
+        "de": "Hallo, ich bin Nicolaus! Ich bin ein begeisterter und etwas nerdiger Quereinsteiger. Mein Wunsch ist es, das Programmieren zu meinem neuen Beruf zu machen. Dabei fasziniert mich die scheinbar grenzenlose Vielfalt der Möglichkeiten, die mich immer wieder aufs Neue inspiriert."
   },
     "LOCATION": {
-        "en": "I'm based in Hambrg. I'm open to work remotly and/or in the office on site.",
-        "de": "Ich komme aus Hamburg. Ich wäre offen remote und/oder vor Ort im Büro zu arbeiten"
+        "en": "I am from Hamburg and flexible regarding the work arrangement. I am open to remote work as well as working onsite in an office.",
+        "de": "Ich komme aus Hamburg und bin flexibel hinsichtlich der Arbeitsweise. Ich bin offen für Remote-Arbeit sowie die Arbeit vor Ort im Büro."
   },
     "MIND": {
-        "en": "The more i know... I'm very interested in learning new technologies and improve my skills and becomming ervery day a better programmer than the day before.",
-        "de": "Je mehr ich weiß... Ich hab großes Intersse an neuen Technologien und natürlich mein Können zu verbessern und so a, ende des Tages ein besserer Progamierer zu sein, als am Tag zuvor."
+        "en": "The more I learn... I have a strong interest in new technologies and, of course, in improving my skills. My goal is to continuously enhance my abilities so that I am a better programmer at the end of each day than I was the day before.",
+        "de": "Je mehr ich weiß... Ich habe großes Interesse an neuen Technologien und natürlich daran, mein Können zu verbessern. Mein Ziel ist es, meine Fähigkeiten kontinuierlich zu verbessern, um am Ende des Tages ein besserer Programmierer zu sein als am Tag zuvor."
   },
     "SOLVE": {
-        "en": "Solving problems is part of my daily routine, espaecially for me as a cereer changer. This is most satisfying when you find a solution that dosen't seem obvious at first. Somthing a little like Columbu's egg =)",
-        "de": "Das lösen von Problemem ist mein Täglich Brot, gerade al Quereinsteiger. Das ist vor allem ein großartiger Gefühl, wenn man eine Lösung findet, die vieleicht nicht von vor herein offensichtlich erscheint. Ein bischen so wie das Ei des Kolumbus =D"
+        "en": "Solving problems is my daily bread, especially as a career changer. The most satisfying part is finding a solution that isn't immediately obvious at first glance. It's a bit like Columbus's egg =D",
+        "de": "Das Lösen von Problemen ist mein tägliches Brot, insbesondere als Quereinsteiger. Besonders befriedigend ist es, wenn man eine Lösung findet, die auf den ersten Blick nicht offensichtlich ist. Das ist ein bisschen wie das Ei des Columbus =D"
   },
     "TECHNOLOGY": {
         "en": "Technologies",
@@ -73,11 +73,11 @@
   },
     "ANOTHER": {
         "en": "another skill?",
-        "de": "andrre Kompetenzen?"
+        "de": "andre Kompetenzen?"
   },
     "FEEL": {
-        "en": "Feel free to contect me. I look forward to expanding on my previous knowledge.",
-        "de": "Fühl dich frei mich anzuschreiben. Ich freue mich immer mein bestehendes Können auszubauen."
+        "en": "Feel free to contact me. I’m always happy to expand my knowledge and skills.",
+        "de": "Fühl dich frei, mich zu kontaktieren. Ich freue mich stets darauf, mein Wissen und meine Fähigkeiten weiter auszubauen."
   },
     "TALK": {
         "en": "Let's talk",
@@ -89,7 +89,7 @@
   },
     "SELECTION": {
         "en": "Explore a selection of my work here - interact with projects to see my skills in action.",
-        "de": "Hier kannst du dir eine Auswhal meiner Arbeiten ansehen und ausprobieren."
+        "de": "Hier kannst du eine Auswahl meiner Arbeiten ansehen und selbst ausprobieren."
   },
     "FROSTE-GRAVE": {
         "en": "Side-Scroller game basedon object-oriented approach. Collect falling stars the fight the undead Icegigant.",
@@ -169,7 +169,7 @@
         "de": "Hallo Nicolaus, mich würde interessieren was..." 
   },
     "PROBLEM-CONTACT": {
-        "en": "If you need reinforcement of your team, please feel free to contact me. I am a quick learner can fir in well. I'm sure that I add value to your projects and suport to your team.",
-        "de": "Wenn du Verstärkung für dein Team brauchst, bitte fühl dich frei und schreib mich an. Ich lerne neue Dinge schnell und kann mich gut einfügen. Ich bin mir sicher das ich einen Mehrwert zu deinen Projekten beitragen und dein Team tatkräftig unterstützen kann." 
+        "en": "If you need additional support for your team, feel free to contact me. I learn new things quickly, adapt well, and am confident that I can contribute value to your projects and actively support your team.",
+        "de": "Falls du Verstärkung für dein Team benötigst, zögere bitte nicht, mich zu kontaktieren. Ich lerne neue Dinge schnell, füge mich gut ein und bin überzeugt, dass ich einen Mehrwert zu deinen Projekten beitragen sowie dein Team tatkräftig unterstützen kann." 
   }
 }

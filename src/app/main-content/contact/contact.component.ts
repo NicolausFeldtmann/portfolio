@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { TranslationsService } from '../../translationService';
 import { LanguageService } from '../../language.service';
 import { FormsModule } from '@angular/forms';
-import { flatMap } from 'rxjs';
 import { CommonModule } from '@angular/common';
 
 @Component({

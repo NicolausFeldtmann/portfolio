@@ -1,11 +1,11 @@
 <div class="above-content">
     <div class="mobile-menu-background" [class.show]="isShow" (click)="showMenu()">
-        <div class="mobile-menu">
+        <div class="mobile-menu" (click)="$event.stopPropagation()">
             <div class="mobile-menu-content">
                 <div class="mobile-links">
-                    <a class="mobile-link" href="#aboutMe">{{ translate('ABOUT-ME') }}</a>
-                    <a class="mobile-link" href="#skill-set">{{ translate('SKILLS') }}</a>
-                    <a class="mobile-link" href="#projects">{{ translate('PROJECTS') }}</a>
+                    <a class="mobile-link" href="#aboutMe" (click)="showMenu()">{{ translate('ABOUT-ME') }}</a>
+                    <a class="mobile-link" href="#skill-set" (click)="showMenu()">{{ translate('SKILLS') }}</a>
+                    <a class="mobile-link" href="#projects" (click)="showMenu()">{{ translate('PROJECTS') }}</a>
                 </div>
                 <div class="switch" [class.switched]="isSwitched" (click)="toggleLanguage()">
                     <div class="toggle-switch"></div>
@@ -88,7 +88,7 @@
             <div class="right-side">
                 <a class="mail" href="#">nicolaus.feldtmann&#64;gmx.de</a>
                 <div class="link-icons">
-                    <a class="side-link" href="#">
+                    <a class="side-link" href="#contact">
                         <div class="icon-mail" alt="mail"></div>
                         <img class="cuteDot" src="./assets/img/PNG/icons-green/cuteDot.png" alt="">
                     </a>

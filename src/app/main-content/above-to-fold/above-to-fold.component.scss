@@ -9,7 +9,7 @@
 
 .above-content{
     @include dFlex();
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
     background-image: url(/assets/img/SVG/background.svg);
     background-size: cover;
@@ -104,28 +104,28 @@ nav{
 .links{
     @include dFlex($fd: row);
     background: none;
+}
 
-    .link{
-        @include dFlex();
+.link{
+    @include dFlex();
+    background: none;
+
+    .nav-link{
+        font-family: 'Fira Code';
+        font-weight: 400;
         background: none;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin: 0px 12px 0px 12px;
+        transition: 0.2s;
+    }
 
-        .nav-link{
-            font-family: 'Fira Code';
-            font-weight: 400;
-            background: none;
-            text-decoration: none;
-            color: white;
-            font-size: 20px;
-            margin: 0px 12px 0px 12px;
-            transition: 0.2s;
-        }
+    &:hover{
+        cursor: pointer;
 
-        &:hover{
-            cursor: pointer;
-
-            .cuteDot{
-                visibility: visible;
-            }
+        .cuteDot{
+            visibility: visible;
         }
     }
 }

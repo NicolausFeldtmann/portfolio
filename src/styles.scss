@@ -17,6 +17,10 @@ $brigth_green: rgb(0, 219, 186);
     background-color: $dark_green;
 }
 
+.no-scroll{
+    overflow: hidden !important;
+}
+
 ::-webkit-scrollbar{
     width: 10px;
     border-radius: 5px;
