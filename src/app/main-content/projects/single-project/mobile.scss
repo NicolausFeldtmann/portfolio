@@ -162,6 +162,10 @@
     .icon-bar{
         margin: 0;
     }
+
+    .info-right{
+        margin: 0px 24px 0px 24px;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -183,6 +187,13 @@
 
     .info-right{
         height: auto;
+
+        .info-img-area{
+
+            .info-img{
+                width: 75%;
+            }
+        }
     }
 
     .info-left{

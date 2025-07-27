@@ -32,7 +32,7 @@
         font-weight: 700;
         font-size: 64px;
         color: $brigth_green;
-        margin: 0px 0px 16px 40px;
+        margin: 0px 0px 0px 40px;
     }
 
     .box{
@@ -50,7 +50,7 @@
         color: white;
         font-size: 18px;
         font-weight: 400;
-        margin: 16px 40px 16px 40px;
+        margin: 8px 40px 16px 40px;
     }
 
     .sub-line{
@@ -78,7 +78,8 @@
         .skill-btn{
             @include dFlex();
             height: 48px;
-            width: 172px;
+            width: auto;
+            max-width: 196px;
             background: none;
             color: white;
             font-size: 18px;
@@ -87,6 +88,7 @@
             margin: 0px 24px 0px 24px;
             border-radius: 34px;
             overflow: hidden;
+            text-decoration: none;
             transition: 0.5s;
 
             .btn-para{
