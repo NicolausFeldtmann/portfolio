@@ -36,7 +36,7 @@ export class ProjectdataService {
             name: "Join",
             proNr: "02",
             descrKey: "PROJECT2_DESCRIPTION",
-            gitLink: "https://github.com/NicolausFeldtmann/Join",
+            gitLink: "https://github.com/Marcel-Lukas/Task-Management-Software-Examination",
             projectLink: "https://nicolaus-feldtmann.developerakademie.net/Join/",
             img1: "join.png",
             img2: "join2.png",
