@@ -66,7 +66,7 @@
             background: none;
             color: $brigth_green;
             font-size: 24px;
-            margin: 0px 0px 0px 8px;
+            margin: 0px 0px 0px 12px;
         }
     }
 
@@ -74,40 +74,54 @@
         @include dFlex($ai: normal);
         background: none;
         margin: 0px 0px 0px 12px;
+    }
+}
 
-        .skill-btn{
-            @include dFlex();
-            height: 48px;
-            width: auto;
-            max-width: 196px;
+.skill-btn{
+    @include dFlex();
+    height: 48px;
+    width: auto;
+    max-width: 196px;
+    background: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border: solid 1px white;
+    margin: 0px 24px 0px 24px;
+    border-radius: 34px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: 0.5s;
+
+    .btn-para{
+        display: flex;
+        justify-content: center;
+        background: none;
+        width: 100%;
+    }
+
+    &:hover{
+        cursor: pointer;
+        color: $brigth_green;
+        border: solid 1px $brigth_green;
+        
+
+        .btn-para{
             background: none;
-            color: white;
-            font-size: 18px;
-            font-weight: 400;
-            border: solid 1px white;
-            margin: 0px 24px 0px 24px;
-            border-radius: 34px;
-            overflow: hidden;
-            text-decoration: none;
-            transition: 0.5s;
-
-            .btn-para{
-                background: none;
-            }
-
-            &:hover{
-                cursor: pointer;
-                color: $brigth_green;
-                border: solid 1px $brigth_green;
-                
-
-                .btn-para{
-                    background: none;
-                    animation: slide-left 2s linear infinite;
-                    color: $brigth_green;
-                }
-            }
+            animation: slide-left 5s linear infinite;
+            color: $brigth_green;
         }
+    }
+}
+
+.para-banner{
+    @include dFlex($fd: unset);
+    width: 128%;
+    height: 100%;
+    background: none;
+
+    &:hover{
+        justify-content: end;
     }
 }
 
@@ -186,14 +200,18 @@
 
             .sub-line{
                 margin: 6px 40px 6px 40px;
+                flex-direction: column;
+                align-items: unset;
+
+                .color-sub{
+                    margin: 0;
+                }
             }
         }
     }
 
-    .btn-area{
-        .skill-btn{
-            margin: 24px 24px 24px 24px;
-        }
+    .skill-btn{
+        margin: 24px 24px 24px 24px;
     }
 
     .skill-row{
@@ -208,6 +226,7 @@
 
     .skill-content{
         height: auto;
+        margin: 48px 0px 0px 0px;
     }
 
     .center-section{
@@ -221,6 +240,15 @@
     .info-box{
         .box{
             width: 412px;
+
+            .sub-line{
+                flex-direction: row;
+                align-items: center;
+
+                .color-sub{
+                    margin: 0px 0px 0px 12px;
+                }
+            }
 
             .btn-area{
 
@@ -249,11 +277,10 @@
             width: 300px;
             height: auto;
 
-            .btn-area{
-                .skill-btn{
-                    margin: 16px 40px 16px 40px;
-                }                                      
-            }
+            .skill-btn{
+                margin: 16px 40px 16px 40px;
+            }                                      
+
 
             h2{
                 font-size: 48px;

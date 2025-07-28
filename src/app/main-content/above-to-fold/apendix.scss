@@ -165,12 +165,7 @@
     }
 }
 
-@-webkit-keyframes mover {
+@keyframes slide-left {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-20px); }
-}
-
-@keyframes mover {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-15px); }
+    100% { transform: translateX(-300%); }
 }

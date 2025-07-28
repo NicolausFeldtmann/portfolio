@@ -244,6 +244,18 @@ nav{
     }
 }
 
+.para-banner{
+    @include dFlex($fd: unset);
+    width: 200%;
+    height: 100%;
+    background: none;
+
+    &:hover{
+        justify-content: end;
+    }
+}
+
+
 
 
 

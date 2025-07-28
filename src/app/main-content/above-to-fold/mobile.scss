@@ -64,6 +64,17 @@
     .right-side{
         height: 336px !important;
     }
+
+    .apendix{
+
+        .center-banner{
+            top: 280px !important;
+        }
+
+        .banner-content{
+            animation: slide-left 75s linear infinite !important;
+        }
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -82,12 +93,14 @@
 
     .center-btn{
         border: 1px solid $brigth_green !important;
+
+        .btn-para{
+            animation: slide-left 5s linear infinite;
+        }
     }
 
-    .btn-para{
-        background: none;
-        animation: slide-left 2s linear infinite;
-        color: $brigth_green;
+    .para-banner{
+        justify-content: end;
     }
 
     .center-section{
@@ -104,7 +117,7 @@
     .apendix{
 
         .banner-content{
-            animation: slide-left 20s linear infinite !important;
+            animation: slide-left 60s linear infinite !important;
         }
 
         .center-banner{
@@ -132,6 +145,16 @@
         .center-banner{
             top: 200px !important;
         }
+    }
+
+    .right-side{
+        position: relative;
+        height: 270px !important;
+    }
+
+    .left-side{
+        position: relative;
+        height: 224px !important;
     }
 
     .center-section{

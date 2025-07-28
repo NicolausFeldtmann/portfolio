@@ -17,11 +17,11 @@
   },
     "CHECK": {
         "en": "Check my work",
-        "de": "teste meine Arbeiten"
+        "de": "Teste meine Arbeiten"
   },
     "CONTACT-ME": {
         "en": "Contact me",
-        "de": "kontacktiere Mich"
+        "de": "Kontaktiere Mich"
   },
     "AVAILABLE": {
         "en": "Available for remote work",
@@ -48,8 +48,8 @@
         "de": "Ich komme aus Hamburg und bin flexibel hinsichtlich der Arbeitsweise. Ich bin offen für Remote-Arbeit sowie die Arbeit vor Ort im Büro."
   },
     "MIND": {
-        "en": "The more I learn... I have a strong interest in new technologies and, of course, in improving my skills. My goal is to continuously enhance my abilities so that I am a better programmer at the end of each day than I was the day before.",
-        "de": "Je mehr ich weiß... Ich habe großes Interesse an neuen Technologien und natürlich daran, mein Können zu verbessern. Mein Ziel ist es, meine Fähigkeiten kontinuierlich zu verbessern, um am Ende des Tages ein besserer Programmierer zu sein als am Tag zuvor."
+        "en": "'The more you know, the more you know you don't know.' I have a strong interest in new technologies and, of course, in improving my skills. My goal is to continuously enhance my abilities so that I am a better programmer at the end of each day than I was the day before.",
+        "de": "'Je mehr ich weiß, um so mehr wieß ich das ich nichts weiß.' Ich habe großes Interesse an neuen Technologien und natürlich daran, mein Können zu verbessern. Mein Ziel ist es, meine Fähigkeiten kontinuierlich zu verbessern, um am Ende des Tages ein besserer Programmierer zu sein als am Tag zuvor."
   },
     "SOLVE": {
         "en": "Solving problems is my daily bread, especially as a career changer. The most satisfying part is finding a solution that isn't immediately obvious at first glance. It's a bit like Columbus's egg =D",
@@ -85,7 +85,7 @@
   },
     "FEATURE": {
         "en": "Featured Projects",
-        "de": "Ausgewählte Projecte"
+        "de": "Ausgewählte Projekte"
   },
     "SELECTION": {
         "en": "Explore a selection of my work here - interact with projects to see my skills in action.",
@@ -97,7 +97,7 @@
   },
     "CONTACT": {
         "en": "Contact me",
-        "de": "Kontacktier mich"
+        "de": "Kontaktier mich"
   },
     "WORK": {
         "en": "Let's work together",
