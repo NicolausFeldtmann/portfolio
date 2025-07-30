@@ -8,7 +8,7 @@
 }
 
 .footer-logos{
-    @include dFlex($fd: row, $jc: space-around);
+    @include dFlex($fd: row, $jc: space-between);
     width: 100%;
     background: none;
 }
@@ -16,8 +16,8 @@
 .footer-content{
     @include dFlex($fd: row, $jc: space-between);
     margin: 72px 72px 72px 72px;
-    width: 90%;
-    max-width: 1220px;
+    width: 100%;
+    max-width: 1920px;
 }
 
 .logo-area{

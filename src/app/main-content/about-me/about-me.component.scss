@@ -11,8 +11,11 @@
 
 .center-section{
     @include dFlex($fd: row, $ai: normal, $jc: space-around);
-    height: 85dvh;
+    height: 85%;
+    max-height: 918px;
     width: 100%;
+    z-index: 1;
+    background: none;
 }
 
 .me-box{
@@ -25,7 +28,7 @@
 
     .me-img{
         position: relative;
-        top: 448px;
+        top: 478px;
         left: 36px;
         width: 480px;
         height: 568px;
@@ -35,6 +38,8 @@
 
     .me-img-shadow{
         width: 480px;
+        position: relative;
+        top: 28px;
     }
 }
 
@@ -139,7 +144,7 @@
         position: unset;
         justify-content: normal;
         margin: 48px 0px 0px 0px;
-        height: 1080px;
+        height: 1100px;
     }
 
     .center-section{

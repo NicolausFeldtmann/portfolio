@@ -171,5 +171,9 @@
     "PROBLEM-CONTACT": {
         "en": "If you need additional support for your team, feel free to contact me. I learn new things quickly, adapt well, and am confident that I can contribute value to your projects and actively support your team.",
         "de": "Falls du Verstärkung für dein Team benötigst, zögere bitte nicht, mich zu kontaktieren. Ich lerne neue Dinge schnell, füge mich gut ein und bin überzeugt, dass ich einen Mehrwert zu deinen Projekten beitragen sowie dein Team tatkräftig unterstützen kann." 
+  },
+    "legal": {
+        "en": "Legal Notice",
+        "de": "Rechtlicher Hinweis" 
   }
 }

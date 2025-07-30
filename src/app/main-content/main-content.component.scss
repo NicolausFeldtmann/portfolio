@@ -14,8 +14,16 @@
 }
 
 .skill-set{
-    background-image: url(/assets/img/SVG/backgroundSkills.svg);
+    height: 100dvh;
+    max-height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position:25% 75%;
+}
+
+@media screen and (max-width: 870px) {
+
+    .skill-set{
+        height: 1100px;
+    }
 }

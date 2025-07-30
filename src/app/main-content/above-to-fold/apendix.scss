@@ -51,6 +51,7 @@
     @include dFlex($fd: row, $jc: space-between, $ai: end);
     background: none;
     width: 90%;
+    height: 30%;
     max-width: 1750px;
     position: absolute;
     bottom: 0;

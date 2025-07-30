@@ -17,7 +17,7 @@ import { enableDebugTools } from '@angular/platform-browser';
 export class AboveToFoldComponent {
   isSwitched = true;
   isShow = false;
-  currentLanguage: string = 'en';
+  currenLanguage: any;
 
   constructor(
     private translationService: TranslationsService,
@@ -25,14 +25,13 @@ export class AboveToFoldComponent {
   ) {}
 
   ngOnInit() {
-    this.languageService.currentLanguage$.subscribe(lang => {
-      this.currentLanguage = lang;
-    });
+      this.languageService.currentLanguage$.subscribe(lang => {
+        this.currenLanguage = lang;
+      });
   }
 
-  translate(text: string): string {
-    this.isSwitched = !this.isSwitched;
-    return this.translationService.translate(text, this.currentLanguage);
+  translate(textKey: string): string {
+    return this.translationService.translate(textKey, this.currenLanguage);
   }
 
   switchLanguage(lang: string): void {
@@ -40,7 +39,7 @@ export class AboveToFoldComponent {
   }
 
   toggleLanguage() {
-    if (this.currentLanguage === 'en') {
+    if (this.currenLanguage === 'en') {
       this.switchLanguage('de');
       this.isSwitched = false;
     } else {
