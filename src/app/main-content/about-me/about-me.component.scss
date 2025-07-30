@@ -2,8 +2,9 @@
 
 .about-me{
     @include dFlex();
-    height: 1110px;
+    height: 100dvh;
     width: 100%;
+    max-width: 1920px;
     top: 80px;
     background: none;
 }
@@ -138,6 +139,7 @@
         position: unset;
         justify-content: normal;
         margin: 48px 0px 0px 0px;
+        height: 1080px;
     }
 
     .center-section{

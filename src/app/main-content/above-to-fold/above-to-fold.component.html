@@ -13,82 +13,62 @@
             </div>
         </div>
     </div>
-        <nav>
-            <div class="link-area">
-                <div class="switch" [class.switched]="isSwitched" (click)="toggleLanguage()">
-                    <div class="toggle-switch"></div>
+    <nav>
+        <div class="link-area">
+            <div class="switch" [class.switched]="isSwitched" (click)="toggleLanguage()">
+                <div class="toggle-switch"></div>
+            </div>
+            <div class="links">
+                <div class="link">
+                    <a class="nav-link" href="#aboutMe">{{ translate('ABOUT-ME') }}</a>
+                    <img class="cuteDot" src="./assets/img/PNG/icons-green/cuteDot.png" alt="cutDot">
                 </div>
-                <div class="links">
-                    <div class="link">
-                        <a class="nav-link" href="#aboutMe">{{ translate('ABOUT-ME') }}</a>
-                        <img class="cuteDot" src="./assets/img/PNG/icons-green/cuteDot.png" alt="cutDot">
-                    </div>
-                    <div class="link">
-                        <a class="nav-link" href="#skill-set">{{ translate('SKILLS') }}</a>
-                        <img class="cuteDot" src="./assets/img/PNG/icons-green/cuteDot.png" alt="cuteDot">
-                    </div>
-                    <div class="link">
-                        <a class="nav-link" href="#projects">{{ translate('PROJECTS') }}</a>
-                        <img class="cuteDot" src="./assets/img/PNG/icons-green/cuteDot.png" alt="cuteDot">
-                    </div>
+                <div class="link">
+                    <a class="nav-link" href="#skill-set">{{ translate('SKILLS') }}</a>
+                    <img class="cuteDot" src="./assets/img/PNG/icons-green/cuteDot.png" alt="cuteDot">
                 </div>
-            </div>
-            <div class="logo-area">
-                <img class="logo-nav" src="./assets/img/PNG/logos/newLogo.png" alt="placeholder logo">
-            </div>
-        </nav>
-        <div class="mobile-nav">
-            <div class="mobile-logo-area">
-                <img class="mobile-logo" src="./assets/img/PNG/logos/solo-logo.png" alt="">
-            </div>
-            <div class="mobile-btn">
-                <img class="mobile-btn-img" (click)="showMenu()" src="./assets/img/JPG/menu.jpg" alt="">
+                <div class="link">
+                    <a class="nav-link" href="#projects">{{ translate('PROJECTS') }}</a>
+                    <img class="cuteDot" src="./assets/img/PNG/icons-green/cuteDot.png" alt="cuteDot">
+                </div>
             </div>
         </div>
-        <div class="center-section">
-            <h3>Frontend Developer</h3>
-            <h1>Nicolaus Feldtmann</h1>
-            <div class="btn-area">
-                <a class="center-btn" href="#projects">
-                    <div class="para-banner">
-                        <p class="btn-para">{{ translate('CHECK') }}</p>
-                    </div>
-                </a>
-                <a class="center-btn" href="#contact">
-                    <div class="para-banner">
-                        <p class="btn-para">{{ translate('CONTACT-ME') }}</p>
-                    </div>
-                </a>
-            </div>
+        <div class="logo-area">
+            <img class="logo-nav" src="./assets/img/PNG/logos/newLogo.png" alt="placeholder logo">
         </div>
-        <div class="apendix">
+    </nav>
+    <div class="mobile-nav">
+        <div class="mobile-logo-area">
+            <img class="mobile-logo" src="./assets/img/PNG/logos/solo-logo.png" alt="">
+        </div>
+        <div class="mobile-btn">
+            <img class="mobile-btn-img" (click)="showMenu()" src="./assets/img/JPG/menu.jpg" alt="">
+        </div>
+    </div>
+    <div class="center-section">
+        <h3>Frontend Developer</h3>
+        <h1>Nicolaus Feldtmann</h1>
+        <div class="btn-area">
+            <a class="center-btn" href="#projects">
+                <div class="para-banner">
+                    <p class="btn-para">{{ translate('CHECK') }}</p>
+                </div>
+            </a>
+            <a class="center-btn" href="#contact">
+                <div class="para-banner">
+                    <p class="btn-para">{{ translate('CONTACT-ME') }}</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="apendix">
+        <div class="side-element-area">
             <div class="left-side">
                 <div class="arrow-box">
                     <img class="jumping-arrow" src="./assets/img/PNG/arrows.png" alt="jumping-arrow">
                 </div>
                 <div class="vert-line"></div>
             </div>
-
-            <div class="center-banner">
-                <div class="banner-content">
-                    <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>                    
-                    <div class="banner-para"><div class="dot"></div>Frontend Developer</div>                   
-                    <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div>                   
-                    <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>                   
-                    <div class="banner-para"><div class="dot"></div>Frontend Developer</div>                   
-                    <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div>                   
-                    <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>
-                    <div class="banner-para"><div class="dot"></div>Frontend Developer</div>
-                    <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div>
-                    <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>
-                    <div class="banner-para"><div class="dot"></div>Frontend Developer</div>
-                    <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div>
-                    <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>
-                    <div class="banner-para"><div class="dot"></div>Frontend Developer</div>
-                    <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div>
-                </div>
-            </div>
-
             <div class="right-side">
                 <a class="mail" href="#">nicolaus.feldtmann&#64;gmx.de</a>
                 <div class="link-icons">
@@ -106,6 +86,36 @@
                     </a>
                 </div>
                 <div class="vert-line"></div>
+            </div> 
+        </div>
+
+        <div class="center-banner">
+            <div class="banner-content">
+                <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>                    
+                <div class="banner-para"><div class="dot"></div>Frontend Developer</div>                   
+                <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div>                   
+                <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>                   
+                <div class="banner-para"><div class="dot"></div>Frontend Developer</div>                   
+                <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div>                   
+                <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>
+                <div class="banner-para"><div class="dot"></div>Frontend Developer</div>
+                <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div>
+                <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>
+                <div class="banner-para"><div class="dot"></div>Frontend Developer</div>
+                <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div>
+                <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>
+                <div class="banner-para"><div class="dot"></div>Frontend Developer</div>
+                <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div>
+                <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>                    
+                <div class="banner-para"><div class="dot"></div>Frontend Developer</div>                   
+                <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div> 
+                <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>                    
+                <div class="banner-para"><div class="dot"></div>Frontend Developer</div>                   
+                <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div> 
+                <div class="banner-para"><div class="dot"></div>{{ translate('available') }}</div>                    
+                <div class="banner-para"><div class="dot"></div>Frontend Developer</div>                   
+                <div class="banner-para"><div class="dot"></div>{{ translate('BASED') }}</div> 
             </div>
         </div>
+    </div>
 </div>

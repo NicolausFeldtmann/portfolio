@@ -3,7 +3,8 @@
 .projects-content{
     @include dFlex($ai: normal);
     width: 100%;
-    height: 105vh;
+    max-width: 1920px;
+    height: 100dvh;
     margin: 0px 0px 0px 72px;
 }
 

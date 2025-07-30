@@ -4,6 +4,7 @@
     @include dFlex($fd: row, $jc: space-between);
     margin: 0px 72px 0px 72px;
     width: 90%;
+    max-width: 1920px;
 }
 
 h2{

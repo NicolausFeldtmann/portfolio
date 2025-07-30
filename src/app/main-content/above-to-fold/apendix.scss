@@ -1,7 +1,7 @@
 @import './../../../styles.scss';
 
 .apendix{
-    @include dFlex($fd: row, $jc: space-between);
+    @include dFlex($jc: space-between);
     background: none;
     width: 100%;
 
@@ -47,9 +47,17 @@
     }
 }
 
+.side-element-area{
+    @include dFlex($fd: row, $jc: space-between, $ai: end);
+    background: none;
+    width: 90%;
+    max-width: 1750px;
+    position: absolute;
+    bottom: 0;
+}
+
 .left-side{
     @include dFlex();
-    position: absolute;
     left: 96px;
     bottom: 0;
     background: none;
@@ -83,9 +91,8 @@
 
 .right-side{
     @include dFlex();
-    position: absolute;
     right: 96px;
-    bottom: 0;
+    top: 56px;
     background: none;
     height: 480px;
     width: 32px;
@@ -166,6 +173,6 @@
 }
 
 @keyframes slide-left {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-300%); }
+    0% { transform: translateX(150%); }
+    100% { transform: translateX(-150%); }
 }

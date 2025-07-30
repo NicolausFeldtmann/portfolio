@@ -11,10 +11,9 @@
     @include dFlex();
     height: 100dvh;
     width: 100%;
-    background-image: url(/assets/img/SVG/background.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:50% 50%;
+    max-width: 1920px;
+    background: none;
+
 }
 
 .mobile-menu-background{
@@ -73,6 +72,7 @@
 nav{
     @include dFlex($fd: row);
     width: 85%;
+    max-width: 1750px;
     height: 98px;
     position: absolute;
     top: 0;
@@ -245,14 +245,20 @@ nav{
 }
 
 .para-banner{
-    @include dFlex($fd: unset);
+    @include dFlex( $fd: unset);
     width: 200%;
     height: 100%;
     background: none;
 
     &:hover{
-        justify-content: end;
+        width: 148%;
+        justify-content: space-around;
     }
+}
+
+@keyframes slide-left {
+    0% { transform: translate(150%); };
+    100% { transform: translate(-150%); }
 }
 
 

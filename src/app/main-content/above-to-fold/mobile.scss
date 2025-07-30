@@ -95,12 +95,14 @@
         border: 1px solid $brigth_green !important;
 
         .btn-para{
+            color: $brigth_green;
             animation: slide-left 5s linear infinite;
         }
     }
 
     .para-banner{
-        justify-content: end;
+        width: 148%;
+        justify-content: space-around;
     }
 
     .center-section{
@@ -149,12 +151,14 @@
 
     .right-side{
         position: relative;
-        height: 270px !important;
+        height: 372px !important;
+        right: 36px !important;
     }
 
     .left-side{
         position: relative;
         height: 224px !important;
+        left: 36px !important;
     }
 
     .center-section{
@@ -197,7 +201,6 @@
     }
 
     .right-side{
-        height: 200px !important;
 
         .mail{
             display: none;
@@ -233,5 +236,10 @@
             top: 105px;
         }
     }
+}
+
+@keyframes slide-left {
+    0% { transform: translateX(150%); }
+    100% { transform: translateX(-150%); }
 }
 

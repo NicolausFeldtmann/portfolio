@@ -17,6 +17,7 @@
     @include dFlex($fd: row, $jc: space-between);
     margin: 72px 72px 72px 72px;
     width: 90%;
+    max-width: 1220px;
 }
 
 .logo-area{

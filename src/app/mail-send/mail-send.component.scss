@@ -7,7 +7,8 @@
 
     .message-box{
         @include dFlex($jc: normal);
-        height: 75%;
+        height: 50%;
+        min-height: 572px;
         width: 75%;
         background: none;
         background-color: $soft_green;

@@ -6,6 +6,7 @@
     .txt-area{
         @include dFlex($ai: normal);
         width: 75%;
+        max-width: 1920px;
         background: none;
         background-color: $soft_green;
         border: solid 1px $brigth_green;

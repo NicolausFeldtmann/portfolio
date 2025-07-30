@@ -7,4 +7,15 @@
 
 .landing{
     height: 100dvh;
+    background-image: url(/assets/img/SVG/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+}
+
+.skill-set{
+    background-image: url(/assets/img/SVG/backgroundSkills.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:25% 75%;
 }
