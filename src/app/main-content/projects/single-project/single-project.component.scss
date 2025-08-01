@@ -84,6 +84,7 @@ p{
 
     .show{
         display: flex;
+        animation: slideInFromRight 0.3s ease-in-out;
     }
 }
 
@@ -156,6 +157,7 @@ p{
     backdrop-filter: blur(2px);
     display: none;
     z-index: 3;
+        animation: slideInFromRight 0.1s ease-in;
 }
 
 .pro-info{
@@ -369,6 +371,17 @@ p{
             background-position: center;
             background-size: contain;
         }
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
     }
 }
 

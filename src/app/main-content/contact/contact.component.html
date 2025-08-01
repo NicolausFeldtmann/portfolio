@@ -8,23 +8,37 @@
             <p> {{ translate('NEED') }}</p> <p class="para-color"> {{ translate('LETS-TALK') }}</p>
         </div>
     </div>
-    <form class="contact-info" (submit)="sendMail($event)">
+
+    <form class="contact-info" (ngSubmit)="sendMail($event)" #contactForm="ngForm">
+
         <label class="contact-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">{{ translate('NAME') }}</h4>
-            <input type="text" id="name" name="name" [(ngModel)]="name" (ngModelChange)="changeBtn()" placeholder="{{ translate('PLACEHOLDER1') }}">
+            <input #name="ngModel" [(ngModel)]="contactData.name"  type="text" id="name" name="name" placeholder="{{ translate('PLACEHOLDER1') }}" required>
+            @if (!name.valid && name.touched) {
+                <span>{{ translate('NAME-REQU') }}</span>
+            }
         </label>
+
         <label class="contact-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">{{ translate('E-MAIL') }}</h4>
-            <input type="email" name="email" [(ngModel)]="email" (ngModelChange)="changeBtn()" placeholder="{{ translate('PLACEHOLDER2') }}">
+            <input #email="ngModel" [(ngModel)]="contactData.email" type="email" name="email" placeholder="{{ translate('PLACEHOLDER2') }}" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+            @if (!email.valid && email.touched) {
+                <span>{{ translate('MAIL-REQU') }}</span>
+            }
         </label>
+
         <label class="contact-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">{{ translate('CONCERN') }}</h4>
-            <input type="text" name="message" [(ngModel)]="message" (ngModelChange)="changeBtn()" placeholder="{{ translate('PLACEHOLDER3') }}">
+            <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" type="text" name="message" placeholder="{{ translate('PLACEHOLDER3') }}" required></textarea>
+            @if (!message.valid && message.touched) {
+                <span class="span-txt">{{ translate('MESS-REQU') }}</span>
+            }
             <div class="seperator"></div>
         </label>
+
         <div class="contact-interact">
             <div class="confirm">
                 <div class="check-box">
@@ -32,9 +46,11 @@
                 </div>
                 <p class="confimr-para">{{ translate('CHECK1') }} <a class="confirm-link" href="legal">{{ translate('PRIVICY') }}</a>{{ translate('CHECK2') }}</p>
             </div>
+
             <div class="btn-area">
-                <button class="btn" [class.active]="isActive" type="submit" [disabled]="!isFormValid()">Say Hello ;)</button>
+                <button class="btn" [class.active]="isActive" type="submit">Say Hello ;)</button>
             </div>
         </div>
     </form>
 </div>
+

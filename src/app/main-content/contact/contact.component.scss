@@ -76,9 +76,26 @@ h4{
         font-family: 'Karla';
         font-weight: 400;
         font-size: 18px;
+        height: 28px;
         color: white;
         border: none;
-        margin: 5px 0px 5px 0px;
+        margin: 0px 0px 5px 0px;
+    }
+
+    textarea{
+        font-family: 'Karla';
+        font-weight: 400;
+        font-size: 18px;
+        color: white;
+        border: none;
+        margin: 0px 0px 5px 0px;
+        resize: none;
+    }
+
+    textarea:focus{
+        outline: none;
+        border: none;
+        background-color: $dark_green;
     }
 
     input:focus{
@@ -103,6 +120,22 @@ h4{
             color: white;
         }
     }
+}
+
+span{
+    font-family: 'Karla';
+    font-size: 18px;
+    color: #D45C64;
+    position: relative;
+    bottom: 28px
+}
+
+.span-txt{
+    font-family: 'Karla';
+    font-size: 18px;
+    color: #D45C64;
+    position: relative;
+    bottom: 48px
 }
 
 .contact-interact{
@@ -146,7 +179,7 @@ h4{
     border: solid 1px rgb(148, 148, 148);
     border-radius: 34px;
     margin: 16px 0px 12px 0px;
-    overflow: hidden;
+    //overflow: hidden;
 
     &.active{
         color: white;
