@@ -4,6 +4,7 @@ import { LanguageService } from '../../language.service';
 import { FormsModule, NgForm } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-contact',
@@ -11,7 +12,8 @@ import { HttpClient } from '@angular/common/http';
   imports: 
   [
     FormsModule,
-    CommonModule
+    CommonModule,
+    RouterLink
   ],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
@@ -19,6 +21,7 @@ import { HttpClient } from '@angular/common/http';
 export class ContactComponent implements OnInit {
     isChecked = false;
     isActive = false;
+    isShow = false;
     currenLanguage: any;
     contactData = {
         name: '',
@@ -65,6 +68,10 @@ export class ContactComponent implements OnInit {
         this.isActive = this.isFormValid();
     }
 
+    show() {
+        this.isShow = !this.isShow;
+    }
+
     sendMail(event: any){
         if (!this.isFormValid()) {
             return;
@@ -83,7 +90,7 @@ export class ContactComponent implements OnInit {
                     'Accept': 'application/json'
                 }
             }).then(() => {
-                window.location.href = "/send";
+                this.show();
             }).catch((error) => {
                 console.log(error);
             });

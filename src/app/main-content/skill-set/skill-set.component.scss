@@ -2,24 +2,27 @@
 
 .backgroun-img{
     position: absolute;
+    left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
+    max-width: 1240px;
     object-fit: cover;
 }
 
 .skill-content{
     @include dFlex();
     width: 100%;
-    max-width: 1920px;
-    height: 80dvh;
     max-height: 700px;
     background: none;
 }
 
 .center-section{
-    @include dFlex($fd: row);
+    @include dFlex($fd: row, $jc: unset);
     background: none;
+    width: 100%;
+    max-width: 1920px;
     z-index: 1;
+    margin: 0px 0px 0px 72px;
 }
 
 .info-box{
@@ -94,7 +97,7 @@
     font-size: 18px;
     font-weight: 400;
     border: solid 1px white;
-    margin: 0px 24px 0px 24px;
+    margin: 12px 24px 0px 24px;
     border-radius: 34px;
     overflow: hidden;
     text-decoration: none;
@@ -105,6 +108,7 @@
         justify-content: center;
         background: none;
         width: 100%;
+        margin: 0;
     }
 
     &:hover{
@@ -144,36 +148,38 @@
     @include dFlex($fd: row, $jc: normal);
     background: none;
     width: 100%;
+}
 
-    .skill-entry{
+.skill-entry{
+    @include dFlex();
+    background: none;
+    width: 104px;
+    height: 116px;
+    margin: 0px 36px 0px 36px;
+
+    .skill-icon-box{
         @include dFlex();
         background: none;
-        width: 104px;
-        height: 116px;
-        margin: 0px 36px 0px 36px;
+        width: 112px;
+        height: 126px;
+        
+        .skill-icon{
+            width: 60px;
+            height: 60px;
+            transition: transform .2s;
 
-        .skill-icon-box{
-            @include dFlex();
-            background: none;
-            width: 112px;
-            height: 126px;
-            
-            .skill-icon{
-                width: 60px;
-                height: 60px;
-                transition: transform .2s;
-
-                &:hover{
-                    transform: scale(1.2);
-                }
+            &:hover{
+                transform: scale(1.2);
             }
         }
+    }
 
-        .skill-name{
-            background: none;
-            color: white;
-            margin: 8px 0px 8px 0px;
-        }
+    .skill-name{
+        display: flex;
+        text-align: center;
+        background: none;
+        color: white;
+        margin: 8px 0px 8px 0px;
     }
 }
 
@@ -186,11 +192,9 @@
         }
     }
 
-    .skill-row{
 
-        .skill-entry{
-            margin: 0px 12px 0px 12px;
-        }
+    .skill-entry{
+        margin: 0px 12px 0px 12px;
     }
 }
 
@@ -199,7 +203,7 @@
     .info-box{
         .box{
             width: 360px;
-            height: 556px;
+            height: 600px;
 
             h2{
                 font-size: 56px;
@@ -226,11 +230,8 @@
         margin: 24px 24px 24px 24px;
     }
 
-    .skill-row{
-
-        .skill-entry{
-            width: 72px;
-        }
+    .skill-entry{
+        width: 72px;
     }
 }
 
@@ -243,6 +244,7 @@
 
     .center-section{
         flex-direction: column;
+        margin: 0;
 
         .skill-box{
             margin: 24px 0px 0px 0px;
@@ -271,10 +273,15 @@
         }
     }
 
-    .skill-row{
-        .skill-entry{
-            margin: 20px 20px 20px 20px;
-        }
+    .skill-entry{
+        margin: 20px 20px 20px 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .skill-btn{
+        pointer-events: none;
     }
 }
 
@@ -312,29 +319,25 @@
         }
     }
 
-    .skill-row{
-        .skill-entry{
-            margin: 20px 12px 20px 12px;
-        }
+    .skill-entry{
+        margin: 20px 12px 20px 12px;
     }
 }
 
 @media screen and (max-width: 375px) {
 
-    .skill-row{
-        .skill-entry{
-            width: 65px;
-            margin:  20px 6px 20px 6px;
+    .skill-entry{
+        width: 65px;
+        margin:  20px 6px 20px 6px;
 
-            .skill-icon-box{
-                .skill-icon{
-                    height: 48px;
-                    width: 48px;
+        .skill-icon-box{
+            .skill-icon{
+                height: 48px;
+                width: 48px;
 
-                    &:hover{
-                        width: 52px;
-                        height: 52px;
-                    }
+                &:hover{
+                    width: 52px;
+                    height: 52px;
                 }
             }
         }

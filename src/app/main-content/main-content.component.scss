@@ -14,8 +14,6 @@
 }
 
 .skill-set{
-    height: 100dvh;
-    max-height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position:25% 75%;
@@ -24,6 +22,6 @@
 @media screen and (max-width: 870px) {
 
     .skill-set{
-        height: 1100px;
+        height: 1260px;
     }
 }

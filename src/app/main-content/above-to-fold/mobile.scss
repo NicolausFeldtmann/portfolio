@@ -91,8 +91,13 @@
         display: flex;
     }
 
+    .switch{
+        pointer-events: none;
+    }
+
     .center-btn{
         border: 1px solid $brigth_green !important;
+        pointer-events: none;
 
         .btn-para{
             color: $brigth_green;
@@ -137,6 +142,11 @@
 
     .icon-mail{
         display: flex !important;
+        pointer-events: none;
+    }
+
+    .icon-link{
+        pointer-events: none;
     }
 }
 

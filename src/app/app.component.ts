@@ -30,4 +30,13 @@ export class AppComponent {
   switchLanguage(lang: string) {
     this.currentLanguage = lang;
   }
+
+  onActive(event: any) {
+    if (typeof window !== 'undefined') {
+      window.scroll({
+        top:0,
+        behavior: 'smooth'
+      })
+    }
+  }
 }

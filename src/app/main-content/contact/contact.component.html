@@ -1,4 +1,21 @@
 <div class="contact-content">
+
+            <div class="send-content" [class.show]="isShow">
+                <div class="send-message">
+                    <div class="box-header">
+                        <h1>E-mail sent!</h1>
+                        <div class="send-icon">
+                            <div class="send-close" (click)="show()"></div>
+                        </div>
+                    </div>
+                    <div class="send-txt">
+                        <p>Thank you for your interest!</p>
+                        <br>
+                        <p>I'll contact you as soon as posible</p>
+                    </div>
+                </div>
+            </div>
+
     <div class="contact-me">
         <h4>{{ translate('CONTACT') }}</h4>
         <h2>{{ translate('WORK') }}</h2>
@@ -14,7 +31,7 @@
         <label class="contact-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">{{ translate('NAME') }}</h4>
-            <input #name="ngModel" [(ngModel)]="contactData.name"  type="text" id="name" name="name" placeholder="{{ translate('PLACEHOLDER1') }}" required>
+            <input #name="ngModel" [(ngModel)]="contactData.name" (ngModelCHange)="changeBtn()"  type="text" id="name" name="name" placeholder="{{ translate('PLACEHOLDER1') }}" spellcheck="false" required>
             @if (!name.valid && name.touched) {
                 <span>{{ translate('NAME-REQU') }}</span>
             }
@@ -23,16 +40,16 @@
         <label class="contact-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">{{ translate('E-MAIL') }}</h4>
-            <input #email="ngModel" [(ngModel)]="contactData.email" type="email" name="email" placeholder="{{ translate('PLACEHOLDER2') }}" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+            <input #email="ngModel" [(ngModel)]="contactData.email" (ngModelChange)="changeBtn()" type="email" name="email" placeholder="{{ translate('PLACEHOLDER2') }}" spellcheck="false" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
             @if (!email.valid && email.touched) {
                 <span>{{ translate('MAIL-REQU') }}</span>
             }
         </label>
 
-        <label class="contact-row">
+        <label class="contact-row message-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">{{ translate('CONCERN') }}</h4>
-            <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" type="text" name="message" placeholder="{{ translate('PLACEHOLDER3') }}" required></textarea>
+            <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" (ngModelChange)="changeBtn()" type="text" name="message" placeholder="{{ translate('PLACEHOLDER3') }}" spellcheck="false" required></textarea>
             @if (!message.valid && message.touched) {
                 <span class="span-txt">{{ translate('MESS-REQU') }}</span>
             }
@@ -44,7 +61,7 @@
                 <div class="check-box">
                     <div class="check" [class.checked]="isChecked" (click)="check()" alt=""></div>
                 </div>
-                <p class="confimr-para">{{ translate('CHECK1') }} <a class="confirm-link" href="legal">{{ translate('PRIVICY') }}</a>{{ translate('CHECK2') }}</p>
+                <p class="confimr-para">{{ translate('CHECK1') }} <a class="confirm-link" routerLink="legal">{{ translate('PRIVICY') }}</a>{{ translate('CHECK2') }}</p>
             </div>
 
             <div class="btn-area">

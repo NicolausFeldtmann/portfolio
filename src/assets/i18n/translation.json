@@ -21,7 +21,7 @@
   },
     "CONTACT-ME": {
         "en": "Contact me",
-        "de": "Kontaktiere Mich"
+        "de": "Kontaktiere mich"
   },
     "AVAILABLE": {
         "en": "Available for remote work",
@@ -41,7 +41,7 @@
   },
     "ME": {
         "en": "Hello, I'm Nicolaus! I'm an enthusiastic and somewhat nerdy career changer. I want to turn programming into my new profession. I'm continually fascinated by the seemingly boundless possibilities, which repeatedly inspire me.",
-        "de": "Hallo, ich bin Nicolaus! Ich bin ein begeisterter und etwas nerdiger Quereinsteiger. Mein Wunsch ist es, das Programmieren zu meinem neuen Beruf zu machen. Dabei fasziniert mich die scheinbar grenzenlose Vielfalt der Möglichkeiten, die mich immer wieder aufs Neue inspiriert."
+        "de": "Hallo, ich bin Nicolaus! Ich bin ein begeisterter und etwas nerdiger Quereinsteiger. Mein Wunsch ist es das Programmieren zu meinem neuen Beruf zu machen. Dabei fasziniert mich die scheinbar grenzenlose Vielfalt der Möglichkeiten, die mich immer wieder aufs Neue inspiriert."
   },
     "LOCATION": {
         "en": "I am from Hamburg and flexible regarding the work arrangement. I am open to remote work as well as working onsite in an office.",
@@ -49,11 +49,11 @@
   },
     "MIND": {
         "en": "'The more you know, the more you know you don't know.' I have a strong interest in new technologies and, of course, in improving my skills. My goal is to continuously enhance my abilities so that I am a better programmer at the end of each day than I was the day before.",
-        "de": "'Je mehr ich weiß, um so mehr wieß ich das ich nichts weiß.' Ich habe großes Interesse an neuen Technologien und natürlich daran, mein Können zu verbessern. Mein Ziel ist es, meine Fähigkeiten kontinuierlich zu verbessern, um am Ende des Tages ein besserer Programmierer zu sein als am Tag zuvor."
+        "de": "'Je mehr ich weiß, um so mehr weiß ich das ich nichts weiß.' Ich habe großes Interesse an neuen Technologien und natürlich daran, mein Können zu verbessern. Mein Ziel ist es meine Fähigkeiten kontinuierlich zu verbessern, um am Ende des Tages ein besserer Programmierer zu sein als am Tag zuvor."
   },
     "SOLVE": {
-        "en": "Solving problems is my daily bread, especially as a career changer. The most satisfying part is finding a solution that isn't immediately obvious at first glance. It's a bit like Columbus's egg =D",
-        "de": "Das Lösen von Problemen ist mein tägliches Brot, insbesondere als Quereinsteiger. Besonders befriedigend ist es, wenn man eine Lösung findet, die auf den ersten Blick nicht offensichtlich ist. Das ist ein bisschen wie das Ei des Columbus =D"
+        "en": "Solving problems is my daily bread, especially as a career changer. The most satisfying part is finding a solution that isn't immediately obvious at first glance. It's a bit like Columbus's egg.",
+        "de": "Das Lösen von Problemen ist mein tägliches Brot, insbesondere als Quereinsteiger. Besonders befriedigend ist es, wenn man eine Lösung findet, die auf den ersten Blick nicht offensichtlich ist. Das ist ein bisschen wie das Ei des Columbus."
   },
     "TECHNOLOGY": {
         "en": "Technologies",
@@ -64,8 +64,8 @@
         "de": "Über mich"
   },
     "INTRO": {
-        "en": "I have extensive experience with various frontend technologies and stay up-to-date to actively shape the fast-moving web landscape. An open mindset and growth-oriented approach enable me to adapt quickly to new tools and trends, fostering innovative solutions.",
-        "de": "Ich verfüge über umfangreiche Erfahrung mit verschiedenen Frontend-Technologien und halte mich stets aktuell, um den schnellen Wandel im Web aktiv mitzugestalten. Offenheit für Neues und ein Growth Mindset ermöglichen mir, mich schnell an neue Tools und Trends anzupassen und innovative Lösungen zu entwickeln."
+        "en": "Ich verfüge über solide Kentnisse im Umgang mit verschiedenen Frontend-Technologien und halte mich stets aktuell, um den schnellen Wandel im Web aktiv mitzugestalten.. An open mindset and growth-oriented approach enable me to adapt quickly to new tools and trends, fostering innovative solutions.",
+        "de": "Ich verfüge über solide Kentnisse im Umgang mit verschiedenen Frontend-Technologien und halte mich stets aktuell, um den schnellen Wandel im Web aktiv mitzugestalten. Offenheit für Neues und ein Growth Mindset ermöglichen mir, mich schnell an neue Tools und Trends anzupassen und innovative Lösungen zu entwickeln."
   },
     "YOU": {
         "en": "You need ",
@@ -73,15 +73,15 @@
   },
     "ANOTHER": {
         "en": "another skill?",
-        "de": "andre Kompetenzen?"
+        "de": "andere Kompetenzen?"
   },
     "FEEL": {
         "en": "Feel free to contact me. I’m always happy to expand my knowledge and skills.",
-        "de": "Fühl dich frei, mich zu kontaktieren. Ich freue mich stets darauf, mein Wissen und meine Fähigkeiten weiter auszubauen."
+        "de": "Zögere nicht mich anzuschreiben. Ich freue mich stets darauf, mein Wissen und meine Fähigkeiten weiter auszubauen."
   },
     "TALK": {
         "en": "Let's talk",
-        "de": "Las uns reden "
+        "de": "Las suns reden "
   },
     "FEATURE": {
         "en": "Featured Projects",
@@ -187,5 +187,333 @@
     "MESS-REQU": {
         "en": "What do you need to develop?",
         "de": "Was soll entwickelt werden?" 
+  },
+    "IMPRESS-HEAD-PURS": {
+        "en": "Information pursuant to § 5 DDG",
+        "de": "Angaben gemäß § 5 DDG" 
+  },
+    "IMPRESS-HEAD-REP": {
+        "en": "represented by",
+        "de": "Vertreten durch" 
+  },
+    "IMPRESS-HEAD-CON": {
+        "en": "Contact",
+        "de": "Kontakt" 
+  },
+    "IMPRESS-HEAD-DIS": {
+        "en": "Disclaimer:",
+        "de": "Haftungsausschluss:" 
+  },
+    "IMPRESS-HEAD-STAN": {
+        "en": "stance for links",
+        "de": "Haltung für Links" 
+  },
+    "IMPRESS-TXT1": {
+        "en": "Our offer contains links to external websites of third parties, over which we have no influence on their content. Therefore, we cannot accept any liability for these external contents. The respective provider or operator of the linked pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognizable at the time of linking. However, a permanent content control of the linked pages is not reasonable without concrete evidence of a legal violation. Upon becoming aware of legal infringements, we will immediately remove such links",
+        "de": "Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen." 
+  },
+    "IMPRESS-PRIVECY": {
+        "en": "Privacy",
+        "de": "Datenschutz" 
+  },
+    "IMPRESS-TXT2": {
+        "en": "The use of our website is generally possible without providing personal data. If personal data (such as name, address, or email addresses) are collected on our pages, this is done, whenever possible, on a voluntary basis. These data will not be passed on to third parties without your explicit consent. We would like to point out that data transmission over the Internet (e.g., in communication via email) may have security vulnerabilities. Complete protection of data against access by third parties is not possible. The use of the contact details published as part of the impressum to send unsolicited advertising and informational materials is hereby explicitly prohibited. The operators of the site expressly reserve the right to take legal action in case of unsolicited sending of advertising information, such as spam emails.",
+        "de": "Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor." 
+  },
+    "LEGAL-HEAD": {
+        "en": "Privacy policy",
+        "de": "Datenschutzerklärung" 
+  },
+    "LEGAL-HEAD-CHAR": {
+        "en": "person in charge",
+        "de": "Verantwortlicher" 
+  },
+    "LEGAL-HEAD-OVER": {
+        "en": "Overview of processing",
+        "de": "Übersicht der Verarbeitung" 
+  },
+    "LEGAL-HEAD-OVERVIEW": {
+        "en": "The following overview summarizes the types of data processed and the purposes of their processing, and refers to the data subjects.",
+        "de": "Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen." 
+  },
+    "LEGAL-HEAD-DATA": {
+        "en": "Type of data processing",
+        "de": "Art der Verarbeitung von Daten" 
+  },
+    "LEGAL-HEAD-DATATYPE": {
+        "en": "Existing data, Contact data, Content data, Usage data Meta, communication, and process data",
+        "de": "Bestabdsdaten, Kontackdaten, Inhaltsdaten, Nutzungsdaten, Meta, Komunikations- und Verfahrensdaten" 
+  },
+    "LEGAL-DATA-SUB": {
+        "en": "Category of data subjects",
+        "de": "Kateegorie der betroffenen Personen" 
+  },
+    "LEGAL-COM": {
+        "en": "Communication partners, users",
+        "de": "Komunikationspartner, Nutzer" 
+  },
+    "LEGAL-PUR": {
+        "en": "Purpose of processing",
+        "de": "Zweck der Verarbeitung" 
+  },
+    "LEGAL-PURPOSE": {
+        "en": "Communication, Security measures, Organizational and administrative measures, Feedback, Information technology infrastructure",
+        "de": "Komunikation, Sicherheitsmaßnahmen, Organisations- und Verwaltungsmaßnahmen, Feedback, Informationstechniche Infrastrucktur" 
+  },
+    "LEGAL-REV": {
+        "en": "Relevant legal bases",
+        "de": "Maßgebliche Rechtdgrundlagen" 
+  },
+    "LEGAL-RELEVANT": {
+        "en": "Relevant legal bases under the GDPR:",
+        "de": "Maßgebliche Rechtsgrundlagen nach der DSGVO:" 
+  },
+    "LEGAL-TXT1": {
+        "en": "Below, you will find an overview of the legal bases under the GDPR on which we process personal data. Please note that in addition to the regulations of the GDPR, national data protection laws in your country or our country of residence or registered office may also apply. If specific legal bases are applicable in individual cases, we will inform you of this in the privacy policy",
+        "de": "Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir personenbezogene Daten verarbeiten. Bitte nehmen Sie zur Kenntnis, dass neben den Regelungen der DSGVO nationale Datenschutzvorgaben in Ihrem bzw. unserem Wohn- oder Sitzland gelten können. Sollten ferner im Einzelfall speziellere Rechtsgrundlagen maßgeblich sein, teilen wir Ihnen diese in der Datenschutzerklärung mit." 
+  },
+    "LEGAL-CONSENT": {
+        "en": "Consent (Art. 6(1)(a) GDPR)",
+        "de": "Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO" 
+  },
+    "LEGAL-TXT2": {
+        "en": "The data subject has given their consent to the processing of their personal data for a specific purpose or multiple specific purposes.",
+        "de": "Die betroffene Person hat ihre Einwilligung in die Verarbeitung der sie betreffenden personenbezogenen Daten für einen spezifischen <Zweck oder mehrere bestimmte Zwecke gegeben." 
+  },
+    "LEGAL-LEG": {
+        "en": "Legitimate interests (Art. 6(1)(f) GDPR)",
+        "de": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO" 
+  },
+    "LEGAL-PRO": {
+        "en": "The processing is necessary to safeguard the legitimate interests of the data controller or a third party, provided that the interests, fundamental rights, and freedoms of the data subject requiring protection of personal data do not override those interests",
+        "de": "Die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten notwendig, vorausgesetzt, dass die Interessen, Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten verlangen, nicht überwiegen." 
+  },
+    "LEGAL-GER1": {
+        "en": "National Data Protection Regulation in Germany",
+        "de": "Natzionale Datenschutzregelung in Deutschland" 
+  },
+    "LEGAL-TXT3": {
+        "en": "In addition to the GDPR data protection regulations, national data protection laws in Germany also apply. This includes, in particular, the Federal Data Protection Act (BDSG), which contains specific provisions regarding the right to access, the right to erasure, the right to object, processing of special categories of personal data, processing for other purposes, and transmission as well as automated decision-making in individual cases, including profiling. Moreover, the data protection laws of the individual federal states may also apply",
+        "de": "Zusätzlich zu den Datenschutzregelungen der DSGVO gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu gehört insbesondere das Gesetz zum Schutz vor Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz – BDSG). Das BDSG enthält insbesondere Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum Widerspruchsrecht, zur Verarbeitung besonderer Kategorien personenbezogener Daten, zur Verarbeitung für andere Zwecke und zur Übermittlung sowie automatisierten Entscheidungsfindung im Einzelfall einschließlich Profiling. Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung gelangen." 
+  },
+    "LEGAL-SAVETY": {
+        "en": "Safety measures",
+        "de": "Sicherheitsmaßnahmen" 
+  },
+    "LEGAL-TXT4": {
+        "en": "We implement appropriate technical and organizational measures in accordance with legal requirements, considering the state of the art, implementation costs, and the nature, scope, circumstances, and purposes of processing, as well as the varying probabilities of occurrence and the extent of threats to the rights and freedoms of natural persons. These measures include, in particular, securing the confidentiality, integrity, and availability of data through controlling physical and electronic access to the data, as well as access, input, transfer, backup of data, and separation of data. Furthermore, we have established procedures to ensure the exercise of data subjects' rights, data deletion, and responses to data threats. Additionally, we consider the protection of personal data already during the development or selection of hardware, software, and procedures, in accordance with the principle of data protection by design and by default, through technical design and privacy-friendly default settings",
+        "de": "Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmaßes der Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten. Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen und elektronischen Zugangs zu den Daten als auch des sie betreffenden Zugriffs, der Eingabe, der Weitergabe, der Sicherung der Verfügbarkeit und ihrer Trennung. Des Weiteren haben wir Verfahren eingerichtet, die eine Wahrnehmung von Betroffenenrechten, die Löschung von Daten und Reaktionen auf die Gefährdung der Daten gewährleisten. Ferner berücksichtigen wir den Schutz personenbezogener Daten bereits bei der Entwicklung bzw. Auswahl von Hardware, Software sowie Verfahren entsprechend dem Prinzip des Datenschutzes, durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen." 
+  },
+    "LEGAL-GENERAL": {
+        "en": "General information on data storage and deletion:",
+        "de": "Allgemeine Iformationen zu Datenspeicherung und löschung:" 
+  },
+    "LEGAL-TXT5": {
+        "en": "We delete personal data that we process in accordance with legal requirements as soon as the underlying consent is withdrawn or there are no longer any legal grounds for processing. This applies in cases where the original purpose of processing is no longer relevant or the data is no longer needed. Exceptions to this rule exist if legal obligations or particular interests require longer retention or archiving of the data. In particular, data that must be retained for commercial or tax purposes or whose storage is necessary for legal enforcement or the protection of the rights of other natural or legal persons must be archived accordingly. Our privacy notices contain additional information regarding data retention and deletion, which specifically apply to certain processing processes. When multiple indications are given for the retention period or deletion deadline of data, the longest period always prevails. If a period does not explicitly start on a specific date and is at least one year long, it automatically begins at the end of the calendar year in which the event triggering the period occurs. In the case of ongoing contractual relationships where data is stored, the triggering event is the effective date of termination or other end of the legal relationship. Data that is no longer needed for the originally intended purpose but is retained due to legal requirements or other reasons are processed only for the purposes that justify their retention.",
+        "de": "Wir löschen personenbezogene Daten, die wir verarbeiten, gemäß den gesetzlichen Bestimmungen, sobald die zugrundeliegenden Einwilligungen widerrufen werden oder keine weiteren rechtlichen Grundlagen für die Verarbeitung bestehen. Dies betrifft Fälle, in denen der ursprüngliche Verarbeitungszweck entfällt oder die Daten nicht mehr benötigt werden. Ausnahmen von dieser Regelung bestehen, wenn gesetzliche Pflichten oder besondere Interessen eine längere Aufbewahrung oder Archivierung der Daten erfordern. Insbesondere müssen Daten, die aus handels- oder steuerrechtlichen Gründen aufbewahrt werden müssen oder deren Speicherung notwendig ist zur Rechtsverfolgung oder zum Schutz der Rechte anderer natürlicher oder juristischer Personen, entsprechend archiviert werden. Unsere Datenschutzhinweise enthalten zusätzliche Informationen zur Aufbewahrung und Löschung von Daten, die speziell für bestimmte Verarbeitungsprozesse gelten. Bei mehreren Angaben zur Aufbewahrungsdauer oder Löschungsfristen eines Datums, ist stets die längste Frist maßgeblich. Beginnt eine Frist nicht ausdrücklich zu einem bestimmten Datum und beträgt sie mindestens ein Jahr, so startet sie automatisch am Ende des Kalenderjahres, in dem das fristauslösende Ereignis eingetreten ist. Im Fall laufender Vertragsverhältnisse, in deren Rahmen Daten gespeichert werden, ist das fristauslösende Ereignis der Zeitpunkt des Wirksamwerdens der Kündigung oder sonstige Beendigung des Rechtsverhältnisses. Daten, die nicht mehr für den ursprünglich vorgesehenen Zweck, sondern aufgrund gesetzlicher Vorgaben oder anderer Gründe aufbewahrt werden, verarbeiten wir ausschließlich zu den Gründen, die ihre Aufbewahrung rechtfertigen." 
+  },
+    "LEGAL-RIGHTS": {
+        "en": "Rights of data subjects",
+        "de": "Rechte der betroffenen Personen" 
+  },
+    "LEGAL-RIGHTS-SUB": {
+        "en": "Rights of data subjects under the GDPR: You, as the data subject, have various rights under the GDPR, which specifically arise from Articles 15 to 21 of the GDPR:",
+        "de": "Rechte der betroffenen Personen aus der DSGVO: Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus Art. 15 bis 21 DSGVO ergeben:" 
+  },
+    "LEGAL-TXT6": {
+        "en": "Right to object: You have the right to object at any time, for reasons arising from your particular situation, to the processing of your personal data carried out based on Article 6(1)(e) or (f) of the GDPR; this also applies to profiling based on these provisions. If your personal data are processed for direct marketing purposes, you have the right to object at any time to the processing of your personal data for such marketing purposes; this also applies to profiling related to such direct marketing. Right to withdraw consent:",
+        "de": "Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling. Werden die Sie betreffenden personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht. Wiederrufsrecht bei Einwilligung:" 
+  },
+    "LEGAL-RIGHTS_GRAN": {
+        "en": "You have granted the right to revoke consent at any time.",
+        "de": "Sie haben das Recht erteilt Einwiligungen jederzeit zu wiederrufen." 
+  },
+    "LEGAL-ACCES": {
+        "en": "Right to access",
+        "de": "Auskunftsrecht" 
+  },
+    "LEGAL-ACCES-RIGHT": {
+        "en": "You have the right to request confirmation as to whether personal data concerning you are being processed, and to receive information about that data, as well as further details and a copy of the data in accordance with legal requirements.",
+        "de": "Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob betreffende Daten verarbeitet werden und auf Auskunft über diese Daten sowie auf weitere Informationen und Kopie der Daten entsprechend den gesetzlichen Vorgaben." 
+  },
+    "LEGAL-REC": {
+        "en": "Right to rectification",
+        "de": "Recht auf Berichtigung" 
+  },
+    "LEGAL-REC-RIGHT": {
+        "en": "In accordance with legal requirements, you have the right to request the completion of your personal data or the correction of incorrect data concerning you.",
+        "de": "Sie haben entsprechend den gesetzlichen Vorgaben das Recht, die Vervollständigung der Sie betreffenden Daten oder die Berichtigung der Sie betreffenden unrichtigen Daten zu verlangen." 
+  },
+    "LEGAL-ERASE": {
+        "en": "Right to erasure and restriction of data",
+        "de": "Recht auf Löschung und Einschränkung der Daten" 
+  },
+    "LEGAL-ERASE-RIGHT": {
+        "en": "In accordance with legal requirements, you have the right to request that your data be erased without delay, or alternatively, to request",
+        "de": "Sie haben nach Maßgabe der gesetzlichen Vorgaben das Recht, zu verlangen, dass Sie betreffende Daten unverzüglich gelöscht werden, bzw. alternativ nach Maßgabe der" 
+  },
+    "LEGAL-TRANS": {
+        "en": "Right to data portability",
+        "de": "Recht auf Datenübertragbarkeit" 
+  },
+    "LEGAL-TRANS-RIGHT": {
+        "en": "You have the right, in accordance with legal requirements, to receive the personal data concerning you that you have provided to us in a structured, commonly used, and machine-readable format or to request their transfer to another data controller.",
+        "de": "Sie haben das Recht, Sie betreffende Daten, die Sie uns bereitgestellt haben, nach Maßgabe der gesetzlichen Vorgaben in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten oder deren Übermittlung an einen anderen Verantwortlichen zu fordern." 
+  },
+    "LEGAL-COMP": {
+        "en": "Complaint to supervisory authority",
+        "de": "Beschwewrde bei Aufsichtsbehörde" 
+  },
+    "LEGAL-COMP-RIGHT": {
+        "en": "Without prejudice to any other administrative or judicial remedies, you have the right to lodge a complaint with a supervisory authority, particularly in the member state of your habitual residence, your workplace, or the place of the alleged infringement, if you believe that the processing of your personal data violates the requirements of the GDPR.",
+        "de": "Sie haben unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die Vorgaben der DSGVO verstößt." 
+  },
+    "LEGAL-PRPV": {
+        "en": "Provision of the online offer and webosting",
+        "de": "Bereitstellung des onlineangebots und Webosting" 
+  },
+    "LEGAL-TXT7": {
+        "en": "We process users' data to provide them with our online services. For this purpose, we process the user's IP address, which is necessary to transmit the content and functions of our online services to the user's browser or device.",
+        "de": "Wir verarbeiten die Daten der Nutzer, um ihnen unsere Online-Dienste zur Verfügung stellen zu können. Zu diesem Zweck verarbeiten wir die IP-Adresse des Nutzers, die notwendig ist, um die Inhalte und Funktionen unserer Online-Dienste an den Browser oder das Endgerät der Nutzer zu übermitteln." 
+  },
+    "LEGAL-PROCES": {
+        "en": "Processing of data types",
+        "de": "Verarbeitung von Datenarten" 
+  },
+    "LEGAL-TXT8": {
+        "en": "Usage data (e.g., page views and duration, click paths, usage intensity and frequency, device types and operating systems used, interactions with content and features); meta, communication, and process data (e.g., IP addresses, timestamps, identification numbers, involved persons); log data (e.g., log files related to logins, data retrieval, or access times). Data subjects: users (e.g., website visitors, online service users).",
+        "de": "Nutzungsdaten (z. B. Seitenaufrufe und Verweildauer, Klickpfade, Nutzungsintensität und -frequenz, verwendete Gerätetypen und Betriebssysteme, Interaktionen mit Inhalten und Funktionen); Meta-, Kommunikations- und Verfahrensdaten (z. B. IP-Adressen, Zeitangaben, Identifikationsnummern, beteiligte Personen). Protokolldaten (z. B. Logfiles betreffend Logins oder den Abruf von Daten oder Zugriffszeiten.). Betroffene Personen: Nutzer (z. B. Webseitenbesucher, Nutzer von Onlinediensten)." 
+  },
+    "LEGAL-PRURPOSE": {
+        "en": "Purpose of processing",
+        "de": "Zweck der Verarbeitung" 
+  },
+    "LEGAL-TXT9": {
+        "en": "Provision of our online offerings and user-friendliness; information technology infrastructure (operation and provision of information systems and technical devices (computers, servers, etc.)); security measures.",
+        "de": "Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit; Informationstechnische Infrastruktur (Betrieb und Bereitstellung von Informationssystemen und technischen Geräten (Computer, Server etc.).). Sicherheitsmaßnahmen." 
+  },
+    "LEGAL-RENTATION": {
+        "en": "Retention and deletion",
+        "de": "Aufbewahrung und Löschung" 
+  },
+    "LEGAL-DELETING": {
+        "en": "Deletion in accordance with the information provided in the section 'General information on data storage and deletion.'",
+        "de": "Löschung entsprechend Angaben im Abschnitt 'Allgemeine Informationen zur Datenspeicherung und Löschung'." 
+  },
+    "LEGAL-BASIS": {
+        "en": "Legal basis",
+        "de": "Rechtsgrundlage" 
+  },
+    "LEGAL-LEGITIMATE": {
+        "en": "Legitimate interests (Art. 6(1)(f) GDPR)",
+        "de": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO." 
+  },
+    "LEGAL-FUR-INFO": {
+        "en": "Further information on processing processes, procedures and services",
+        "de": "Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten" 
+  },
+    "LEGAL-COLLECT": {
+        "en": "Collection of access data and log files:",
+        "de": "Erhebung von Zugriffsdaten und Logfiles:" 
+  },
+    "LEGAL-TXT10": {
+        "en": "Access to our online services is logged in the form of so-called 'server log files.' These server log files may include the address and name of the requested web pages and files, date and time of the request, transmitted data volume, notification of successful retrieval, browser type and version, user's operating system, referrer URL (the previously visited page), and typically IP addresses and the requesting provider. Server log files can be used for security purposes, such as preventing server overloads (especially in cases of malicious attacks, known as DDoS attacks), and to ensure server load and stability; legal basis: legitimate interests (Art. 6(1)(f) GDPR). Data deletion: log file information is stored for a maximum of 30 days and then deleted or anonymized. Data necessary for evidence purposes until the final clarification of the respective incident are exempt from deletion.",
+        "de": "Der Zugriff auf unser Onlineangebot wird in Form von sogenannten 'Server-Logfiles' protokolliert. Zu den Serverlogfiles können die Adresse und der Name der abgerufenen Webseiten und Dateien, Datum und Uhrzeit des Abrufs, übertragene Datenmengen, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite) und im Regelfall IP-Adressen und der anfragende Provider gehören. Die Serverlogfiles können zum einen zu Sicherheitszwecken eingesetzt werden, z. B. um eine Überlastung der Server zu vermeiden (insbesondere im Fall von missbräuchlichen Angriffen, sogenannten DDoS-Attacken), und zum anderen, um die Auslastung der Server und ihre Stabilität sicherzustellen; Rechtsgrundlagen: Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO). Löschung von Daten: Logfile-Informationen werden für die Dauer von maximal 30 Tagen gespeichert und danach gelöscht oder anonymisiert. Daten, deren weitere Aufbewahrung zu Beweiszwecken erforderlich ist, sind bis zur endgültigen Klärung des jeweiligen Vorfalls von der Löschung ausgenommen." 
+  },
+    "LEGAL-COOCKIES": {
+        "en": "Use of Coockies",
+        "de": "Einsatz von Coockies" 
+  },
+    "LEGAL-TXT11": {
+        "en": "Cookies are small text files or other storage mechanisms that store information on end devices and read from them. For example, to save login status in a user account, a shopping cart content in an e-shop, accessed content, or functions used in an online service. Cookies can also be used for various purposes, such as to ensure the functionality, security, and convenience of online services, as well as to analyze visitor traffic.",
+        "de": "Cookies sind kleine Textdateien bzw. sonstige Speichervermerke, die Informationen auf Endgeräten speichern und aus ihnen auslesen. Zum Beispiel, um den Log-in-Status in einem Nutzerkonto, einen Warenkorbinhalt in einem E-Shop, die aufgerufenen Inhalte oder verwendete Funktionen eines Onlineangebots zu speichern. Cookies können ferner in Bezug auf unterschiedliche Anliegen Einsatz finden, etwa zu Zwecken der Funktionsfähigkeit, der Sicherheit und des Komforts von Onlineangeboten sowie der Erstellung von Analysen der Besucherströme." 
+  },
+    "LEGAL-NOTES": {
+        "en": "Notes on consent",
+        "de": "Hinweise zur Einwilligung" 
+  },
+    "LEGAL-TXT12": {
+        "en": "We use cookies in accordance with legal regulations. Therefore, we obtain prior consent from users unless it is not required by law. Consent is not necessary, especially, when storing and retrieving information, including cookies, is essential for providing users with a telemedia service they explicitly request (i.e., our online offering). The revocable consent is clearly communicated to users and includes information about the respective cookie usage.",
+        "de": "Wir setzen Cookies im Einklang mit den gesetzlichen Vorschriften ein. Daher holen wir von den Nutzern eine vorhergehende Einwilligung ein, es sei denn, sie ist laut Gesetzeslage nicht gefordert. Eine Erlaubnis ist insbesondere nicht notwendig, wenn das Speichern und das Auslesen der Informationen, also auch von Cookies, unbedingt erforderlich sind, um den Nutzern einen von ihnen ausdrücklich gewünschten Telemediendienst (also unser Onlineangebot) zur Verfügung zu stellen. Die widerrufliche Einwilligung wird ihnen gegenüber deutlich kommuniziert und enthält die Informationen zur jeweiligen Cookie-Nutzung." 
+  },
+    "LEGAL-REF": {
+        "en": "Reference to data protection law legal bases:",
+        "de": "Heinweise zu Datenschutzrechtkichen Rechtsgrundlagen:" 
+  },
+    "LEGAL-TXT13": {
+        "en": "The legal basis on which we process users' personal data through cookies depends on whether we ask for their consent. If users accept, the legal basis for processing their data is the explicit consent. Otherwise, the data processed via cookies is handled based on our legitimate interests (e.g., the operational management of our online service and improving its usability) or, if necessary to fulfill our contractual obligations, when the use of cookies is required to comply with those obligations. We will clarify the purposes for which we use cookies throughout this privacy policy or as part of our consent and processing procedures.",
+        "de": "Auf welcher datenschutzrechtlichen Grundlage wir die personenbezogenen Daten der Nutzer mithilfe von Cookies verarbeiten, hängt davon ab, ob wir sie um eine Einwilligung bitten. Falls die Nutzer akzeptieren, ist die Rechtsgrundlage der Verwertung ihrer Daten die erklärte Einwilligung. Andernfalls werden die mithilfe von Cookies verwerteten Daten auf Grundlage unserer berechtigten Interessen (z. B. an einem betriebswirtschaftlichen Betrieb unseres Onlineangebots und der Verbesserung seiner Nutzbarkeit) verarbeitet oder, falls dies im Rahmen der Erfüllung unserer vertraglichen Pflichten erfolgt, wenn der Einsatz von Cookies erforderlich ist, um unseren vertraglichen Verpflichtungen nachzukommen. Zu welchen Zwecken die Cookies von uns verwertet werden, darüber klären wir im Laufe dieser Datenschutzerklärung oder im Rahmen von unseren Einwilligungs- und Verarbeitungsprozessen auf." 
+  },
+    "LEGAL-STORE": {
+        "en": "Storage period",
+        "de": "Speicherdauer" 
+  },
+    "LEGAL-STORE-RIGHT": {
+        "en": "With regard to the storage period, the following types of cookies are distinguished:",
+        "de": "Im Hinblick auf die Speicherdauer werden die folgenden Arten von Cookies unterschieden:" 
+  },
+    "LEGAL-TEMP": {
+        "en": "Temporary cookies (also: session or session cookies):",
+        "de": "Temporäre Cookies (auch: Session- oder Sitzungscookies):" 
+  },
+    "LEGAL-TEMP-RIGHT": {
+        "en": "Temporary cookies are deleted at the latest after a user leaves the online service and closes their end device (e.g., browser or mobile application).",
+        "de": "Temporäre Cookies werden spätestens gelöscht, nachdem ein Nutzer ein Onlineangebot verlassen und sein Endgerät (z. B. Browser oder mobile Applikation) geschlossen hat." 
+  },
+    "LEGAL-PERM": {
+        "en": "Permanente Coockies",
+        "de": "Permanente Coockies" 
+  },
+    "LEGAL-PERM-RIGHT": {
+        "en": "Persistent cookies remain stored even after the end device is shut down. For example, login status can be saved, and preferred content can be displayed directly when the user visits the website again. User data collected via cookies can also be used for reach measurement purposes. Unless we specify otherwise to users (e.g., when obtaining their consent), they should assume that these cookies are permanent and the storage duration can be up to two years.",
+        "de": "Permanente Cookies bleiben auch nach dem Schließen des Endgeräts gespeichert. So können beispielsweise der Log-in-Status gespeichert und bevorzugte Inhalte direkt angezeigt werden, wenn der Nutzer eine Website erneut besucht. Ebenso können die mithilfe von Cookies erhobenen Nutzerdaten zur Reichweitenmessung Verwendung finden. Sofern wir Nutzern keine expliziten Angaben zur Art und Speicherdauer von Cookies mitteilen (z. B. im Rahmen der Einholung der Einwilligung), sollten sie davon ausgehen, dass diese permanent sind und die Speicherdauer bis zu zwei Jahre betragen kann." 
+  },
+    "LEGAL-GENER-INFO": {
+        "en": "General information on revocation and objection (opt-out):",
+        "de": "Allgemeine Hinweise zum Widerruf und Widerspruch (Opt-out):" 
+  },
+    "LEGAL-USERS": {
+        "en": "Users can withdraw their consent at any time and also object to the processing in accordance with legal requirements, including through their browser's privacy settings.",
+        "de": "Nutzer können die von ihnen abgegebenen Einwilligungen jederzeit widerrufen und zudem einen Widerspruch gegen die Verarbeitung entsprechend den gesetzlichen Vorgaben, auch mittels der Privatsphäre-Einstellungen ihres Browsers, erklären." 
+  },
+    "LEGAL-PROCESSED": {
+        "en": "Processed data",
+        "de": "Verarbeitete Daten" 
+  },
+    "LEGAL-META": {
+        "en": "Meta, communication, and process data (e.g., IP addresses, timestamps, identification numbers, involved persons).",
+        "de": "Meta-, Kommunikations- und Verfahrensdaten (z. B. IP-Adressen, Zeitangaben, Identifikationsnummern, beteiligte Personen)." 
+  },
+    "LEGAL-SUB": {
+        "en": "Data subjects",
+        "de": "Betroffene Personen" 
+  },
+    "LEGAL-USERS2": {
+        "en": "Users (e.g., website visitors, online service users).",
+        "de": "Nutzer (z. B. Webseitenbesucher, Nutzer von Onlinediensten)." 
+  },
+    "LEGAL-BASES": {
+        "en": "Legal bases:",
+        "de": "Rechtsgrundlagen:" 
+  },
+    "LEGAL-LEG2": {
+        "en": "Legitimate interests (Art. 6(1)(f) GDPR). Consent (Art. 6(1)(a) GDPR).",
+        "de": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO). Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO)." 
+  },
+    "LEGAL-FURTHER": {
+        "en": "Further information on processing processes, services and procedures",
+        "de": "Weitere Hinweise zu Verarbeitungsprozessen, Diensten und Verfahren" 
+  },
+    "LEGAL-PROCESS": {
+        "en": "Processing of cookie data on the basis of consent:",
+        "de": "Verarbeitung von Cookie-Daten auf Grundlage einer Einwilligung:" 
+  },
+    "LEGAL-TXT14": {
+        "en": "We use a consent management solution, which obtains users' consent for the use of cookies or for the procedures and providers mentioned within the consent management system. This process is used to collect, record, manage, and revoke consents, especially regarding the use of cookies and similar technologies that store, read, and process information on users' end devices. Within this process, users' consent for the use of cookies and related data processing, including the specific processing and providers mentioned in the consent management system, is obtained. Users also have the option to manage and revoke their consents. The consent declarations are stored to avoid repeated inquiries and to provide proof of consent in accordance with legal requirements. Storage occurs server-side and/or in a cookie (so-called opt-in cookie) or via similar technologies, so that the consent can be attributed to a specific user or device. If no specific details are provided about the providers of consent management services, the following general information applies: The duration of stored consent is up to two years. A pseudonymous user identifier is created, which, together with the timestamp of the consent, details about the scope of consent (e.g., relevant categories of cookies and/or service providers), and information about the browser, system, and device used, is stored. Legal basis: consent (Art. 6(1)(a) GDPR). ",
+        "de": "Wir setzen eine Einwilligungs-Management-Lösung ein, bei der die Einwilligung der Nutzer zur Verwendung von Cookies oder zu den im Rahmen der Einwilligungs-Management-Lösung genannten Verfahren und Anbietern eingeholt wird. Dieses Verfahren dient der Einholung, Protokollierung, Verwaltung und dem Widerruf von Einwilligungen, insbesondere bezogen auf den Einsatz von Cookies und vergleichbaren Technologien, die zur Speicherung, zum Auslesen und zur Verarbeitung von Informationen auf den Endgeräten der Nutzer eingesetzt werden. Im Rahmen dieses Verfahrens werden die Einwilligungen der Nutzer für die Nutzung von Cookies und die damit verbundenen Verarbeitungen von Informationen, einschließlich der im Einwilligungs-Management-Verfahren genannten spezifischen Verarbeitungen und Anbieter, eingeholt. Die Nutzer haben zudem die Möglichkeit, ihre Einwilligungen zu verwalten und zu widerrufen. Die Einwilligungserklärungen werden gespeichert, um eine erneute Abfrage zu vermeiden und den Nachweis der Einwilligung gemäß der gesetzlichen Anforderungen führen zu können. Die Speicherung erfolgt serverseitig und/oder in einem Cookie (sogenanntes Opt-In-Cookie) oder mittels vergleichbarer Technologien, um die Einwilligung einem spezifischen Nutzer oder dessen Gerät zuordnen zu können. Sofern keine spezifischen Angaben zu den Anbietern von Einwilligungs-Management-Diensten vorliegen, gelten folgende allgemeine Hinweise: Die Dauer der Speicherung der Einwilligung beträgt bis zu zwei Jahre. Dabei wird ein pseudonymer Nutzer-Identifikator erstellt, der zusammen mit dem Zeitpunkt der Einwilligung, den Angaben zum Umfang der Einwilligung (z. B. betreffende Kategorien von Cookies und/oder Diensteanbieter) sowie Informationen über den Browser, das System und das verwendete Endgerät gespeichert wird; Rechtsgrundlagen: Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO). " 
+  },
+    "LEGAL-CREATET": {
+        "en": "Created with the free data protection generator at Datenschutz-Generator.de by Dr. Thomas Schwenke",
+        "de": "Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke" 
   }
 }

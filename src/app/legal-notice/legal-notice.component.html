@@ -1,15 +1,15 @@
 <div class="legal-content">
     <div class="txt-area">
         <div class="legal-header">
-            <h1>Datenschutzerklärung</h1>
-            <a class="btn-area" href="">
+            <h1>{{ translate('LEGAL-HEAD') }}</h1>
+            <a class="btn-area" routerLink="">
                 <img class="back-icon" src="./../../assets/img/PNG/icons-green/arrow_forward.png" alt="">
                 <p class="back-para">Back</p>
             </a>
         </div>
         <br>
         <br>
-        <h3>Verantwortlicher</h3>
+        <h3>{{ translate('LEGAL-HEAD-CHAR') }}</h3>
         <br>
         <br>
         <p>Nicolaus Feldtmann</p>
@@ -18,358 +18,113 @@
         <br>
         <p>E-mail: nicolaus.feldtmann&#64;.gmx.de</p>
         <br>
-        <h2>Übersicht der Verarbeitung</h2>
+        <h2>{{ translate('LEGAL-HEAD-OVER') }}</h2>
         <br>
-        <p>
-            Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und 
-            die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen.
-        </p>
+        <p>{{ translate('LEGAL-HEAD-OVERVIEW') }}</p>
         <br>
-        <h3>Art der Verarbeitung von Daten</h3>
-        <p>Bestabdsdaten</p>
-        <p>Kontackdaten</p>
-        <p>Inhaltsdaten</p>
-        <p>Nutzungsdaten</p>
-        <p>Meta, Komunikations- und Verfahrensdaten</p>
+        <h3>{{ translate('LEGAL-HEAD-DATA') }}</h3>
+        <p>{{ translate('LEGAL-HEAD-DATATYPE') }}</p>
         <br>
         <br>
-        <h3>Kate3gorie der betroffenen Personen</h3>
+        <h3>{{ translate('LEGAL-DATA-SUB') }}</h3>
         <br>
-        <p>Komunikationspartner</p>
-        <p>Nutzer</p>
+        <p>{{ translate('LEGAL-COM') }}</p>
         <br>
-        <h3>Zweck der Verarbeitung</h3>
-        <p>Komunikation</p>
-        <p>Sicherheitsmaßnahmen</p>
-        <p>Organisations- und Verwaltungsmaßnahmen</p>
-        <p>Feedback</p>
-        <p>Informationstechniche Infrastrucktur</p>
+        <h3>{{ translate('LEGAL-PUR') }}</h3>
+        <p>{{ translate('LEGAL-PURPOSE') }}</p>
         <br>
         <br>
-        <h3>Maßgebliche Rechtdgrundlagen</h3>
+        <h3>{{ translate('LEGAL-REV') }}</h3>
         <div>
-            <h4>Maßgebliche Rechtsgrundlagen nach der DSGVO: </h4>
-            <p>
-                Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, 
-                auf deren Basis wir personenbezogene Daten verarbeiten. 
-                Bitte nehmen Sie zur Kenntnis, dass neben den Regelungen der 
-                DSGVO nationale Datenschutzvorgaben in Ihrem bzw. unserem Wohn- oder 
-                Sitzland gelten können. Sollten ferner im Einzelfall speziellere 
-                Rechtsgrundlagen maßgeblich sein, teilen wir Ihnen diese in der 
-                Datenschutzerklärung mit.
-            </p>
-            <h4>Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO</h4>
-            <p>
-                Die betroffene Person hat ihre Einwilligung in die Verarbeitung der 
-                sie betreffenden personenbezogenen Daten für einen spezifischen 
-                Zweck oder mehrere bestimmte Zwecke gegeben.
-            </p>
-            <h4>Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO</h4>
-            <p>
-                die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen 
-                oder eines Dritten notwendig, vorausgesetzt, 
-                dass die Interessen, Grundrechte und Grundfreiheiten der 
-                betroffenen Person, die den Schutz personenbezogener Daten verlangen, 
-                nicht überwiegen.
-            </p>
-            <h4>Natzionale Datenschutzregelung in Deutschland</h4>
-            <p>
-                Zusätzlich zu den Datenschutzregelungen der DSGVO gelten nationale Regelungen zum 
-                Datenschutz in Deutschland. Hierzu gehört insbesondere das Gesetz zum Schutz vor 
-                Missbrauch personenbezogener Daten bei der Datenverarbeitung 
-                (Bundesdatenschutzgesetz – BDSG). Das BDSG enthält insbesondere Spezialregelungen 
-                zum Recht auf Auskunft, zum Recht auf Löschung, zum Widerspruchsrecht, 
-                zur Verarbeitung besonderer Kategorien personenbezogener Daten, 
-                zur Verarbeitung für andere Zwecke und zur Übermittlung sowie 
-                automatisierten Entscheidungsfindung im Einzelfall einschließlich Profiling. 
-                Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung 
-                gelangen.
-            </p>
+            <h4>{{ translate('LEGAL-RELEVANT') }}</h4>
+            <p>{{ translate('LEGAL-TXT1') }}</p>
+            <h4>{{ translate('LEGAL-CONSENT') }}</h4>
+            <p>{{ translate('LEGAL-TXT2') }}</p>
+            <h4>{{ translate('LEGAL-LEG') }}</h4>
+            <p>{{ translate('LEGAL-PRO') }} </p>
+            <h4>{{ translate('LEGAL-GER1') }}</h4>
+            <p>{{ translate('LEGAL-TXT3') }}</p>
             <br>
-            <h3>Sicherheitsmaßnahmen</h3>
+            <h3>{{ translate('LEGAL-SAVETY') }}</h3>
             <br>
-            <p>
-                Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des 
-                Stands der Technik, der Implementierungskosten und der Art, des Umfangs, 
-                der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen 
-                Eintrittswahrscheinlichkeiten und des Ausmaßes der Bedrohung der Rechte und 
-                Freiheiten natürlicher Personen geeignete technische und organisatorische Maßnahmen, 
-                um ein dem Risiko angemessenes Schutzniveau zu gewährleisten. 
-                Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, 
-                Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen und 
-                elektronischen Zugangs zu den Daten als auch des sie betreffenden Zugriffs, 
-                der Eingabe, der Weitergabe, der Sicherung der Verfügbarkeit und ihrer Trennung. 
-                Des Weiteren haben wir Verfahren eingerichtet, die eine Wahrnehmung von 
-                Betroffenenrechten, die Löschung von Daten und Reaktionen auf die Gefährdung der 
-                Daten gewährleisten. Ferner berücksichtigen wir den Schutz personenbezogener Daten 
-                bereits bei der Entwicklung bzw. Auswahl von Hardware, Software sowie Verfahren 
-                entsprechend dem Prinzip des Datenschutzes, durch Technikgestaltung und durch 
-                datenschutzfreundliche Voreinstellungen.
-            </p>
+            <p>{{ translate('LEGAL-TXT4') }}</p>
             <br>
-            <h3>Allgemeine Iformationen zu Datenspeicherung und löschung:</h3>
+            <h3>{{ translate('LEGAL-GENERAL') }}</h3>
             <br>
-            <p>
-                Wir löschen personenbezogene Daten, die wir verarbeiten, gemäß den gesetzlichen 
-                Bestimmungen, sobald die zugrundeliegenden Einwilligungen widerrufen werden oder 
-                keine weiteren rechtlichen Grundlagen für die Verarbeitung bestehen. Dies betrifft 
-                Fälle, in denen der ursprüngliche Verarbeitungszweck entfällt oder die Daten nicht 
-                mehr benötigt werden. Ausnahmen von dieser Regelung bestehen, wenn gesetzliche 
-                Pflichten oder besondere Interessen eine längere Aufbewahrung oder Archivierung 
-                der Daten erfordern. Insbesondere müssen Daten, die aus handels- oder 
-                steuerrechtlichen Gründen aufbewahrt werden müssen oder deren Speicherung 
-                notwendig ist zur Rechtsverfolgung oder zum Schutz der Rechte anderer natürlicher 
-                oder juristischer Personen, entsprechend archiviert werden. 
-                Unsere Datenschutzhinweise enthalten zusätzliche Informationen zur Aufbewahrung 
-                und Löschung von Daten, die speziell für bestimmte Verarbeitungsprozesse gelten. 
-                Bei mehreren Angaben zur Aufbewahrungsdauer oder Löschungsfristen eines Datums, 
-                ist stets die längste Frist maßgeblich. Beginnt eine Frist nicht ausdrücklich zu 
-                einem bestimmten Datum und beträgt sie mindestens ein Jahr, so startet sie 
-                automatisch am Ende des Kalenderjahres, in dem das fristauslösende Ereignis 
-                eingetreten ist. Im Fall laufender Vertragsverhältnisse, in deren Rahmen Daten 
-                gespeichert werden, ist das fristauslösende Ereignis der Zeitpunkt des 
-                Wirksamwerdens der Kündigung oder sonstige Beendigung des Rechtsverhältnisses. 
-                Daten, die nicht mehr für den ursprünglich vorgesehenen Zweck, sondern aufgrund 
-                gesetzlicher Vorgaben oder anderer Gründe aufbewahrt werden, verarbeiten wir 
-                ausschließlich zu den Gründen, die ihre Aufbewahrung rechtfertigen.
-            </p>
+            <p>{{ translate('LEGAL-TXT5') }}</p>
             <br>
-            <h3>Rechte der betroffenen Personen</h3>
+            <h3>{{ translate('LEGAL-RIGHTS') }}</h3>
             <br>
-            <p>
-               Rechte der betroffenen Personen aus der DSGVO: Ihnen stehen als Betroffene nach 
-               der DSGVO verschiedene Rechte zu, die sich insbesondere aus Art. 
-               15 bis 21 DSGVO ergeben: 
-            </p>
-            <h4>Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen 
-                Situation ergeben, jederzeit gegen die Verarbeitung der Sie betreffenden 
-                personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, 
-                Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes 
-                Profiling. Werden die Sie betreffenden personenbezogenen Daten verarbeitet, 
-                um Direktwerbung zu betreiben, haben Sie das Recht, jederzeit Widerspruch 
-                gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten zum Zwecke 
-                derartiger Werbung einzulegen; dies gilt auch für das Profiling, 
-                soweit es mit solcher Direktwerbung in Verbindung steht. 
-                Wiederrufsrecht bei Einwilligung:
-            </h4>
-            <p>
-                Sie haben das Recht erteilt Einwiligungen jederzeit zu wiederrufen.
-            </p>
-            <h4>Auskunftsrecht</h4>
-            <p>
-                Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob betreffende Daten 
-                verarbeitet werden und auf Auskunft über diese Daten sowie auf weitere 
-                Informationen und Kopie der Daten entsprechend den gesetzlichen Vorgaben.
-            </p>
-            <h4>Recht auf Berichtigung</h4>
-            <p>
-                Sie haben entsprechend den gesetzlichen Vorgaben das Recht, die Vervollständigung 
-                der Sie betreffenden Daten oder die Berichtigung der Sie betreffenden unrichtigen 
-                Daten zu verlangen.
-            </p>
-            <h4>Recht auf Löschung und Einschränkung der Daten</h4>
-            <p>
-                 Sie haben nach Maßgabe der gesetzlichen Vorgaben das Recht, zu verlangen, 
-                 dass Sie betreffende Daten unverzüglich gelöscht werden, bzw. alternativ nach Maßgabe der
-            </p>
-            <h4>Recht auf Datenübertragbarkeit</h4>
-            <p>
-                Sie haben das Recht, Sie betreffende Daten, die Sie uns bereitgestellt haben, 
-                nach Maßgabe der gesetzlichen Vorgaben in einem strukturierten, gängigen und 
-                maschinenlesbaren Format zu erhalten oder deren Übermittlung an einen 
-                anderen Verantwortlichen zu fordern.
-            </p>
-            <h4>Beschwewrde bei Aufsichtsbehörde</h4>
-            <p>
-                Sie haben unbeschadet eines anderweitigen verwaltungsrechtlichen oder 
-                gerichtlichen Rechtsbehelfs das Recht auf Beschwerde bei einer Aufsichtsbehörde, 
-                insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthaltsorts, 
-                ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, 
-                wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden 
-                personenbezogenen Daten gegen die Vorgaben der DSGVO verstößt.
-            </p>
+            <p>{{ translate('LEGAL-RIGHTS-SUB') }}</p>
+            <h4>{{ translate('LEGAL-TXT6') }}</h4>
+            <p>{{ translate('LEGAL-RIGHTS_GRAN') }}</p>
+            <h4>{{ translate('LEGAL-ACCES') }}</h4>
+            <p>{{ translate('LEGAL-ACCES-RIGHT') }}</p>
+            <h4>{{ translate('LEGAL-REC') }}</h4>
+            <p>{{ translate('LEGAL-REC-RIGHT') }}</p>
+            <h4>{{ translate('LEGAL-ERASE') }}</h4>
+            <p>{{ translate('LEGAL-ERASE-RIGHT') }} </p>
+            <h4>{{ translate('LEGAL-TRANS') }}</h4>
+            <p>{{ translate('LEGAL-TRANS-RIGHT') }}</p>
+            <h4>{{ translate('LEGAL-COMP') }}</h4>
+            <p>{{ translate('LEGAL-COMP-RIGHT') }}</p>
             <br>
             <br>
-            <h3>Bereitstellung des onlineangebots und Webosting</h3>
+            <h3>{{ translate('LEGAL-PRPV') }}</h3>
             <br>
             <br>
-            <p>
-                Wir verarbeiten die Daten der Nutzer, um ihnen unsere Online-Dienste zur Verfügung 
-                stellen zu können. Zu diesem Zweck verarbeiten wir die IP-Adresse des Nutzers, 
-                die notwendig ist, um die Inhalte und Funktionen unserer Online-Dienste an den 
-                Browser oder das Endgerät der Nutzer zu übermitteln.
-            </p>
-            <h4>Verarbeitung von Datenarten</h4>
-            <p>
-                Nutzungsdaten (z. B. Seitenaufrufe und Verweildauer, Klickpfade, Nutzungsintensität 
-                und -frequenz, verwendete Gerätetypen und Betriebssysteme, Interaktionen mit 
-                Inhalten und Funktionen); Meta-, Kommunikations- und Verfahrensdaten 
-                (z. B. IP-Adressen, Zeitangaben, Identifikationsnummern, beteiligte Personen). 
-                Protokolldaten (z. B. Logfiles betreffend Logins oder den Abruf von Daten oder 
-                Zugriffszeiten.). Betroffene Personen: Nutzer (z. B. Webseitenbesucher, 
-                Nutzer von Onlinediensten).
-            </p>
-            <h4>Zweck der Verarbeitung</h4>
-            <p>
-                Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit; 
-                Informationstechnische Infrastruktur (Betrieb und Bereitstellung von 
-                Informationssystemen und technischen Geräten (Computer, Server etc.).). 
-                Sicherheitsmaßnahmen.
-            </p>
-            <h4>Aufbewahrung und Löschung</h4>
-            <p>
-                Löschung entsprechend Angaben im Abschnitt 
-                "Allgemeine Informationen zur Datenspeicherung und Löschung".
-            </p>
-            <h4>
-                Rechtsgrundlage
-            </h4>
-            <p>
-                Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO.
-            </p>
+            <p>{{ translate('LEGAL-TXT7') }}</p>
+            <h4>{{ translate('LEGAL-PROCES') }}</h4>
+            <p>{{ translate('LEGAL-TXT8') }} </p>
+            <h4>{{ translate('LEGAL-PRURPOSE') }}</h4>
+            <p>{{ translate('LEGAL-TXT9') }} </p>
+            <h4>{{ translate('LEGAL-RENTATION') }}</h4>
+            <p>{{ translate('LEGAL-DELETING') }}</p>
+            <h4>{{ translate('LEGAL-BASIS') }}</h4>
+            <p>{{ translate('LEGAL-LEGITIMATE') }}</p>
             <br>
             <br>
-            <h3>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten</h3>
+            <h3>{{ translate('LEGAL-FUR-INFO') }}</h3>
             <br>
             <br>
-            <h4>Erhebung von Zugriffsdaten und Logfiles:</h4>
-            <p>
-                Der Zugriff auf unser Onlineangebot wird in Form von sogenannten "Server-Logfiles" 
-                protokolliert. Zu den Serverlogfiles können die Adresse und der Name der 
-                abgerufenen Webseiten und Dateien, Datum und Uhrzeit des Abrufs, 
-                übertragene Datenmengen, Meldung über erfolgreichen Abruf, Browsertyp nebst 
-                Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite) 
-                und im Regelfall IP-Adressen und der anfragende Provider gehören. 
-                Die Serverlogfiles können zum einen zu Sicherheitszwecken eingesetzt werden, 
-                z. B. um eine Überlastung der Server zu vermeiden (insbesondere im Fall von 
-                missbräuchlichen Angriffen, sogenannten DDoS-Attacken), und zum anderen, um die 
-                Auslastung der Server und ihre Stabilität sicherzustellen; Rechtsgrundlagen: 
-                Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO). Löschung von Daten: 
-                Logfile-Informationen werden für die Dauer von maximal 30 Tagen gespeichert und 
-                danach gelöscht oder anonymisiert. Daten, deren weitere Aufbewahrung zu 
-                Beweiszwecken erforderlich ist, sind bis zur endgültigen Klärung des jeweiligen 
-                Vorfalls von der Löschung ausgenommen.
-            </p>
+            <h4>{{ translate('LEGAL-COLLECT') }}</h4>
+            <p>{{ translate('LEGAL-TXT10') }}</p>
             <br>
             <br>
-            <h3>Einsatz von Coockies</h3>
+            <h3>{{ translate('LEGAL-COOCKIES') }}</h3>
             <br>
-            <p>
-                Cookies sind kleine Textdateien bzw. sonstige Speichervermerke, die Informationen 
-                auf Endgeräten speichern und aus ihnen auslesen. Zum Beispiel, 
-                um den Log-in-Status in einem Nutzerkonto, einen Warenkorbinhalt in einem E-Shop, 
-                die aufgerufenen Inhalte oder verwendete Funktionen eines Onlineangebots zu 
-                speichern. Cookies können ferner in Bezug auf unterschiedliche Anliegen Einsatz 
-                finden, etwa zu Zwecken der Funktionsfähigkeit, der Sicherheit und des Komforts 
-                von Onlineangeboten sowie der Erstellung von Analysen der Besucherströme.
-            </p>
-            <h4>Hinweise zur Einwilligung</h4>
-            <p>
-                Wir setzen Cookies im Einklang mit den gesetzlichen Vorschriften ein. 
-                Daher holen wir von den Nutzern eine vorhergehende Einwilligung ein, 
-                es sei denn, sie ist laut Gesetzeslage nicht gefordert. Eine Erlaubnis ist 
-                insbesondere nicht notwendig, wenn das Speichern und das Auslesen der 
-                Informationen, also auch von Cookies, unbedingt erforderlich sind, um den 
-                Nutzern einen von ihnen ausdrücklich gewünschten Telemediendienst 
-                (also unser Onlineangebot) zur Verfügung zu stellen. Die widerrufliche 
-                Einwilligung wird ihnen gegenüber deutlich kommuniziert und enthält 
-                die Informationen zur jeweiligen Cookie-Nutzung.
-            </p>
+            <p>{{ translate('LEGAL-TXT11') }}</p>
+            <h4>{{ translate('LEGAL-NOTES') }}</h4>
+            <p>{{ translate('LEGAL-TXT12') }}</p>
             <br>
-            <h4>Heinweise zu Datenschutzrechtkichen Rechtsgrundlagen:</h4>
-            <p>
-                Auf welcher datenschutzrechtlichen Grundlage wir die personenbezogenen Daten der 
-                Nutzer mithilfe von Cookies verarbeiten, hängt davon ab, ob wir sie um eine 
-                Einwilligung bitten. Falls die Nutzer akzeptieren, ist die Rechtsgrundlage 
-                der Verwertung ihrer Daten die erklärte Einwilligung. Andernfalls werden die 
-                mithilfe von Cookies verwerteten Daten auf Grundlage unserer berechtigten 
-                Interessen (z. B. an einem betriebswirtschaftlichen Betrieb unseres 
-                Onlineangebots und der Verbesserung seiner Nutzbarkeit) verarbeitet oder, 
-                falls dies im Rahmen der Erfüllung unserer vertraglichen Pflichten erfolgt, 
-                wenn der Einsatz von Cookies erforderlich ist, um unseren vertraglichen 
-                Verpflichtungen nachzukommen. Zu welchen Zwecken die Cookies von uns verwertet 
-                werden, darüber klären wir im Laufe dieser Datenschutzerklärung oder im 
-                Rahmen von unseren Einwilligungs- und Verarbeitungsprozessen auf.
-            </p>
+            <h4>{{ translate('LEGAL-REF') }}</h4>
+            <p>{{ translate('LEGAL-TXT13"') }}</p>
             <br>
-            <h4>Speicherdauer</h4>
-            <p>
-                Im Hinblick auf die Speicherdauer werden die folgenden Arten von Cookies unterschieden:
-            </p>
+            <h4>{{ translate('LEGAL-STORE') }}</h4>
+            <p>{{ translate('LEGAL-STORE-RIGHT') }}</p>
             <br>
-            <h4>Temporäre Cookies (auch: Session- oder Sitzungscookies):</h4>
-            <p>
-                Temporäre Cookies werden spätestens gelöscht, nachdem ein Nutzer ein Onlineangebot 
-                verlassen und sein Endgerät (z. B. Browser oder mobile Applikation) geschlossen hat.
-            </p>
-            <h4>Permanente Coockies</h4>
-            <p>
-                Permanente Cookies bleiben auch nach dem Schließen des Endgeräts gespeichert. 
-                So können beispielsweise der Log-in-Status gespeichert und bevorzugte 
-                Inhalte direkt angezeigt werden, wenn der Nutzer eine Website erneut besucht. 
-                Ebenso können die mithilfe von Cookies erhobenen Nutzerdaten zur 
-                Reichweitenmessung Verwendung finden. Sofern wir Nutzern keine expliziten 
-                Angaben zur Art und Speicherdauer von Cookies mitteilen (z. B. im Rahmen der 
-                Einholung der Einwilligung), sollten sie davon ausgehen, dass diese permanent 
-                sind und die Speicherdauer bis zu zwei Jahre betragen kann.
-            </p>
+            <h4>{{ translate('LEGAL-TEMP') }}</h4>
+            <p>{{ translate('LEGAL-TEMP-RIGHT') }}</p>
+            <h4>{{ translate('EGAL-PERM') }}</h4>
+            <p>{{ translate('LEGAL-PERM-RIGHT') }} </p>
             <br>
-            <h4>Allgemeine Hinweise zum Widerruf und Widerspruch (Opt-out):</h4>
-            <p>
-                Nutzer können die von ihnen abgegebenen Einwilligungen jederzeit widerrufen 
-                und zudem einen Widerspruch gegen die Verarbeitung entsprechend den 
-                gesetzlichen Vorgaben, auch mittels der Privatsphäre-Einstellungen ihres Browsers, 
-                erklären.
-            </p>
+            <h4>{{ translate('LEGAL-GENER-INFO') }}</h4>
+            <p>{{ translate('LEGAL-USERS') }}</p>
             <br>
-            <h4>Verarbeitete Daten</h4>
-            <p>
-                Meta-, Kommunikations- und Verfahrensdaten 
-                (z. B. IP-Adressen, Zeitangaben, Identifikationsnummern, beteiligte Personen).
-            </p>
-            <h4>Betroffene Personen</h4>
-            <p>
-                Nutzer (z. B. Webseitenbesucher, Nutzer von Onlinediensten).
-            </p>
-            <h4>Rechtsgrundlagen:</h4>
-            <p>
-                Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO). 
-                Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO).
-            </p>
+            <h4>{{ translate('LEGAL-PROCESSED') }}</h4>
+            <p>{{ translate('LEGAL-META') }} </p>
+            <h4>{{ translate('LEGAL-SUB') }}</h4>
+            <p>{{ translate('LEGAL-USERS2') }}</p>
+            <h4>{{ translate('LEGAL-BASES') }}</h4>
+            <p>{{ translate('LEGAL-LEG2') }} </p>
             <br>
             <br>
-            <h3>Weitere Hinweise zu Verarbeitungsprozessen, Diensten und Verfahren</h3>
+            <h3>{{ translate('LEGAL-FURTHER') }}</h3>
             <br>
             <br>
-            <h4>Verarbeitung von Cookie-Daten auf Grundlage einer Einwilligung:</h4>
-            <p>
-                Wir setzen eine Einwilligungs-Management-Lösung ein, bei der die Einwilligung der 
-                Nutzer zur Verwendung von Cookies oder zu den im Rahmen der 
-                Einwilligungs-Management-Lösung genannten Verfahren und Anbietern eingeholt wird. 
-                Dieses Verfahren dient der Einholung, Protokollierung, Verwaltung und dem Widerruf 
-                von Einwilligungen, insbesondere bezogen auf den Einsatz von Cookies und 
-                vergleichbaren Technologien, die zur Speicherung, zum Auslesen und zur Verarbeitung 
-                von Informationen auf den Endgeräten der Nutzer eingesetzt werden. 
-                Im Rahmen dieses Verfahrens werden die Einwilligungen der Nutzer für die 
-                Nutzung von Cookies und die damit verbundenen Verarbeitungen von Informationen, 
-                einschließlich der im Einwilligungs-Management-Verfahren genannten spezifischen 
-                Verarbeitungen und Anbieter, eingeholt. Die Nutzer haben zudem die Möglichkeit, 
-                ihre Einwilligungen zu verwalten und zu widerrufen. 
-                Die Einwilligungserklärungen werden gespeichert, um eine erneute Abfrage zu 
-                vermeiden und den Nachweis der Einwilligung gemäß der gesetzlichen 
-                Anforderungen führen zu können. Die Speicherung erfolgt serverseitig und/oder 
-                in einem Cookie (sogenanntes Opt-In-Cookie) oder mittels vergleichbarer 
-                Technologien, um die Einwilligung einem spezifischen Nutzer oder dessen 
-                Gerät zuordnen zu können. Sofern keine spezifischen Angaben zu den Anbietern 
-                von Einwilligungs-Management-Diensten vorliegen, gelten folgende allgemeine 
-                Hinweise: Die Dauer der Speicherung der Einwilligung beträgt bis zu zwei Jahre. 
-                Dabei wird ein pseudonymer Nutzer-Identifikator erstellt, der zusammen mit dem 
-                Zeitpunkt der Einwilligung, den Angaben zum Umfang der Einwilligung 
-                (z. B. betreffende Kategorien von Cookies und/oder Diensteanbieter) sowie 
-                Informationen über den Browser, das System und das verwendete Endgerät 
-                gespeichert wird; Rechtsgrundlagen: Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO).
-            </p>
-            <p>Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke</p>
+            <h4>{{ translate('LEGAL-PROCESS') }}</h4>
+            <p>{{ translate('LEGAL-TXT14') }}</p>
+            <p>{{ translate('LEGAL-CREATET') }}</p>
         </div>
     </div>
 </div>
