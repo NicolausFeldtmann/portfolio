@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { TranslationsService } from './translationService';
-import { FooterComponent } from './main-content/footer/footer.component';
-import { HeaderComponent } from './main-content/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @Component({
   selector: 'app-root',

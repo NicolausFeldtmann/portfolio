@@ -1,5 +1,23 @@
 @import './../../../styles.scss';
 
+@media screen and (min-height: 935px) {
+
+    .right-side{
+        height: 636px !important;
+    }
+}
+
+@media screen and (min-height: 1200px) {
+
+    .right-side{
+        height: 900px !important;
+    }
+
+    .left-side{
+        height: 900px !important;
+    }
+}
+
 @media screen and (max-width: 1500px) {
 
     .center-section{
@@ -62,7 +80,11 @@
     }
 
     .right-side{
-        height: 336px !important;
+        height: 360px !important;
+    }
+
+    .left-side{
+        height: 360px !important;
     }
 
     .apendix{
@@ -81,14 +103,6 @@
 
     .cuteDot{
         display: none;
-    }
-
-    nav{
-        display: none;
-    }
-
-    .mobile-nav{
-        display: flex;
     }
 
     .switch{
@@ -150,7 +164,7 @@
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 475px) {
 
     .apendix{
 
@@ -175,6 +189,7 @@
         
         h1{
             text-align: center;
+            width: 90%;
         }
 
         h3{
@@ -223,6 +238,13 @@
 
     .left-side{
         height: 200px !important;
+    }
+}
+
+@media screen and (max-height: 700px) {
+
+    .right-side{
+        height: 336px !important;
     }
 }
 

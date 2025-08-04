@@ -1,5 +1,19 @@
  @import './../../../styles.scss';
 
+    .logo-area{
+    background: none;
+
+    .logo-nav{
+        background: none;
+        width: 132px;
+        margin: 56px 0px 0px 0px;
+        border-radius: 95px;
+        border: solid 5px $brigth_green;
+        padding: 12px 12px 12px 12px;
+        background-color: black;
+    }
+}
+
 .cuteDot{
     visibility: hidden;
     background: none;
@@ -86,19 +100,7 @@ nav{
 
     }
 
-    .logo-area{
-        background: none;
 
-        .logo-nav{
-            background: none;
-            width: 132px;
-            margin: 56px 0px 0px 0px;
-            border-radius: 95px;
-            border: solid 5px $brigth_green;
-            padding: 12px 12px 12px 12px;
-            background-color: black;
-        }
-    }
 }
 
 .links{
@@ -273,11 +275,7 @@ nav{
     }
 }
 
-@media screen and (max-width: 600px) {
-
-    .cuteDot{
-        display: none;
-    }
+@media screen and (max-width: 700px) {
 
     nav{
         display: none;
@@ -285,6 +283,13 @@ nav{
 
     .mobile-nav{
         display: flex;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .cuteDot{
+        display: none;
     }
 }
 

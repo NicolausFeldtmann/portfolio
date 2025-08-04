@@ -5,7 +5,7 @@ import { SkillSetComponent } from './skill-set/skill-set.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { FeebackComponent } from './feeback/feeback.component';
 import { ContactComponent } from './contact/contact.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from '../shared/footer/footer.component';
 
 @Component({
   selector: 'app-main-content',

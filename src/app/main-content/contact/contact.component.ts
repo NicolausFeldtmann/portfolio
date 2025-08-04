@@ -5,6 +5,7 @@ import { FormsModule, NgForm } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { RouterLink } from '@angular/router';
+import { ToggleService } from '../../shared/toggle.service';
 
 @Component({
   selector: 'app-contact',
@@ -33,7 +34,8 @@ export class ContactComponent implements OnInit {
 
     constructor(
         private translationService: TranslationsService,
-        private languageService: LanguageService
+        private languageService: LanguageService,
+        private toggleService: ToggleService
     ) {}
 
     ngOnInit() {
@@ -72,6 +74,10 @@ export class ContactComponent implements OnInit {
         this.isShow = !this.isShow;
     }
 
+    triggerToggleLegal() {
+        this.toggleService.triggerToggleLegal();
+    }
+ 
     sendMail(event: any){
         if (!this.isFormValid()) {
             return;
@@ -91,6 +97,9 @@ export class ContactComponent implements OnInit {
                 }
             }).then(() => {
                 this.show();
+                this.contactData = {name: '', email: '', message: ''}
+                this.isChecked = false;
+                this.changeBtn();
             }).catch((error) => {
                 console.log(error);
             });

@@ -1,0 +1,370 @@
+@import './../../../styles.scss';
+
+.cuteDot{
+    visibility: hidden;
+    background: none;
+    width: 8px;
+    height: 8px
+}
+
+.footer-logos{
+    @include dFlex($fd: row, $jc: space-between);
+    width: 100%;
+    background: none;
+}
+
+.footer-content{
+    @include dFlex($fd: row, $jc: space-between);
+    margin: 72px 72px 72px 72px;
+    width: 100%;
+    max-width: 1920px;
+    scroll-behavior: smooth !important;
+}
+
+.logo-area{
+    @include dFlex($ai: normal);
+
+    .logo{
+        background: none;
+        width: 132px;
+        margin: 56px 0px 0px 0px;
+        border-radius: 72px;
+        border: solid 5px $brigth_green;
+    }
+
+    p{
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.footer-center{
+    @include dFlex($fd: row);
+    color: $brigth_green;
+    font-family: 'Fira Code';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-mobile-center{
+    @include dFlex($fd: row, $dp: none);
+    color: $brigth_green;
+    font-family: 'Fira Code';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-links{
+    @include dFlex($ai: normal);
+    transition: 0.2s;
+}
+
+.link{
+    @include dFlex($fd: row, $jc: normal);
+    background: none;
+
+    &:hover{
+        cursor: pointer;
+
+        .cuteDot{
+            visibility: visible;
+        }
+    }
+    
+    .git-link{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+
+        &:hover{
+            color: $brigth_green;
+
+        }
+    }
+
+    .linked-link{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+
+        &:hover{
+            color: $brigth_green;
+        }
+    }
+
+    .email-link{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+
+        &:hover{
+            color: $brigth_green;
+        }
+    }
+
+    .legal-link{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+
+        &:hover{
+            color: $brigth_green;
+        }
+    }
+}
+
+.impressum{
+    @include dFlex($dp: none);
+    background: none;
+    left: 0px;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.impressum-content{
+    @include dFlex($jc: unset);
+    background: none;
+    height: 75%;
+    width: 75%;
+    background-color: $soft_green;
+    border: solid 1px $brigth_green;
+    border-radius: 30px;
+    padding: 12px 24px 12px 24px;
+
+    .txt-area{
+        @include dFlex($ai: normal, $jc: unset);
+        max-width: 1920px;
+        background: none;
+        margin: 48px 12px 48px 12px;
+        padding: 48px 24px 48px 24px;
+        overflow-y: scroll;
+
+        h3{
+            background: none;
+            color: $brigth_green;
+        }
+
+        p{
+            background: none;
+            color: white;
+            font-size: 16px;
+        }
+    }
+}
+
+.impressum-header{
+    @include dFlex($fd: row, $jc: space-between);
+    background: none;
+
+    h1{
+        background: none;
+        color: $brigth_green;
+    }
+
+    .btn-area{
+        @include dFlex();
+        width: 100px;
+        height: 100px;
+        background: none;
+        border: 1px solid $brigth_green;
+        border-radius: 30px;
+        text-decoration: none;
+        transition: 0.5s ease;
+
+        .back-para{
+            font-size: 28px;
+        }
+
+        .back-icon{
+            background: none;
+            rotate: 180deg;
+            width: 48px;
+        }
+
+        &:hover{
+            cursor: pointer;
+            transform: translate3d(0, 15px, 0);
+        }
+    }
+}
+
+.impress-div{
+    background: none
+}
+
+.impress-icon{
+    @include dFlex();
+    background: none;
+    width: 48px;
+    height: 48px;
+
+    .impress-close{
+        @include dFlex();
+        width: 20px;
+        height: 20px;
+        background: none;
+        background-image: url(/assets/img/PNG/close_small.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        transition: background-image 0.3s ease-in-out;
+
+        &:hover{
+            cursor: pointer;
+            width: 28px;
+            height: 28px;
+            background: none;
+            background-image: url(/assets/img/PNG/icons-green/close-hover.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+}
+
+.legal-icon{
+    @include dFlex();
+    background: none;
+    width: 48px;
+    height: 48px;
+
+    .legal-close{
+        @include dFlex();
+        width: 20px;
+        height: 20px;
+        background: none;
+        background-image: url(/assets/img/PNG/close_small.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        transition: background-image 0.3s ease-in-out;
+
+        &:hover{
+            cursor: pointer;
+            width: 28px;
+            height: 28px;
+            background: none;
+            background-image: url(/assets/img/PNG/icons-green/close-hover.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+}
+
+.legal{
+    @include dFlex($dp: none);
+    background: none;
+    left: 0px;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.legal-content{
+    @include dFlex($jc: unset);
+    background: none;
+    height: 75%;
+    width: 75%;
+    background-color: $soft_green;
+    border: solid 1px $brigth_green;
+    border-radius: 30px;
+    padding: 12px 24px 12px 24px;
+
+    .txt-area-legal{
+        @include dFlex($ai: normal, $jc: unset);
+        max-width: 1920px;
+        background: none;
+        margin: 48px 12px 48px 12px;
+        padding: 48px 24px 48px 24px;
+        overflow-y: scroll;
+
+        h2{
+            background: none;
+            color: $brigth_green;
+        }
+
+        h3{
+            background: none;
+            color: $brigth_green;
+        }
+
+        h4{
+            background: none;
+            color: $brigth_green;
+        }
+
+        p{
+            background: none;
+            color: white;
+            font-size: 16px;
+        }
+    }
+}
+
+.legal-header{
+    @include dFlex($fd: row, $jc: space-between);
+    background: none;
+
+    h1{
+        background: none;
+        color: $brigth_green;
+    }
+
+    .btn-area{
+        @include dFlex();
+        width: 100px;
+        height: 100px;
+        background: none;
+        border: 1px solid $brigth_green;
+        border-radius: 30px;
+        text-decoration: none;
+        transition: 0.5s ease;
+
+        .back-para{
+            font-size: 28px;
+        }
+
+        .back-icon{
+            background: none;
+            rotate: 180deg;
+            width: 48px;
+        }
+
+        &:hover{
+            cursor: pointer;
+            transform: translate3d(0, 15px, 0);
+        }
+    }
+}
+
+.legal-element{
+    background: none;
+}
+
+.showImpressum{
+    display: flex;
+}
+
+.showLegal{
+    display: flex;
+}
+

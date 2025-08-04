@@ -168,6 +168,10 @@ span{
             font-weight: 400;
             color: $brigth_green;
             text-decoration: none;
+
+            &:hover{
+                cursor: pointer;
+            }
         }
     }
 

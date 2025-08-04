@@ -2,9 +2,9 @@
     <div class="mobile-menu" (click)="$event.stopPropagation()">
         <div class="mobile-menu-content">
             <div class="mobile-links">
-                <a class="mobile-link" routerLink="aboutMe" (click)="showMenu()">{{ translate('ABOUT-ME') }}</a>
-                <a class="mobile-link" routerLink="#skill-set" (click)="showMenu()">{{ translate('SKILLS') }}</a>
-                <a class="mobile-link" routerLink="#projects" (click)="showMenu()">{{ translate('PROJECTS') }}</a>
+                <a class="mobile-link" href="#aboutMe" (click)="showMenu()">{{ translate('ABOUT-ME') }}</a>
+                <a class="mobile-link" href="#skill-set" (click)="showMenu()">{{ translate('SKILLS') }}</a>
+                <a class="mobile-link" href="#projects" (click)="showMenu()">{{ translate('PROJECTS') }}</a>
             </div>
             <div class="switch" [class.switched]="isSwitched" (click)="toggleLanguage()">
                 <div class="toggle-switch"></div>
@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    <a class="logo-area" href="#landing">
+    <a class="logo-area" routerLink="">
         <img class="logo-nav" src="./assets/img/PNG/logos/newLogo.png" alt="placeholder logo">
     </a>
 </nav>
