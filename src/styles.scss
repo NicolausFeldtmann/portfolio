@@ -10,6 +10,12 @@ $brigth_green: rgb(0, 219, 186);
     align-items: $ai;
 }
 
+app-root{
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+}
+
 *{
     font-family: 'Karla';
     margin: 0;

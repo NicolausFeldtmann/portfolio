@@ -1,20 +1,20 @@
 <div class="contact-content">
 
-            <div class="send-content" [class.show]="isShow">
-                <div class="send-message">
-                    <div class="box-header">
-                        <h1>E-mail sent!</h1>
-                        <div class="send-icon">
-                            <div class="send-close" (click)="show()"></div>
-                        </div>
-                    </div>
-                    <div class="send-txt">
-                        <p>Thank you for your interest!</p>
-                        <br>
-                        <p>I'll contact you as soon as posible</p>
-                    </div>
+    <div class="send-content" [class.show]="isShow">
+        <div class="send-message">
+            <div class="box-header">
+                <h1>E-mail sent!</h1>
+                <div class="send-icon">
+                    <div class="send-close" (click)="show()"></div>
                 </div>
             </div>
+            <div class="send-txt">
+                <p>Thank you for your interest!</p>
+                <br>
+                <p>I'll contact you as soon as posible</p>
+            </div>
+        </div>
+    </div>
 
     <div class="contact-me">
         <h4>{{ translate('CONTACT') }}</h4>
@@ -31,7 +31,7 @@
         <label class="contact-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">{{ translate('NAME') }}</h4>
-            <input #name="ngModel" [(ngModel)]="contactData.name" (ngModelCHange)="changeBtn()"  type="text" id="name" name="name" placeholder="{{ translate('PLACEHOLDER1') }}" spellcheck="false" required>
+            <input #nameInput #name="ngModel" [(ngModel)]="contactData.name" (ngModelCHange)="changeBtn()"  type="text" id="name" name="name" placeholder="{{ translate('PLACEHOLDER1') }}" spellcheck="false" required>
             <div *ngIf="!name.valid && name.touched && !isSent" class="span-txt">{{ translate('NAME-REQU') }}</div>
         </label>
 

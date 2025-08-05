@@ -162,7 +162,9 @@ p{
     border: solid 3px $brigth_green;
     border-radius: 30px;
     width: 75%;
+    max-width: 1920px;
     height: 75%;
+    max-height: 1240px;
     position: absolute;
     background-image: url(/assets/img/SVG/background.svg);
     background-size: cover;

@@ -177,6 +177,16 @@
     }
 }
 
+@media screen and (max-width: 550px) {
+
+    .apendix{
+
+        .banner-content{
+            animation: slide-left 30s linear infinite !important;
+        }
+    }
+} 
+
 @media screen and (max-width: 475px) {
 
     .apendix{
@@ -224,6 +234,16 @@
             .btn-para{
                 font-size: 16px;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .apendix{
+
+        .banner-content{
+            animation: slide-left 20s linear infinite !important;
         }
     }
 }

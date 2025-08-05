@@ -10,6 +10,7 @@
 .footer-logos{
     @include dFlex($fd: row, $jc: space-between);
     width: 100%;
+    max-width: 1920px;
     background: none;
 }
 

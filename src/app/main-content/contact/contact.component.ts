@@ -1,10 +1,10 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import { TranslationsService } from '../../translationService';
 import { LanguageService } from '../../language.service';
 import { FormsModule, NgForm } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { RouterLink } from '@angular/router';
+import { RouterLink, ActivatedRoute } from '@angular/router';
 import { ToggleService } from '../../shared/toggle.service';
 
 @Component({
@@ -20,6 +20,7 @@ import { ToggleService } from '../../shared/toggle.service';
   styleUrls: ['./contact.component.scss', './mobile.scss']
 })
 export class ContactComponent implements OnInit {
+    @ViewChild('nameInput') nameInput!: ElementRef<HTMLInputElement>;
     isChecked = false;
     isActive = false;
     isShow = false;
@@ -36,7 +37,8 @@ export class ContactComponent implements OnInit {
     constructor(
         private translationService: TranslationsService,
         private languageService: LanguageService,
-        private toggleService: ToggleService
+        private toggleService: ToggleService,
+        private route: ActivatedRoute
     ) {}
 
     ngOnInit() {
@@ -44,7 +46,19 @@ export class ContactComponent implements OnInit {
             this.currenLanguage = lang;
         });
 
+        this.route.fragment.subscribe(fragment => {
+            if (fragment === 'contact') {
+                this.focusInput();
+            }
+        })
+
         this.isSent = false;
+    }
+
+    focusInput() {
+        setTimeout(() => {
+            this.nameInput.nativeElement.focus();
+        }, 0);
     }
 
     translate(textKey: string): string {
@@ -108,10 +122,6 @@ export class ContactComponent implements OnInit {
                 console.log(error);
             });
         }
-    }
-
-    test() {
-        console.log(this.isSent);
     }
 }
 

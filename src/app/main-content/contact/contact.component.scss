@@ -264,8 +264,10 @@ span{
 .send-message{
     @include dFlex($jc: normal);
     height: 50%;
+    max-height: 1240px;
     min-height: 572px;
     width: 50%;
+    max-width: 1920px;
     background: none;
     background-image: url(/assets/img/SVG/background.svg);
     background-size: cover;

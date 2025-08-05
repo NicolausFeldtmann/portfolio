@@ -15,7 +15,7 @@
     .center-banner{
         @include dFlex($fd: row);
         overflow: hidden;
-        width: 100%;
+        width: 110%;
         height: 62px;
         background: none;
         background: rgba(192, 191, 191, 0.5);
