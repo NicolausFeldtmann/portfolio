@@ -155,29 +155,29 @@ span{
         background: none;
     }
 
-    .confimr-para{
-        font-weight: 400;
-        color: white;
-        font-size: 15px;
-        margin: 0px 8px 0px 8px;
-        background: none;
-
-        .confirm-link{
-            font-family: 'Fira Code';
-            font-size: 15px;
-            font-weight: 400;
-            color: $brigth_green;
-            text-decoration: none;
-
-            &:hover{
-                cursor: pointer;
-            }
-        }
-    }
-
     .btn-area{
         @include dFlex();
         background: none;
+    }
+}
+
+.confimr-para{
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+    margin: 0px 8px 0px 8px;
+    background: none;
+
+    .confirm-link{
+        font-family: 'Fira Code';
+        font-size: 15px;
+        font-weight: 400;
+        color: $brigth_green;
+        text-decoration: none;
+
+        &:hover{
+            cursor: pointer;
+        }
     }
 }
 
@@ -192,7 +192,6 @@ span{
     border: solid 1px rgb(148, 148, 148);
     border-radius: 34px;
     margin: 16px 0px 12px 0px;
-    //overflow: hidden;
 
     &.active{
         color: white;
@@ -397,37 +396,6 @@ span{
 
         p{
             font-size: 18px;
-        }
-    }
-}
-
-@media screen and (max-width: 450px) {
-
-    .contact-me{
-        height: 548px;
-    }
-
-    .box-header{
-        flex-direction: column;
-        align-items: end;
-        margin: 28px 18px 0px 0px;
-    }
-}
-
-@media screen and (max-width: 350px) {
-
-    .contact-me{
-
-        .sub-line{
-            flex-direction: column;
-            align-items: normal;
-        }
-    }
-
-    .box-header{
-
-        h1{
-            font-size: 24px;
         }
     }
 }

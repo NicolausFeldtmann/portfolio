@@ -14,46 +14,23 @@
         display: flex;
         margin: 48px 0px 48px 0px;
     }
-}
 
-@media screen and (max-width: 515px) {
+    .link{
 
-    .impressum-content{
-
-        .txt-area{
-            padding: 0px 12px 0px 12px;
+        .cuteDot{
+            display: none !important;
         }
-    }
 
-    .legal-content{
-
-        .txt-area-legal{
-            margin:  0px 12px 0px 12px;
-        }
-    }
-
-    .impressum-header{
-
-        h1{
-            font-size: 24px;
-        }
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 
-    .impressum-content{
+    .logo-area{
 
-        .txt-area{
-            padding: 12px 12px 12px 12px;
-            width: 90%;
-        }
-    }
-
-    .legal-content{
-
-        .txt-area-legal{
-            width: 80%;
+        .logo{
+            width: 88px;
+            margin: 0;
         }
     }
 }

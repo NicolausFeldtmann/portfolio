@@ -17,12 +17,13 @@ import { ToggleService } from '../../shared/toggle.service';
     RouterLink
   ],
   templateUrl: './contact.component.html',
-  styleUrl: './contact.component.scss'
+  styleUrls: ['./contact.component.scss', './mobile.scss']
 })
 export class ContactComponent implements OnInit {
     isChecked = false;
     isActive = false;
     isShow = false;
+    isSent = false;
     currenLanguage: any;
     contactData = {
         name: '',
@@ -42,6 +43,8 @@ export class ContactComponent implements OnInit {
         this.languageService.currentLanguage$.subscribe(lang => {
             this.currenLanguage = lang;
         });
+
+        this.isSent = false;
     }
 
     translate(textKey: string): string {
@@ -100,10 +103,15 @@ export class ContactComponent implements OnInit {
                 this.contactData = {name: '', email: '', message: ''}
                 this.isChecked = false;
                 this.changeBtn();
+                this.isSent = true;
             }).catch((error) => {
                 console.log(error);
             });
         }
+    }
+
+    test() {
+        console.log(this.isSent);
     }
 }
 

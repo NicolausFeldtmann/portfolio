@@ -75,8 +75,21 @@
         display: none;
     }
 
+    .cuteDot{
+        display: none !important;
+    }
+
     .icon-mail{
         display: flex !important;
+        pointer-events: none !important;
+    }
+
+    .icon-linked{
+        pointer-events: none !important;
+    }
+
+    .icon-git{
+        pointer-events: none !important;
     }
 
     .right-side{
@@ -212,6 +225,13 @@
                 font-size: 16px;
             }
         }
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .mobile-menu-content{
+        width: auto;
     }
 }
 
