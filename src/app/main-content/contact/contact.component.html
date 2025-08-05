@@ -61,7 +61,7 @@
                 <div class="check-box">
                     <div class="check" [class.checked]="isChecked" (click)="check()" alt=""></div>
                 </div>
-                <p class="confimr-para">{{ translate('CHECK1') }} <a class="confirm-link" (click)="triggerToggleLegal()">{{ translate('PRIVICY') }}</a>{{ translate('CHECK2') }}</p>
+                <p class="confimr-para">{{ translate('CHECK1') }} <a class="confirm-link" routerLink="legal">{{ translate('PRIVICY') }}</a>{{ translate('CHECK2') }}</p>
             </div>
 
             <div class="btn-area">

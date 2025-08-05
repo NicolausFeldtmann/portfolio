@@ -1,180 +1,7 @@
 <div class="footer-content">
 
-    <div class="impressum" id="impressum" [class.showImpressum]="showImpressum">
-        <div class="impressum-content">
-            <div class="txt-area">
-                <div class="impressum-header">
-                    <h1>Impressum</h1>
-                    <div class="impress-icon">
-                        <div class="impress-close" (click)="toggleImpressum()"></div>
-                    </div>
-                </div>
-                <br>
-                <p>{{ translate('IMPRESS-HEAD-PURS') }}</p>
-                <br>
-                <p>Nicolaus Feldtmann</p>
-                <br>
-                <p>Thadenstraße 1</p>
-                <p>20767 Hamburg</p>
-                <br>
-                <div class="impress-div">
-                    <h3>{{ translate('IMPRESS-HEAD-REP') }}</h3>
-                    <p>Nicolaus Feldtmann</p>
-                </div>
-                <br>
-                <div class="impress-div">
-                    <h3>{{ translate('IMPRESS-HEAD-CON') }}</h3>
-                    <p>Telefon: 0176-80086674</p>
-                    <p>E-mail: nicolaus.feldtmann&#64;gmx.de</p>
-                </div>
-                <br>
-                <h3>{{ translate('IMPRESS-HEAD-DIS') }}</h3>
-                <br>
-                <h3>{{ translate('IMPRESS-HEAD-STAN') }}</h3>
-                <br>
-                <p>{{ translate('IMPRESS-TXT1') }}</p>
-                <br>
-                <h3>{{ translate('IMPRESS-PRIVECY') }}</h3>
-                <br>
-                <p>{{ translate('IMPRESS-TXT2') }}</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="legal" [class.showLegal]="showLegal">
-        <div class="legal-content">
-            <div class="txt-area-legal">
-                <div class="legal-header">
-                    <h1>{{ translate('LEGAL-HEAD') }}</h1>
-                    <div class="legal-icon">
-                        <div class="legal-close" (click)="toggleLegal()"></div>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <h3>{{ translate('LEGAL-HEAD-CHAR') }}</h3>
-                <br>
-                <br>
-                <p>Nicolaus Feldtmann</p>
-                <p>Thadenstraße. 1</p>
-                <p>88767 Hamburg</p>
-                <br>
-                <p>E-mail: nicolaus.feldtmann&#64;.gmx.de</p>
-                <br>
-                <h2>{{ translate('LEGAL-HEAD-OVER') }}</h2>
-                <br>
-                <p>{{ translate('LEGAL-HEAD-OVERVIEW') }}</p>
-                <br>
-                <h3>{{ translate('LEGAL-HEAD-DATA') }}</h3>
-                <p>{{ translate('LEGAL-HEAD-DATATYPE') }}</p>
-                <br>
-                <br>
-                <h3>{{ translate('LEGAL-DATA-SUB') }}</h3>
-                <br>
-                <p>{{ translate('LEGAL-COM') }}</p>
-                <br>
-                <h3>{{ translate('LEGAL-PUR') }}</h3>
-                <p>{{ translate('LEGAL-PURPOSE') }}</p>
-                <br>
-                <br>
-                <h3>{{ translate('LEGAL-REV') }}</h3>
-                <div class="legal-element">
-                    <h4>{{ translate('LEGAL-RELEVANT') }}</h4>
-                    <p>{{ translate('LEGAL-TXT1') }}</p>
-                    <h4>{{ translate('LEGAL-CONSENT') }}</h4>
-                    <p>{{ translate('LEGAL-TXT2') }}</p>
-                    <h4>{{ translate('LEGAL-LEG') }}</h4>
-                    <p>{{ translate('LEGAL-PRO') }} </p>
-                    <h4>{{ translate('LEGAL-GER1') }}</h4>
-                    <p>{{ translate('LEGAL-TXT3') }}</p>
-                    <br>
-                    <h3>{{ translate('LEGAL-SAVETY') }}</h3>
-                    <br>
-                    <p>{{ translate('LEGAL-TXT4') }}</p>
-                    <br>
-                    <h3>{{ translate('LEGAL-GENERAL') }}</h3>
-                    <br>
-                    <p>{{ translate('LEGAL-TXT5') }}</p>
-                    <br>
-                    <h3>{{ translate('LEGAL-RIGHTS') }}</h3>
-                    <br>
-                    <p>{{ translate('LEGAL-RIGHTS-SUB') }}</p>
-                    <h4>{{ translate('LEGAL-TXT6') }}</h4>
-                    <p>{{ translate('LEGAL-RIGHTS_GRAN') }}</p>
-                    <h4>{{ translate('LEGAL-ACCES') }}</h4>
-                    <p>{{ translate('LEGAL-ACCES-RIGHT') }}</p>
-                    <h4>{{ translate('LEGAL-REC') }}</h4>
-                    <p>{{ translate('LEGAL-REC-RIGHT') }}</p>
-                    <h4>{{ translate('LEGAL-ERASE') }}</h4>
-                    <p>{{ translate('LEGAL-ERASE-RIGHT') }} </p>
-                    <h4>{{ translate('LEGAL-TRANS') }}</h4>
-                    <p>{{ translate('LEGAL-TRANS-RIGHT') }}</p>
-                    <h4>{{ translate('LEGAL-COMP') }}</h4>
-                    <p>{{ translate('LEGAL-COMP-RIGHT') }}</p>
-                    <br>
-                    <br>
-                    <h3>{{ translate('LEGAL-PRPV') }}</h3>
-                    <br>
-                    <br>
-                    <p>{{ translate('LEGAL-TXT7') }}</p>
-                    <h4>{{ translate('LEGAL-PROCES') }}</h4>
-                    <p>{{ translate('LEGAL-TXT8') }} </p>
-                    <h4>{{ translate('LEGAL-PRURPOSE') }}</h4>
-                    <p>{{ translate('LEGAL-TXT9') }} </p>
-                    <h4>{{ translate('LEGAL-RENTATION') }}</h4>
-                    <p>{{ translate('LEGAL-DELETING') }}</p>
-                    <h4>{{ translate('LEGAL-BASIS') }}</h4>
-                    <p>{{ translate('LEGAL-LEGITIMATE') }}</p>
-                    <br>
-                    <br>
-                    <h3>{{ translate('LEGAL-FUR-INFO') }}</h3>
-                    <br>
-                    <br>
-                    <h4>{{ translate('LEGAL-COLLECT') }}</h4>
-                    <p>{{ translate('LEGAL-TXT10') }}</p>
-                    <br>
-                    <br>
-                    <h3>{{ translate('LEGAL-COOCKIES') }}</h3>
-                    <br>
-                    <p>{{ translate('LEGAL-TXT11') }}</p>
-                    <h4>{{ translate('LEGAL-NOTES') }}</h4>
-                    <p>{{ translate('LEGAL-TXT12') }}</p>
-                    <br>
-                    <h4>{{ translate('LEGAL-REF') }}</h4>
-                    <p>{{ translate('LEGAL-TXT13"') }}</p>
-                    <br>
-                    <h4>{{ translate('LEGAL-STORE') }}</h4>
-                    <p>{{ translate('LEGAL-STORE-RIGHT') }}</p>
-                    <br>
-                    <h4>{{ translate('LEGAL-TEMP') }}</h4>
-                    <p>{{ translate('LEGAL-TEMP-RIGHT') }}</p>
-                    <h4>{{ translate('EGAL-PERM') }}</h4>
-                    <p>{{ translate('LEGAL-PERM-RIGHT') }} </p>
-                    <br>
-                    <h4>{{ translate('LEGAL-GENER-INFO') }}</h4>
-                    <p>{{ translate('LEGAL-USERS') }}</p>
-                    <br>
-                    <h4>{{ translate('LEGAL-PROCESSED') }}</h4>
-                    <p>{{ translate('LEGAL-META') }} </p>
-                    <h4>{{ translate('LEGAL-SUB') }}</h4>
-                    <p>{{ translate('LEGAL-USERS2') }}</p>
-                    <h4>{{ translate('LEGAL-BASES') }}</h4>
-                    <p>{{ translate('LEGAL-LEG2') }} </p>
-                    <br>
-                    <br>
-                    <h3>{{ translate('LEGAL-FURTHER') }}</h3>
-                    <br>
-                    <br>
-                    <h4>{{ translate('LEGAL-PROCESS') }}</h4>
-                    <p>{{ translate('LEGAL-TXT14') }}</p>
-                    <p>{{ translate('LEGAL-CREATET') }}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="footer-logos">
-        <a class="logo-area" href="">
+        <a class="logo-area" routerLink="">
             <img class="logo" src="./assets/img/PNG/logos/newLogo.png" alt="me-logo">
             <p>Web Developer</p>
             <p>Hamburg Germany</p>
@@ -191,15 +18,15 @@
             </div>
             <div class="link">
                 <img class="cuteDot" src="./assets/img/PNG/icons-green/cuteDot.png" alt="cuteDot">
-                <a class="email-link" routerLink="contact">Email</a>
+                <a class="email-link" href="#contact">Email</a>
             </div>
             <div class="link">
                 <img class="cuteDot" src="./assets/img/PNG/icons-green/cuteDot.png" alt="cuteDot">
-                <div class="legal-link" (click)="toggleLegal()">{{ translate('LEGAL') }}</div>
+                <div class="legal-link" routerLink="legal">{{ translate('LEGAL') }}</div>
             </div>
             <div class="link">
                 <img class="cuteDot" src="./assets/img/PNG/icons-green/cuteDot.png" alt="cuteDot">
-                <div class="legal-link" (click)="toggleImpressum()">Impressum</div>
+                <div class="legal-link" routerLink="impressum">Impressum</div>
             </div>
         </div>
     </div>

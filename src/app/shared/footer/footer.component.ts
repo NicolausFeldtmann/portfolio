@@ -29,10 +29,6 @@ showLegal = false;
       this.languageService.currentLanguage$.subscribe(lang => {
         this.currenLanguage = lang;
       });
-
-    this.toggleService.toggleLegal$.subscribe(() => {
-      this.toggleLegal();
-    });
   }
 
   translate(textKey: string): string {
@@ -47,18 +43,6 @@ showLegal = false;
     } else {
       document.body.classList.remove('no-scroll');
     }
-  }
-
-  toggleImpressum() {
-    this.showImpressum = !this.showImpressum;
-    this.showLegal = false;
-    this.updateBodyScroll();
-  }
-
-  toggleLegal() {
-    this.showLegal = !this.showLegal;
-    this.showImpressum = false;
-    this.updateBodyScroll();
   }
 
   updateBodyScroll() {
