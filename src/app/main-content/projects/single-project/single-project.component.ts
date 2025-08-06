@@ -19,6 +19,7 @@ export class SingleProjectComponent implements OnInit {
   isShow = false;
   hovered: boolean = false;
   currenLanguage: any;
+  currentDisplayProject!: any;
 
   @Input()project!: any;
   @Input() allProjects!: any[];
@@ -30,6 +31,7 @@ export class SingleProjectComponent implements OnInit {
     ) {}
   
     ngOnInit() {
+        this.currentDisplayProject = this.project;
         this.languageService.currentLanguage$.subscribe(lang => {
           this.currenLanguage = lang;
         });

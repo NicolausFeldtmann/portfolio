@@ -58,56 +58,6 @@ export class ProjectdataService {
                     skillIcon: "fireBase-green.png",
                 }
             ]
-        },
-        {
-            name: "DA-Notes",
-            proNr: "03",
-            descrKey: "PROJECT3_DESCRIPTION",
-            gitLink: "https://github.com/NicolausFeldtmann/",
-            projectLink: "https://nicolaus-feldtmann.developerakademie.net/angular-projects/da-notes/",
-            img1: "da-notes.png",
-            img2: "da-notes2.png",
-            skills: [
-                {
-                    skillName: "HTML",
-                    skillIcon: "html-green.png",
-                },
-                {
-                    skillName: "CSS",
-                    skillIcon: "css-green.png",
-                },
-                {
-                    skillName: "TypeScript",
-                    skillIcon: "ts-green.png",
-                },
-                {
-                    skillName: "Angular",
-                    skillIcon: "angular-green.png",
-                }
-            ]
-        },
-                {
-            name: "Pokedex",
-            proNr: "04",
-            descrKey: "PROJECT4_DESCRIPTION",
-            gitLink: "https://github.com/NicolausFeldtmann/Pok-dex",
-            projectLink: "https://nicolaus-feldtmann.developerakademie.net/pokedex/",
-            img1: "pokedex.png",
-            img2: "pokedex2.png",
-            skills: [
-                {
-                    skillName: "HTML",
-                    skillIcon: "html-green.png",
-                },
-                {
-                    skillName: "CSS",
-                    skillIcon: "css-green.png",
-                },
-                {
-                    skillName: "JavaScript",
-                    skillIcon: "ts-green.png",
-                }
-            ]
         }
     ]
 }

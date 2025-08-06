@@ -3,7 +3,7 @@
     <div class="project">
         <div class="project-content" (click)="show()">
             <div class="project-name-info" (mouseenter)="hovered = true" (mouseleave)="hovered = false">
-                <h3>{{ project.name }}</h3>
+                <h3>{{ currentDisplayProject.name }}</h3>
                 <div class="skills">
                     <div *ngFor="let skill of project.skills; let track = index">
                         <div class="skill">
