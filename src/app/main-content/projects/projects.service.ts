@@ -15,7 +15,7 @@ export class ProjectdataService {
             descrKey: "PROJECT1_DESCRIPTION",
             gitLink: "https://github.com/NicolausFeldtmann/FrostGrave",
             projectLink: "https://nicolaus-feldtmann.developerakademie.net/FrostGrave/",
-            img1: "frost-grave2.png",
+            img1: "frost-grave.png",
             img2: "frost-grave2.png",
             skills:[
                 {
