@@ -31,6 +31,10 @@
         "en": "Based in Hamburg",
         "de": "In Hamburg zuhause"
   },
+    "INQU": {
+        "en": "inquisitive",
+        "de": "wissbegierig"
+  },
     "WER-ICH-BIN": {
         "en": "Who I Am",
         "de": "Das bin Ich"
@@ -63,21 +67,21 @@
         "en": "",
         "de": "Über mich"
   },
-    "SKILL-ME": {
+    "INTRO": {
         "en": "I possess solid knowledge of various frontend technologies and stay consistently updated to actively contribute to the rapid evolution in the web. An open mindset and growth-oriented approach enable me to adapt quickly to new tools and trends, fostering innovative solutions.",
         "de": "Ich verfüge über solide Kentnisse im Umgang mit verschiedenen Frontend-Technologien und halte mich stets aktuell, um den schnellen Wandel im Web aktiv mitzugestalten. Offenheit für Neues und ein Growth Mindset ermöglichen mir, mich schnell an neue Tools und Trends anzupassen und innovative Lösungen zu entwickeln."
   },
     "YOU": {
         "en": "You need ",
-        "de": "Brauchst du "
+        "de": "Suchst du "
   },
     "ANOTHER": {
         "en": "another skill?",
-        "de": "andere Kompetenzen?"
+        "de": "andere Skills?"
   },
     "FEEL": {
-        "en": "Feel free to contact me. I’m always happy to expand my knowledge and skills.",
-        "de": "Zögere nicht mich anzuschreiben. Ich freue mich stets darauf, mein Wissen und meine Fähigkeiten weiter auszubauen."
+        "en": "Then feel free to message me anyway. I enjoy learning new things! And perhaps we can both benefit from it.",
+        "de": "Dann schreib mich gerne trotzdem an. Ich lerne gerne neues dazu! Und vieleicht könne wir so biede profitieren."
   },
     "TALK": {
         "en": "Let's talk",
