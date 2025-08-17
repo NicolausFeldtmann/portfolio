@@ -17,7 +17,7 @@
   },
     "CHECK": {
         "en": "Check my work",
-        "de": "Teste meine Arbeiten"
+        "de": "Teste meine Projekte"
   },
     "CONTACT-ME": {
         "en": "Contact me",
@@ -31,7 +31,7 @@
         "en": "Based in Hamburg",
         "de": "In Hamburg zuhause"
   },
-    "INQU": {
+    "KNOW": {
         "en": "inquisitive",
         "de": "wissbegierig"
   },
@@ -45,19 +45,19 @@
   },
     "ME": {
         "en": "Hello, I'm Nicolaus! I'm an enthusiastic and somewhat nerdy career changer. I want to turn programming into my new profession. I'm continually fascinated by the seemingly boundless possibilities, which repeatedly inspire me.",
-        "de": "Hallo, ich bin Nicolaus! Ich bin ein begeisterter und etwas nerdiger Quereinsteiger. Mein Wunsch ist es das Programmieren zu meinem neuen Beruf zu machen. Dabei fasziniert mich die scheinbar grenzenlose Vielfalt der Möglichkeiten, die mich immer wieder aufs Neue inspiriert."
+        "de": "Hallo, ich bin Nicolaus! Ich bin ein begeisterter und etwas nerdiger Queaufsteiger. Ich will nun mit meiner Leidenschaft meinen Lebensunterhalt bestreiten. Die unbegrenzten Möglichkeiten beim Programieren, wecken meine Neugier immer wieder aufs neue."
   },
     "LOCATION": {
-        "en": "I am from Hamburg and flexible regarding the work arrangement. I am open to remote work as well as working onsite in an office.",
-        "de": "Ich komme aus Hamburg und bin flexibel hinsichtlich der Arbeitsweise. Ich bin offen für Remote-Arbeit sowie die Arbeit vor Ort im Büro."
+        "en": "I am from Hamburg and would like to work on-site. I would also be happy to learn from my colleagues on-site.",
+        "de": "Ich komme aus Hamburg und würde gerne vor Ort arbeiten. Gerne möchte ich von meinen Kollegen lernen."
   },
     "MIND": {
-        "en": "'The more you know, the more you know you don't know.' I have a strong interest in new technologies and, of course, in improving my skills. My goal is to continuously enhance my abilities so that I am a better programmer at the end of each day than I was the day before.",
-        "de": "'Je mehr ich weiß, um so mehr weiß ich das ich nichts weiß.' Ich habe großes Interesse an neuen Technologien und natürlich daran, mein Können zu verbessern. Mein Ziel ist es meine Fähigkeiten kontinuierlich zu verbessern, um am Ende des Tages ein besserer Programmierer zu sein als am Tag zuvor."
+        "en": "I have a strong interest in new technologies and, of course, in improving my skills",
+        "de": "Ich habe großes Interesse an neuen Technologien und natürlich daran, mein Können zu verbessern."
   },
     "SOLVE": {
-        "en": "Solving problems is my daily bread, especially as a career changer. The most satisfying part is finding a solution that isn't immediately obvious at first glance. It's a bit like Columbus's egg.",
-        "de": "Das Lösen von Problemen ist mein tägliches Brot, insbesondere als Quereinsteiger. Besonders befriedigend ist es, wenn man eine Lösung findet, die auf den ersten Blick nicht offensichtlich ist. Das ist ein bisschen wie das Ei des Columbus."
+        "en": "I am very good at finding solutions, especially as a lateral entrant. It is particularly satisfying when I find a solution that is not immediately obvious and requires some creativity.",
+        "de": "Sehr gut bin ich darin, Lösungen zu finden, insbesondere als Queraufsteiger. Besonders befriedigend ist es, wenn man eine Lösung findet, die auf den ersten Blick nicht ersichtlich ist und ein wenig Kreativität erfordert."
   },
     "TECHNOLOGY": {
         "en": "Technologies",
@@ -72,12 +72,12 @@
         "de": "Ich verfüge über solide Kentnisse im Umgang mit verschiedenen Frontend-Technologien und halte mich stets aktuell, um den schnellen Wandel im Web aktiv mitzugestalten. Offenheit für Neues und ein Growth Mindset ermöglichen mir, mich schnell an neue Tools und Trends anzupassen und innovative Lösungen zu entwickeln."
   },
     "YOU": {
-        "en": "You need ",
-        "de": "Suchst du "
+        "en": "Do you work with ",
+        "de": "Arbeitest du "
   },
     "ANOTHER": {
-        "en": "another skill?",
-        "de": "andere Skills?"
+        "en": "other technologies?",
+        "de": "mit anderen Technologien?"
   },
     "FEEL": {
         "en": "Then feel free to message me anyway. I enjoy learning new things! And perhaps we can both benefit from it.",
@@ -85,7 +85,7 @@
   },
     "TALK": {
         "en": "Let's talk",
-        "de": "Las suns reden "
+        "de": "Las uns reden "
   },
     "FEATURE": {
         "en": "Featured Projects",
@@ -94,10 +94,6 @@
     "SELECTION": {
         "en": "Explore a selection of my work here - interact with projects to see my skills in action.",
         "de": "Hier kannst du eine Auswahl meiner Arbeiten ansehen und selbst ausprobieren."
-  },
-    "FROSTE-GRAVE": {
-        "en": "Side-Scroller game basedon object-oriented approach. Collect falling stars the fight the undead Icegigant.",
-        "de": "Side-scroller Spiel mit Fokus auf Projeckt orintierter Arbeit. Sammle die Fallenden Sterne um am ende den untoten Eisriesen zu schlagen."
   },
     "CONTACT": {
         "en": "Contact me",
