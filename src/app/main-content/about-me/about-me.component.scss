@@ -72,6 +72,7 @@
         color: white;
         width: 480px;
         height: auto;
+        padding: 0px 12px 0px 12px;
     }
 
     .me-para{
@@ -138,13 +139,13 @@
     }
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 900px) {
 
     .about-me{
         position: unset;
         justify-content: normal;
         margin: 88px 0px 0px 0px;
-        height: 1100px;
+        height: 948px;
     }
 
     .center-section{
@@ -174,9 +175,7 @@
 
 @media screen and (max-width: 450px) {
 
-    .about-me{
-        height: 1360px;
-    }
+
 
     .center-section{
         height: 1300px;
