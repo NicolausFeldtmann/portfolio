@@ -31,22 +31,22 @@
         <label class="contact-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">{{ translate('NAME') }}</h4>
-            <input #nameInput #name="ngModel" [(ngModel)]="contactData.name" (ngModelCHange)="changeBtn()"  type="text" id="name" name="name" placeholder="{{ translate('PLACEHOLDER1') }}" spellcheck="false" required>
-            <div *ngIf="!name.valid && name.touched && !isSent" class="span-txt">{{ translate('NAME-REQU') }}</div>
+            <input (focus)="nameFocus = true" (blur)="nameFocus = false" #nameInput #name="ngModel" [(ngModel)]="contactData.name" (ngModelCHange)="changeBtn()"  type="text" id="name" name="name" placeholder="{{ translate('PLACEHOLDER1') }}" spellcheck="false" required>
+            <div *ngIf="!name.valid && name.touched && !isSent && !nameFocus" class="span-txt">{{ translate('NAME-REQU') }}</div>
         </label>
 
         <label class="contact-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">{{ translate('E-MAIL') }}</h4>
-            <input #email="ngModel" [(ngModel)]="contactData.email" (ngModelChange)="changeBtn()" type="email" name="email" placeholder="{{ translate('PLACEHOLDER2') }}" spellcheck="false" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
-            <div *ngIf="!email.valid && email.touched && !isSent" class="span-txt">{{ translate('MAIL-REQU') }}</div>
+            <input (focus)="emailFocus = true" (blur)="emailFocus = false" #email="ngModel" [(ngModel)]="contactData.email" (ngModelChange)="changeBtn()" type="email" name="email" placeholder="{{ translate('PLACEHOLDER2') }}" spellcheck="false" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+            <div *ngIf="!email.valid && email.touched && !isSent && !emailFocus" class="span-txt">{{ translate('MAIL-REQU') }}</div>
         </label>
 
         <label class="contact-row message-row">
             <div class="seperator"></div>
             <h4 class="sub-h4">{{ translate('CONCERN') }}</h4>
-            <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" (ngModelChange)="changeBtn()" type="text" name="message" placeholder="{{ translate('PLACEHOLDER3') }}" spellcheck="false" required></textarea>
-            <div *ngIf="!message.valid && message.touched && !isSent" class="span-txt">{{ translate('MAIL-REQU') }}</div>
+            <textarea (focus)="messageFocus = true" (blur)="messageFocus = false" #message="ngModel" minlength="4" [(ngModel)]="contactData.message" (ngModelChange)="changeBtn()" type="text" name="message" placeholder="{{ translate('PLACEHOLDER3') }}" spellcheck="false" required></textarea>
+            <div *ngIf="!message.valid && message.touched && !isSent && !messageFocus" class="span-txt">{{ translate('MAIL-REQU') }}</div>
             <div class="seperator"></div>
         </label>
 

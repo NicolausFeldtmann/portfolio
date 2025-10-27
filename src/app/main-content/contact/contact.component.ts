@@ -25,6 +25,11 @@ export class ContactComponent implements OnInit {
     isActive = false;
     isShow = false;
     isSent = false;
+
+    nameFocus = false;
+    emailFocus = false;
+    messageFocus = false;
+     
     currenLanguage: any;
     contactData = {
         name: '',

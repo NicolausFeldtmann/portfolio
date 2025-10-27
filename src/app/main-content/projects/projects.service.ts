@@ -58,6 +58,29 @@ export class ProjectdataService {
                     skillIcon: "fireBase-green.png",
                 }
             ]
+        },
+        {
+            name: "DA-Bubble",
+            proNr: "03",
+            descrKey: "PROJECT3_DESCRIPTION",
+            gitLink: "https://github.com/RaphaelaMulthaup/DABubble",
+            projectLink: "https://dabubble-426.developerakademie.net/angular-projects/da-bubble/",
+            img1: "da-bubble1.png",
+            img2: "da-bubble2.png",
+            skills: [
+                {
+                    skillName: "Angular",
+                    skillIcon: "angular-green.png",
+                },
+                {
+                    skillName: "Firebase",
+                    skillIcon: "fireBase-green.png",
+                },
+                {
+                    skillName: "Git",
+                    skillIcon: "git-icon.png",
+                },
+            ]
         }
     ]
 }

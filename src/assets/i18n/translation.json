@@ -45,7 +45,7 @@
   },
     "ME": {
         "en": "Hello, I'm Nicolaus! I'm an enthusiastic and somewhat nerdy career changer. I want to turn programming into my new profession. I'm continually fascinated by the seemingly boundless possibilities, which repeatedly inspire me.",
-        "de": "Hallo, ich bin Nicolaus! Ich bin ein begeisterter und etwas nerdiger Queaufsteiger. Ich will nun mit meiner Leidenschaft meinen Lebensunterhalt bestreiten. Die unbegrenzten Möglichkeiten beim Programieren, wecken meine Neugier immer wieder aufs neue."
+        "de": "Hallo, ich bin Nicolaus! Ich bin ein begeisterter und etwas nerdiger Queraufsteiger. Ich will nun mit meiner Leidenschaft meinen Lebensunterhalt bestreiten. Die unbegrenzten Möglichkeiten beim Programieren, wecken meine Neugier immer wieder aufs neue."
   },
     "LOCATION": {
         "en": "I am from Hamburg and would like to work on-site. I would also be happy to learn from my colleagues on-site.",
@@ -148,8 +148,8 @@
         "de": "Task manager angelehnt an das Kanban System. Created in a group as a joint group project. Erstellt in Gruppe als gemeinsammes Gruppemprojekt. Erstellen und organisieren von Tasks via 'drag and drop' Funktion, sowie das zuweisen von Nutzer und Kategorien." 
   },
     "PROJECT3_DESCRIPTION": {
-        "en": "Orgenizer app. Made with Angular. Global save function by using Firebase.",
-        "de": "Organizer-app. Erstellt mit Angular. Mit globaler Speicher-Funktion bei verwendung von Firebase." 
+        "en": "Business Chat Client. A complex messaging application, developed in team collaboration using Angular, Firestore, Firebase Authentication, Tailwind, and Git.",
+        "de": "Business Chat Client. Ein komplexer Messenger, entstanden in Gruppenarbeit mit Nutzung von Angular, Firestore, Firebase Authentication, Tailwind und Git." 
   },
     "PROJECT4_DESCRIPTION": {
         "en": "Fun little app, based on the Pokedex from the animated series Pokemon.",
