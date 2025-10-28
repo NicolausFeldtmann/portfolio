@@ -2,8 +2,12 @@
 
 .feedback-content{
     @include dFlex();
-    width: 90%;
 }
+
+.feedback{
+    @include dFlex($fd: row);
+}
+
 
 h3{
     font-family: 'Fira Code';
@@ -51,6 +55,17 @@ h3{
 
 .btn-area{
     @include dFlex($fd: row);
+    margin: 48px 0px 48px 0px;
+
+    .dots{
+        @include dFlex($fd: row);
+
+        .feed-dot{
+            width: 8px;
+            height: 8px;
+            margin: 0px 10px 0px 10px;
+        }
+    }
 }
 
 @media screen and (max-width: 615px) {

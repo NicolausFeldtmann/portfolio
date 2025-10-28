@@ -1,18 +1,15 @@
 <div class="feedback-content">
-    <h3>What my colleagues say about me</h3>
-    <div class="quote">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem quaerat quos magni. 
-            Similique, ex recusandae! Rerum eum repellat atque, beatae assumenda provident aliquam, 
-            sapiente, sint enim necessitatibus omnis fuga.
-        </p>
-        <div class="quote-footer">
-            <div class="score"></div>
-            <h5>Name</h5>
-        </div>
-    </div>
+   <h3>{{ translate('FEEDBACK-HEADLINE') }}</h3>
+   <div class="feedback">
+        <app-single-feed class="single-feed" *ngFor="let item of feedbacklistdata.feedBackList" [name]="item.name" [feedBackKey]="item.feedBackKey"></app-single-feed>
+   </div>
     <div class="btn-area">
         <img class="arrow" src="./../../../assets/img/PNG/arrow-right.png" alt="arrow">
-        <div class="dots"></div>
+        <div class="dots">
+            <img class="feed-dot" src="./../../../assets/img/PNG/whiteDot.png" alt="dot">
+            <img class="feed-dot" src="./../../../assets/img/PNG/icons-green/cuteDot.png" alt="dot">
+            <img class="feed-dot" src="./../../../assets/img/PNG/whiteDot.png" alt="dot">
+        </div>
         <img class="arrow" src="./../../../assets/img/PNG/arrows.png" alt="arrow-left">
     </div>
 </div>

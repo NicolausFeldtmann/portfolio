@@ -515,5 +515,21 @@
     "LEGAL-CREATET": {
         "en": "Created with the free data protection generator at Datenschutz-Generator.de by Dr. Thomas Schwenke",
         "de": "Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke" 
+  },
+    "FEEDBACK1": {
+        "en": "During our joint project, I got to know Nicolaus as an engaged and motivated team player with whom working was always enjoyable! He enriches the team through his helpfulness and commitment, contributing to a positive working atmosphere. Additionally, his perseverance sets him apart, as he works diligently until he finds the solution. We could always rely on his results. I am grateful for the constructive collaboration and his valuable contributions to DABubble!",
+        "de": "Während unseres gemeinsamen Projekts habe ich Nicolaus als engagierten und motivierten Teamplayer kennengelernt mit dem die Arbeit immer Spaß gemacht hat! Er bereichert das Team durch seine Hilfsbereitschaft und sein Engagement und trägt so zu einer positiven Arbeitsatmosphäre bei. Außerdem zeichnet ihn sein Durchhaltevermögen aus, denn er arbeitet hartnäckig, bis er die Lösung gefunden hat. So konnten wir uns auf seine Ergebnisse stets verlassen. Ich bin dankbar für die konstruktive Zusammenarbeit und seine wertvollen Beiträge für DABubble!" 
+  },
+    "FEEDBACK2": {
+        "en": "I am glad to have had the opportunity to work with Nicolaus on a project. I perceive him as a friendly and open person. During the course of the project, Nicolaus demonstrated great commitment and a strong sense of responsibility in successfully completing his tasks. He enthusiastically took on the areas of animation as well as the development of the registration and login system, working tirelessly until everything functioned perfectly. He helped us understand his work steps and the structure of his code better and was always willing to assist with tasks outside his direct responsibilities. Working with him was very pleasant, and I would be happy to collaborate with him again on future projects.",
+        "de": "Ich freue mich, dass ich die Gelegenheit hatte, mit Nicolaus an einem Projekt zu arbeiten. Ich empfinde ihn als eine freundliche und offene Person. Im Verlauf des Projekts zeigte Nicolaus großes Engagement und Verantwortungsbewusstsein bei der erfolgreichen Umsetzung seiner Aufgaben. Er übernahm mit Begeisterung den Bereich Animation sowie die Entwicklung des Registrierungs- und Login-Systems und arbeitete so lange daran, bis alles einwandfrei funktionierte. Er half uns, seine Arbeitsschritte und den Aufbau seines Codes besser zu verstehen, und war stets bereit, auch bei Aufgaben zu unterstützen, die nicht direkt in seinem Verantwortungsbereich lagen. Die Zusammenarbeit mit ihm war sehr angenehm, und ich würde mich freuen, in Zukunft erneut mit ihm an Projekten zu arbeiten." 
+  },
+    "FEEDBACK3": {
+        "en": "Nicolaus works very reliably, carefully considers tasks, and values clean, well-understood code. He contributes good ideas, approaches challenges with a solution-oriented mindset, and always remains focused and organized. His technical understanding and willingness to familiarize himself with new topics have noticeably advanced the project. Additionally, he is a particularly empathetic and helpful team member. He was always ready to take on tasks and contributed with dedication. Even during stressful phases, he maintains his calm and positive demeanor, making teamwork very enjoyable.",
+        "de": "Nicolaus arbeitet sehr zuverlässig, denkt Aufgaben sorgfältig durch und legt Wert auf sauberen, gut nachvollziehbaren Code. Er bringt gute Ideen ein, geht Herausforderungen lösungsorientiert an und bleibt dabei stets fokussiert und strukturiert. Sein technisches Verständnis und seine Bereitschaft, sich in neue Themen einzuarbeiten, haben das Projekt spürbar vorangebracht. Darüber hinaus ist er ein besonders empathisches und hilfsbereites Teammitglied. Er war immer bereit, Aufgaben zu übernehmen, und hat sich engagiert eingebracht. Dabei behält er auch in stressigen Phasen seine ruhige und positive Art, was die Zusammenarbeit im Team sehr angenehm macht." 
+  },
+    "FEEDBACK-HEADLINE": {
+        "en": "What my colleagues say about me",
+        "de": "Was meine Kollegen über mich sagen" 
   }
 }
