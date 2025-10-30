@@ -6,8 +6,35 @@
 
 .feedback{
     @include dFlex($fd: row);
+    transition: transform 0.5s ease-in-out;
 }
 
+.singleFeed-box{
+    @include dFlex($fd: row);
+    width: 75%;
+    height: 470px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+
+    @media screen and (max-width: 1325px) {
+        height: 600px;
+    }
+
+    @media screen and (max-width: 525px) {
+        height: 700px;
+    } 
+
+    @media screen and (max-width: 400px) {
+        height: 788px;
+    }
+}
+
+.slider{
+    @include dFlex($fd: row);
+    width: 100%;
+    height: 470px;
+    transition: transform 0.5s ease-in-out;
+}
 
 h3{
     font-family: 'Fira Code';
@@ -15,7 +42,20 @@ h3{
     font-weight: 700;
     color: $brigth_green;
     margin: 0px 0px 48px 0px;
-    text-align: center
+    text-align: center;
+
+    @media screen and (max-width: 775px) {
+        margin: 48px 0px 48px 0px;
+    }
+
+    @media screen and (max-width: 615px) {
+        width: 428px;
+    }
+
+    @media screen and (max-width: 450px) {
+        margin: 48px 0px 0px 0px;
+        width: 274px;
+    }
 }
 
 .quote{
@@ -59,12 +99,75 @@ h3{
 
     .dots{
         @include dFlex($fd: row);
+        height: 32px;
 
         .feed-dot{
             width: 8px;
             height: 8px;
             margin: 0px 10px 0px 10px;
         }
+    }
+}
+
+.arrow-right{
+    @include dFlex();
+    width: 48px;
+    height: 48px;
+    background-image: url("./../../../assets/img/PNG/arrows.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: background-image 0.3s ease-in-out;
+
+    &:hover{
+        cursor: pointer;
+        background-image: url("./../../../assets/img/PNG/icons-green/arrow_forward.png");
+    }
+}
+
+.arrow-left{
+    @include dFlex();
+    width: 48px;
+    height: 48px;
+    background-image: url("./../../../assets/img/PNG/arrow-left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: background-image 0.3s ease-in-out;
+
+    &:hover{
+        cursor: pointer;
+        background-image: url("./../../../assets/img/PNG/icons-green/arrow_backwards.png");
+    }
+}
+
+.shadow-left{
+    height: 388px;
+    width: 48px;
+    position: relative;
+    box-shadow: 34px -1px 21px 1px $dark_green;
+    -webkit-box-shadow: 25px -1px 85px 100px $dark_green;
+    -moz-box-shadow: 34px -1px 21px 1px $dark_green;
+
+    @media screen and (max-width: 1325px) {
+        box-shadow: 34px -1px 21px 1px $dark_green;
+        -webkit-box-shadow: 25px -1px 25px 100px $dark_green;
+        -moz-box-shadow: 34px -1px 21px 1px $dark_green;
+    }
+}
+
+.shadow-right{
+    height: 388px;
+    width: 48px;
+    position: relative;
+    box-shadow: 34px -1px 21px 1px $dark_green;
+    -webkit-box-shadow: -25px -1px 85px 100px $dark_green;
+    -moz-box-shadow: 34px -1px 21px 1px $dark_green;
+
+    @media screen and (max-width: 1325px) {
+        box-shadow: 34px -1px 21px 1px $dark_green;
+        -webkit-box-shadow: 25px -1px 25px 100px $dark_green;
+        -moz-box-shadow: 34px -1px 21px 1px $dark_green;
     }
 }
 
@@ -81,4 +184,5 @@ h3{
         width: 70%;
     }
 }
+
 

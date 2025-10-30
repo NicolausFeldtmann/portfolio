@@ -3,7 +3,7 @@
 .feedback{
     @include dFlex($ai: unset, $jc: unset);
     
-    width: 500px;
+    width: 700px;
     background-color: $light_green;
     border: 1px solid $brigth_green;
     padding: 0px 28px 0px 28px;
@@ -16,6 +16,7 @@
         .feedTxt{
             background-color: $light_green;
             color: white;
+            font-size: 18px;
         }
     }
 
@@ -39,10 +40,34 @@
         }
 
         .name{
-            margin: 0px 0px 0px 28px;
             background-color: $light_green;
             color: white;
-            margin: 28px 0px 28px 0px;
+            margin: 28px 0px 28px 28px;
         }
+    }
+
+    @media screen and (max-width: 1800px) {
+        width: 480px;
+    }
+
+    @media screen and (max-width: 1325px) {
+        width: 348px
+    }
+
+    @media screen and (max-width: 900px) {
+        width: 700px;
+    }
+
+    @media screen and (max-width: 800px) {
+        width: 418px;
+        margin: 0px 80px 0px 80px;
+    }
+
+    @media screen and (max-width: 525px) {
+        width: 300px;
+    }
+
+    @media screen and (max-width: 400px) {
+        width: 248px;
     }
 }

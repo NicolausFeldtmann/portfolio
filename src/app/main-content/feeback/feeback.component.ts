@@ -13,13 +13,14 @@ import { LanguageService } from '../../language.service';
     SingleFeedComponent
   ],
   templateUrl: './feeback.component.html',
-  styleUrl: './feeback.component.scss'
+  styleUrls: ['./feeback.component.scss']
 })
 export class FeebackComponent {
   currentLanguae: any;
   feedbacks: any[] = [];
   displayedFeedbacks: any[] = [];
-  slideTransformValue: number = 0;
+  isAnimating: boolean = false;
+  activeDotIdx: number = 0;
 
   constructor(
     private translationService: TranslationsService,
@@ -41,4 +42,24 @@ export class FeebackComponent {
 
   feedbacklistdata = inject(FeedbackDataService);
 
+  rotate(direction: 'left' | 'right') {
+    if (this.isAnimating) {
+      return;
+    }
+    this.isAnimating = true;
+
+    if (direction === 'left') {
+      this.feedbacks.push(this.feedbacks.shift()!);
+      this.activeDotIdx = (this.activeDotIdx - 1) % this.feedbacks.length;
+    } else if (direction === 'right') {
+      this.feedbacks.unshift(this.feedbacks.pop()!);
+      this.activeDotIdx = (this.activeDotIdx + 1 + this.feedbacks.length) % this.feedbacks.length;
+    }
+
+    this.displayedFeedbacks = [...this.feedbacks];
+
+    setTimeout(() => {
+      this.isAnimating = false;
+    }, 500);
+  }
 }

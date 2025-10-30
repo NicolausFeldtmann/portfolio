@@ -1,15 +1,25 @@
 <div class="feedback-content">
-   <h3>{{ translate('FEEDBACK-HEADLINE') }}</h3>
-   <div class="feedback">
-        <app-single-feed class="single-feed" *ngFor="let item of feedbacklistdata.feedBackList" [name]="item.name" [feedBackKey]="item.feedBackKey"></app-single-feed>
+    <h3>{{ translate('FEEDBACK-HEADLINE') }}</h3>
+    <div class="feedback">
+        <div class="shadow-left"></div>
+            <div class="singleFeed-box">
+                <div class="slider">
+                    <app-single-feed *ngFor="let item of displayedFeedbacks" [name]="item.name" [feedBackKey]="item.feedBackKey"></app-single-feed>
+                </div>
+            </div>
+        <div class="shadow-right"></div>
    </div>
     <div class="btn-area">
-        <img class="arrow" src="./../../../assets/img/PNG/arrow-right.png" alt="arrow">
+        <div class="arrow-left" alt="arrow" (click)="rotate('left')"></div>
         <div class="dots">
-            <img class="feed-dot" src="./../../../assets/img/PNG/whiteDot.png" alt="dot">
-            <img class="feed-dot" src="./../../../assets/img/PNG/icons-green/cuteDot.png" alt="dot">
-            <img class="feed-dot" src="./../../../assets/img/PNG/whiteDot.png" alt="dot">
+            <ng-container *ngFor="let feedback of feedbacks; index as i">
+                <img
+                    class="feed-dot" 
+                    [src]="i === activeDotIdx ? './../../../assets/img/PNG/icons-green/cuteDot.png' : './../../../assets/img/PNG/whiteDot.png'" 
+                    alt="dot">
+            </ng-container>
+            
         </div>
-        <img class="arrow" src="./../../../assets/img/PNG/arrows.png" alt="arrow-left">
+        <div class="arrow-right" alt="arrow-right" (click)="rotate('right')"></div>
     </div>
 </div>
