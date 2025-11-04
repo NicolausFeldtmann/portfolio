@@ -199,13 +199,23 @@ span{
 
         &:hover{
             cursor: pointer;
-                color: $brigth_green;
-                border: solid 1px $brigth_green;
+            color: $brigth_green;
+            border: solid 1px $brigth_green;
 
             .btn-para{
                 background: none;
                 animation: slide-left 2s linear infinite;
                 color: $brigth_green;
+            }
+        }
+
+        @media screen and (pointer: coarse) {
+            color: white !important;
+            border: solid 1px white;
+
+            .btn-para{
+                color: white !important;
+                animation: none !important;
             }
         }
     }
@@ -229,6 +239,10 @@ span{
         background-size: cover;
     }
 
+    @media screen and (pointer: coarse) {
+        background-image: url(/assets/img/PNG/icons-green/check-mark.png) !important;
+    }
+
     &.checked{
         background-image: url(/assets/img/PNG/icons-green/check-ckecked.png);
         background-size: cover;
@@ -239,6 +253,10 @@ span{
             background: none;
             background-image: url(/assets/img/PNG/icons-green/check-checked-hover.png);
             background-size: cover;
+        }
+
+        @media screen and (pointer: coarse) {
+            background-image: url(/assets/img/PNG/icons-green/check-ckecked.png) !important;
         }
     }
 }

@@ -123,6 +123,16 @@
             color: $brigth_green;
         }
     }
+
+    @media screen and (pointer: coarse) {
+        color: white !important; 
+        border: solid 1px white !important;
+
+        .btn-para{
+            color: white !important;
+            animation: none !important;
+        }
+    }
 }
 
 .para-banner{
@@ -170,6 +180,10 @@
 
             &:hover{
                 transform: scale(1.2);
+            }
+
+            @media screen and (pointer: coarse) {
+                transform: scale(1) !important;
             }
         }
     }

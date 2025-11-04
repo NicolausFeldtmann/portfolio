@@ -242,6 +242,15 @@ nav{
             animation: slide-left 2s linear infinite;
         }
     }
+
+    @media screen and (pointer: coarse) {
+        color: white !important;
+        border: solid 1px white !important;
+
+        .btn-para{
+            animation: none !important;
+        }
+    }
 }
 
 .para-banner{

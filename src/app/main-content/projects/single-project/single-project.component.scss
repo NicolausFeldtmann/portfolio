@@ -105,6 +105,10 @@ p{
             cursor: pointer;
             background-color: $soft_green;
         }
+
+        @media screen and (pointer: coarse) {
+            background-color: inherit !important;
+        }
     }
 
     h3{
@@ -177,7 +181,7 @@ p{
     @include dFlex($ai: normal, $jc: space-between);
     background: none;
     width: 480px;
-    height: 75%;
+    height: 100%;
 
     .info-header{
         @include dFlex($ai: normal);
@@ -249,6 +253,18 @@ p{
                 bottom: 4px;
                 left: 4px;
                 transition-delay: 0.5s;
+            }
+        }
+    }
+
+    @media screen and (pointer: coarse) {
+        color: white;
+        border: solid 1px white;
+
+        .link-icon-box{
+
+            .link-icon{
+                position: inherit !important;
             }
         }
     }
@@ -358,6 +374,10 @@ p{
             color: white;
         }
 
+        @media screen and (pointer: coarse) {
+            color: $brigth_green !important;
+        }
+
         .next-icon{
             background: none;
             width: 40px;
@@ -394,6 +414,12 @@ p{
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
+        }
+
+        @media screen and (pointer: coarse) {
+            width: 20px !important;
+            height: 20px !important;
+            background-image: url(/assets/img/PNG/close_small.png) !important;
         }
     }
 }

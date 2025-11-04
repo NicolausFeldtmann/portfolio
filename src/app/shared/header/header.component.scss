@@ -130,6 +130,12 @@ nav{
             visibility: visible;
         }
     }
+
+    @media screen and (pointer: coarse) {
+        .cuteDot{
+            visibility: hidden !important;
+        }
+    }
 }
 
 .mobile-nav{
@@ -180,11 +186,22 @@ nav{
         height: 34px;
     }
 
+    @media screen and (pointer: coarse) {
+        background-image: url(/assets/img/PNG/switch/toggleEnglish.png) !important;
+        background-repeat: no-repeat !important;
+        width: 88px !important;
+        height: 34px !important;
+    }
+
     &.switched{
         background-image: url(/assets/img/PNG/switch/toggleGerman.png);
 
         &:hover{
             background-image: url(/assets/img/PNG/switch/toggleGermanHover.png);
+        }
+
+        @media screen and (pointer: coarse) {
+            background-image: url(/assets/img/PNG/switch/toggleGerman.png) !important;
         }
     }
 }

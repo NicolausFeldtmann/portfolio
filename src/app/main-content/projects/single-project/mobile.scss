@@ -35,7 +35,7 @@
     }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
 
     .project{
 
@@ -53,6 +53,17 @@
                 height: 95%;
             }
         }
+    }
+
+    .info-left{
+        overflow: auto;
+        width: 85%;
+    }
+
+    .pro-info{
+        flex-direction: column-reverse;
+        height: auto;
+        height: 85dvh;
     }
 }
 
@@ -72,14 +83,8 @@
         width: 950px;
     }
 
-    .pro-info{
-        flex-direction: column-reverse;
-        height: auto;
-        height: 85dvh;
-    }
-
     .info-left{
-        justify-content: unset;
+        justify-content: space-between;
         width: 85%;
 
         .info-header{
