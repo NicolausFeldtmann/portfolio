@@ -19,8 +19,10 @@ export class FeebackComponent {
   currentLanguae: any;
   feedbacks: any[] = [];
   displayedFeedbacks: any[] = [];
-  isAnimating: boolean = false;
+  isAnimating: boolean = false
   activeDotIdx: number = 0;
+  
+  
 
   constructor(
     private translationService: TranslationsService,
@@ -49,10 +51,10 @@ export class FeebackComponent {
     this.isAnimating = true;
 
     if (direction === 'left') {
-      this.feedbacks.push(this.feedbacks.shift()!);
-      this.activeDotIdx = (this.activeDotIdx - 1) % this.feedbacks.length;
-    } else if (direction === 'right') {
       this.feedbacks.unshift(this.feedbacks.pop()!);
+      this.activeDotIdx = (this.activeDotIdx - 1 + this.feedbacks.length) % this.feedbacks.length;
+    } else if (direction === 'right') {
+      this.feedbacks.push(this.feedbacks.shift()!);
       this.activeDotIdx = (this.activeDotIdx + 1 + this.feedbacks.length) % this.feedbacks.length;
     }
 
@@ -62,4 +64,5 @@ export class FeebackComponent {
       this.isAnimating = false;
     }, 500);
   }
+  
 }

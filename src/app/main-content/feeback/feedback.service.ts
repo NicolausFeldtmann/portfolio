@@ -9,16 +9,16 @@ export class FeedbackDataService {
 
     feedBackList = [
         {
-            name: "Anne Vollmann",
+            name: "Anne Vollmann - Teampartner*in",
             feedBackKey: "FEEDBACK1"
         },
         {
-            name: "Andrei Buha",
+            name: "Andrei Buha - Teampartner*in",
             feedBackKey: "FEEDBACK2"
         },
         {
-            name: "Raphaela Multhaup",
+            name: "Raphaela Multhaup - Teampartner*in",
             feedBackKey: "FEEDBACK3"
-        }
+        },
     ]
 } 
