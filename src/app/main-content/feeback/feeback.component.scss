@@ -5,8 +5,122 @@
 }
 
 .feedback{
-    @include dFlex($fd: row);
-    transition: transform 0.5s ease-in-out;
+    @include dFlex($ai: unset, $jc: unset);
+    justify-content: center;
+    align-items: center;
+
+    .innder-feed{
+        width: 700px;
+        background-color: $light_green;
+        border: 1px solid $brigth_green;
+        padding: 0px 28px 0px 28px;
+        border-radius: 30px;
+        margin: 0px 48px 0px 48px;
+
+        @media screen and (max-width: 950px) {
+            width: 60%;
+        }
+
+        @media screen and (max-width: 430px) {
+            margin: 24px 48px 0px 48px;
+        }
+    }
+
+    .feedTxt-area{
+        background-color: $light_green;
+        
+        .feedTxt{
+            background-color: $light_green;
+            color: white;
+            font-size: 18px;
+        }
+    }
+
+    .feedback-icon{
+        background: transparent;
+        width: 90px;
+        height: 64px;
+        position: relative;
+        top: -18px;
+        right: 44px;
+    }
+
+    .name-area{
+        @include dFlex($fd: row);
+        background-color: $light_green;
+
+        .name-line{
+            background-color: $light_green;
+            border: solid 1px white;
+            width: 50%;
+        }
+
+        .name{
+            background-color: $light_green;
+            color: white;
+            margin: 28px 0px 28px 28px;
+            font-style: italic;
+        }
+    }
+
+    @media screen and (max-width: 1800px) {
+        width: 480px;
+    }
+
+    @media screen and (max-width: 1325px) {
+        width: 348px
+    }
+
+    @media screen and (max-width: 900px) {
+        width: 700px;
+    }
+
+    @media screen and (max-width: 800px) {
+        width: 418px;
+        margin: 0px 80px 0px 80px;
+    }
+
+    @media screen and (max-width: 525px) {
+        width: 300px;
+    }
+
+    @media screen and (max-width: 400px) {
+        width: 248px;
+    }
+}
+
+.feedback-area{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    width: 100vw;
+    height: 470px;
+    display: flex;
+    gap: 4vw;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    overflow-y: hidden;
+    @media screen and (max-width: 630px) {
+        padding: 0px 0px 0px 80px;
+        height: 572px;
+    }
+
+    @media screen and (max-width: 430px) {
+        height: fit-content;
+    }
+}
+
+ul::-webkit-scrollbar {
+    display: none;
+}
+
+li{
+    list-style-type: none;
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+
 }
 
 .singleFeed-box{
@@ -46,6 +160,7 @@ h3{
 
     @media screen and (max-width: 775px) {
         margin: 48px 0px 48px 0px;
+        width: 55%;
     }
 
     @media screen and (max-width: 615px) {
@@ -107,6 +222,10 @@ h3{
             margin: 0px 10px 0px 10px;
         }
     }
+
+    @media screen and (max-width: 430px) {
+        margin: 0px 0px 48px 0px;
+    }
 }
 
 .arrow-right{
@@ -122,6 +241,10 @@ h3{
     &:hover{
         cursor: pointer;
         background-image: url("./../../../assets/img/PNG/icons-green/arrow_forward.png");
+    }
+
+    @media screen and (pointer: coarse) {
+        background-image: url("./../../../assets/img/PNG/arrows.png") !important;
     }
 }
 
@@ -139,6 +262,10 @@ h3{
         cursor: pointer;
         background-image: url("./../../../assets/img/PNG/icons-green/arrow_backwards.png");
     }
+
+    @media screen and (pointer: coarse) {
+        background-image: url("./../../../assets/img/PNG/arrow-left.png") !important;
+    }
 }
 
 .shadow-left{
@@ -153,6 +280,10 @@ h3{
         box-shadow: 34px -1px 21px 1px $dark_green;
         -webkit-box-shadow: 25px -1px 25px 100px $dark_green;
         -moz-box-shadow: 34px -1px 21px 1px $dark_green;
+    }
+
+    @media screen and (max-width: 630px) {
+        display: none;
     }
 }
 
@@ -169,6 +300,11 @@ h3{
         -webkit-box-shadow: 25px -1px 25px 100px $dark_green;
         -moz-box-shadow: 34px -1px 21px 1px $dark_green;
     }
+
+    @media screen and (max-width: 630px) {
+        display: none;
+    } 
+
 }
 
 @media screen and (max-width: 615px) {
