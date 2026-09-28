@@ -170,7 +170,7 @@ p{
     height: 75%;
     max-height: 1240px;
     position: absolute;
-    padding: 24px 0px 24px 0px;
+    padding: 24px 12px 24px 12px;
     background-image: url(/assets/img/SVG/background.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -180,7 +180,7 @@ p{
 .info-left{
     @include dFlex($ai: normal, $jc: space-between);
     background: none;
-    width: 480px;
+    width: 600px;
     height: 100%;
 
     .info-header{
@@ -299,6 +299,7 @@ p{
     @include dFlex($ai: normal);
     margin: 20px 0px 20px 0px;
     background: none;
+    padding: 0px 12px;
 
     h5{
         background: none;

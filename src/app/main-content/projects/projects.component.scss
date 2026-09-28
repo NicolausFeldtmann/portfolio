@@ -4,8 +4,7 @@
     @include dFlex($ai: normal);
     width: 100%;
     max-width: 1920px;
-    height: 600px;
-    margin: 0px 0px 0px 72px;
+    margin: 200px 0px 200px 72px;
 }
 
 h4{
@@ -28,6 +27,7 @@ p{
     font-size: 18px;
     font-weight: 400;
     margin: 5px 0px 5px 0px;
+    padding: 0px 12px;
 }
 
 .seperator{
@@ -39,7 +39,6 @@ p{
 
     .projects-content{
         width: 90%;
-        margin: 0px 12px 0px 12px;
     }
 }
 
@@ -49,6 +48,12 @@ p{
         h2{
             font-size: 56px;
         }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    p{
+        padding: 0px 24px;
     }
 }
 

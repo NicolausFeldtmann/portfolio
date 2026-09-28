@@ -81,6 +81,79 @@ export class ProjectdataService {
                     skillIcon: "git-icon.png",
                 },
             ]
+        },
+        {
+            name: "KanMind",
+            proNr: "04",
+            descrKey: "PROJECT4_DESCRIPTION",
+            gitLink: "https://github.com/NicolausFeldtmann/kanmind_backend",
+            projectLink: "https://github.com/NicolausFeldtmann/kanmind_backend",
+            img1: "kanmind_1.png",
+            img2: "kanmind_2.png",
+            skills: [
+                {
+                    skillName: "Python",
+                    skillIcon: "python-white.png",
+                },
+                {
+                    skillName: "Django",
+                    skillIcon: "django-white.png",
+                },
+                {
+                    skillName: "DRF",
+                    skillIcon: "drf-white.png",
+                },
+            ]
+        },
+        {
+            name: "Coderr",
+            proNr: "05",
+            descrKey: "PROJECT5_DESCRIPTION",
+            gitLink: "https://github.com/NicolausFeldtmann/coderr_backend",
+            projectLink: "https://coderr-feldtmann.de/",
+            img1: "coderr_1.png",
+            img2: "coderr_2.png",
+            skills: [
+                {
+                    skillName: "Python",
+                    skillIcon: "python-white.png",
+                },
+                {
+                    skillName: "Django",
+                    skillIcon: "django-white.png",
+                },
+                {
+                    skillName: "DRF",
+                    skillIcon: "drf-white.png",
+                },
+            ]
+        },
+        {
+            name: "Videoflix",
+            proNr: "06",
+            descrKey: "PROJECT6_DESCRIPTION",
+            gitLink: "https://github.com/NicolausFeldtmann/videofix_backend",
+            projectLink: "https://github.com/NicolausFeldtmann/videofix_backend",
+            img1: "videoflix_1.png",
+            img2: "videoflix_2.png",
+            skills: [
+                {
+                    skillName: "Python",
+                    skillIcon: "python-white.png",
+                },
+                {
+                    skillName: "Django",
+                    skillIcon: "django-white.png",
+                },
+                {
+                    skillName: "DRF",
+                    skillIcon: "drf-white.png",
+                },
+                {
+                    skillName: "Docker",
+                    skillIcon: "docker-white.png",
+                },
+            ]
         }
     ]
 }

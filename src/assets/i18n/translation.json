@@ -152,8 +152,16 @@
         "de": "Business Chat Client. Ein komplexer Messenger, entstanden in Gruppenarbeit mit Nutzung von Angular, Firestore, Firebase Authentication, Tailwind und Git." 
   },
     "PROJECT4_DESCRIPTION": {
-        "en": "Fun little app, based on the Pokedex from the animated series Pokemon.",
-        "de": "Spaßige kleine App. Angelehnt an den Pokedex aus der Zeichentrick-Serie Pokemon." 
+        "en": "Backend für Business-App im Kanban-Stil. Benutzer können unterschiedliche Berechtigungen zugewiesen bekommen.",
+        "de": "Backend for a business app in Kanban style. Users can be assigned different permissions." 
+  },
+    "PROJECT5_DESCRIPTION": {
+        "en": "Ein auf Django und Django REST Framework basierendes Backend zum Verwalten von Kunden- und Anbieter-Accounts, Bestellungen und Bewertungen. Das Backend wurde auf einem eigenen Server eingerichtet.",
+        "de": "A backend based on Django and Django REST Framework for managing customer and provider accounts, orders, and reviews. The backend was deployed on its own server." 
+  },
+    "PROJECT6_DESCRIPTION": {
+        "en": "Backend für Film-Streaming-Dienst mit Anpassung von Videos für mehrere Auflösungen, JWT-Token-Authentifizierung samt Verifikations- und Reset-Mail-Service. Bequemes aufsetzen via Docker.",
+        "de": "Backend for a film streaming service with adaptation of videos for multiple resolutions, JWT token authentication, and verification and reset mail service. Easy set up by Docker." 
   },
   
     "PLACEHOLDER1": {

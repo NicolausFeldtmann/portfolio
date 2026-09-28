@@ -150,7 +150,6 @@
     @include dFlex();
     background: none;
     width: auto;
-    height: 428px;
     margin: 0px 0px 0px 72px;
 }
 
@@ -194,6 +193,17 @@
         background: none;
         color: white;
         margin: 8px 0px 8px 0px;
+    }
+
+    .drf-logo{
+
+        .drf-dot{
+            background-color: white;
+            border-radius: 100%;
+            width: 24px;
+            height: 24px;
+            margin: 6px 0px;
+        }
     }
 }
 
@@ -288,7 +298,7 @@
     }
 
     .skill-entry{
-        margin: 20px 20px 20px 20px;
+        margin: 0px 20px 0px 20px;
     }
 }
 
