@@ -22,6 +22,12 @@
 @media screen and (max-width: 870px) {
 
     .skill-set{
-        height: 1260px;
+        height: 1350px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .skill-set{
+        height: 1500px;
     }
 }

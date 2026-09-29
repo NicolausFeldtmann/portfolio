@@ -103,6 +103,10 @@ export class ProjectdataService {
                     skillName: "DRF",
                     skillIcon: "drf-white.png",
                 },
+                {
+                    skillName: "SQL",
+                    skillIcon: "sq-white.png"
+                }
             ]
         },
         {
@@ -126,6 +130,10 @@ export class ProjectdataService {
                     skillName: "DRF",
                     skillIcon: "drf-white.png",
                 },
+                {
+                    skillName: "Cloud",
+                    skillIcon: "google-white.png"
+                }
             ]
         },
         {
@@ -148,6 +156,10 @@ export class ProjectdataService {
                 {
                     skillName: "DRF",
                     skillIcon: "drf-white.png",
+                },
+                {
+                    skillName: "PostgreSQL",
+                    skillIcon: "postgresq-whitel.png",
                 },
                 {
                     skillName: "Docker",
