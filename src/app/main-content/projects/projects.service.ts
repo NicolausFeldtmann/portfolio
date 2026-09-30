@@ -88,8 +88,8 @@ export class ProjectdataService {
             descrKey: "PROJECT4_DESCRIPTION",
             gitLink: "https://github.com/NicolausFeldtmann/kanmind_backend",
             projectLink: "https://github.com/NicolausFeldtmann/kanmind_backend",
-            img1: "kanmind_1.png",
-            img2: "kanmind_2.png",
+            img1: "kanmind_screen_1.png",
+            img2: "kanmind_screen_2.png",
             skills: [
                 {
                     skillName: "Python",
